@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Asset Selection-Add Asset" Desc="Asset Selection-Add Asset" TaskID="7017a9741d2848b6b0d9769e41669997" Path="Create New Asset.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="2" ObjectId="a8b645d46ccd49d681b7da80fe0ad14f" ObjectName="Add Asset_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="3" ObjectId="a458091f3ca54ae5a97adf2af8bb88ab" ObjectName="Next Button_Add Asset" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Model Name&quot;" ParamSeq="1" Parameterized="0" Data="Model Name">
+    </Param>
+    <Param Name="Model Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="27" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Invoice Amount&quot;" ParamSeq="1" Parameterized="0" Data="Invoice Amount">
+    </Param>
+    <Param Name="Invoice Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Promo Code&quot;" ParamSeq="1" Parameterized="0" Data="Promo Code">
+    </Param>
+    <Param Name="Promo Code" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Requested Loan Amount&quot;" ParamSeq="1" Parameterized="0" Data="Requested Loan Amount">
+    </Param>
+    <Param Name="Requested Loan Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Model Name&quot;" ParamSeq="1" Parameterized="0" Data="Model Name">
+    </Param>
+    <Param Name="Model Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Invoice Amount&quot;" ParamSeq="1" Parameterized="0" Data="Invoice Amount">
+    </Param>
+    <Param Name="Invoice Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Promo Code&quot;" ParamSeq="1" Parameterized="0" Data="Promo Code">
+    </Param>
+    <Param Name="Promo Code" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Requested Loan Amount&quot;" ParamSeq="1" Parameterized="0" Data="Requested Loan Amount">
+    </Param>
+    <Param Name="Requested Loan Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Scheme Name&quot;" ParamSeq="1" Parameterized="0" Data="Scheme Name">
+    </Param>
+    <Param Name="Scheme Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="56" stepSeq="13" ObjectId="e769f9a8fedf4b08a66961ebc362e84d" ObjectName="Select Dealer in Asset" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Dealer_Name}&quot;" ParamSeq="1" Parameterized="0" Data="{Dealer_Name}">
+    </Param>
+  </Step>
+  <Step StepId="32" stepSeq="14" ObjectId="65ad59d1c7904b80b8577933b0e0d3db" ObjectName="Model Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Model Name}&quot;" ParamSeq="1" Parameterized="0" Data="{Model Name}">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;LocatorCount&quot;" ParamSeq="1" Parameterized="0" Data="LocatorCount">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="2" Parameterized="0" Data="0">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="318d973091bc4fc7a84c5971ed685cc2" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//*[text()='Model Name']/ancestor::div[1]//*[@title='{Model Name}']&quot;" ParamSeq="1" Parameterized="0" Data="//*[text()='Model Name']/ancestor::div[1]//*[@title='{Model Name}']">
+    </Param>
+    <Param Name="&quot;LocatorCount&quot;" ParamSeq="2" Parameterized="0" Data="LocatorCount">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{LocatorCount}==0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="19" ObjectId="65ad59d1c7904b80b8577933b0e0d3db" ObjectName="Model Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="533031FFF22F44A29C619706CA7AC5B9" ActionName="ClearText" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="33" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="28" stepSeq="20" ObjectId="65ad59d1c7904b80b8577933b0e0d3db" ObjectName="Model Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="33" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Model Name}&quot;" ParamSeq="1" Parameterized="0" Data="{Model Name}">
+    </Param>
+  </Step>
+  <Step StepId="36" stepSeq="21" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="33" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="22" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="33" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="57" stepSeq="23" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{LocatorCount}==1&quot;">
+    </Param>
+  </Step>
+  <Step StepId="41" stepSeq="24" ObjectId="65dae19bc6934f87892e2f008f7e918a" ObjectName="Model Name Value_Add Model" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="57" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="58" stepSeq="25" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="57" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="40" stepSeq="26" ObjectId="d94d83ce32a3418594e4828e5b0c303e" ObjectName="Invoice Amount_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Invoice Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Invoice Amount}">
+    </Param>
+  </Step>
+  <Step StepId="55" stepSeq="27" ObjectId="9be98ca183f1424b99e405a12541006a" ObjectName="Requested Loan Amount_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Requested Loan Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Requested Loan Amount}">
+    </Param>
+  </Step>
+  <Step StepId="39" stepSeq="28" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Requested Loan Amount&quot;" ParamSeq="1" Parameterized="0" Data="Requested Loan Amount">
+    </Param>
+    <Param Name="&quot;{Requested Loan Amount}&quot;" ParamSeq="2" Parameterized="0" Data="{Requested Loan Amount}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="38" stepSeq="29" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;LocatorCount&quot;" ParamSeq="1" Parameterized="0" Data="LocatorCount">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="2" Parameterized="0" Data="0">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="30" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Scheme Name}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="31" ObjectId="cd9c26c3df3249c1861430ba9b935632" ObjectName="Scheme Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Scheme Name}&quot;" ParamSeq="1" Parameterized="0" Data="{Scheme Name}">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="32" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="17" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="33" ObjectId="" ObjectTypeId="" ActionId="318d973091bc4fc7a84c5971ed685cc2" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.General" ParentID="17" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//*[text()='Scheme Name']/ancestor::div[1]//*[@title='{Scheme Name}']&quot;" ParamSeq="1" Parameterized="0" Data="//*[text()='Scheme Name']/ancestor::div[1]//*[@title='{Scheme Name}']">
+    </Param>
+    <Param Name="&quot;LocatorCount&quot;" ParamSeq="2" Parameterized="0" Data="LocatorCount">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="34" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="17" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="45" stepSeq="35" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Scheme Name}&quot;!=&quot;$skip$&quot;&amp;&amp;{LocatorCount}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="54" stepSeq="36" ObjectId="cd9c26c3df3249c1861430ba9b935632" ObjectName="Scheme Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="533031FFF22F44A29C619706CA7AC5B9" ActionName="ClearText" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="45" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="15" stepSeq="37" ObjectId="6121468e434d495c9a4835df6d69180d" ObjectName="Scheme Name Value_Add Model" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="45" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="47" stepSeq="38" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="45" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Scheme Name}&quot;!=&quot;$skip$&quot;&amp;&amp;{LocatorCount}==0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="53" stepSeq="39" ObjectId="cd9c26c3df3249c1861430ba9b935632" ObjectName="Scheme Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="533031FFF22F44A29C619706CA7AC5B9" ActionName="ClearText" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="47" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="44" stepSeq="40" ObjectId="cd9c26c3df3249c1861430ba9b935632" ObjectName="Scheme Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="47" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Scheme Name}&quot;" ParamSeq="1" Parameterized="0" Data="{Scheme Name}">
+    </Param>
+  </Step>
+  <Step StepId="43" stepSeq="41" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="47" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="42" stepSeq="42" ObjectId="6121468e434d495c9a4835df6d69180d" ObjectName="Scheme Name Value_Add Model" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="47" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="46" stepSeq="43" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="45" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="51" stepSeq="44" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Promo Code&quot;" ParamSeq="1" Parameterized="0" Data="Promo Code">
+    </Param>
+    <Param Name="&quot;{Promo Code}&quot;" ParamSeq="2" Parameterized="0" Data="{Promo Code}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="50" stepSeq="45" ObjectId="b981b259a88c44ce8d547eae6125c62a" ObjectName="Promo Code_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Tab&quot;" ParamSeq="1" Parameterized="0" Data="Tab">
+    </Param>
+  </Step>
+  <Step StepId="52" stepSeq="46" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+</Task>

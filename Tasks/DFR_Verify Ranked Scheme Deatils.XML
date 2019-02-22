@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="DFR_Verify Ranked Scheme Deatils" Desc="DFR_Verify Ranked Scheme Deatils" TaskID="718002b41b3c47c6935e4cf09b51c825" Path="DFR_Verify Ranked Scheme Deatils.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;table_index&quot;" ParamSeq="1" Parameterized="0" Data="table_index">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="2" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;table_index&quot;" ParamSeq="1" Parameterized="0" Data="table_index">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="2" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="3" ObjectId="f469c4e844b048fdabf8b69e180e5f8b" ObjectName="StoreDealerRanking" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="4" ObjectId="f469c4e844b048fdabf8b69e180e5f8b" ObjectName="StoreDealerRanking" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Dealer Ranked Scheme Name&quot;" ParamSeq="1" Parameterized="0" Data="Dealer Ranked Scheme Name">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="5" ObjectId="b840f3c6bed343d2b34012656abb6f85" ObjectName="Dealer Ranked Scheme Name" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="2" stepSeq="6" ObjectId="af3abc7b11ca41c2ae98a48301b53d67" ObjectName="DealerToBeSelected" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="8" stepSeq="7" ObjectId="e76500dd947540bfac3dcd301fc085f2" ObjectName="IsActiveField" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="2" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Group Dealer&quot;" ParamSeq="1" Parameterized="0" Data="Group Dealer">
+    </Param>
+    <Param Name="Expected Group Dealer" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Master Model&quot;" ParamSeq="1" Parameterized="0" Data="Master Model">
+    </Param>
+    <Param Name="Expected Master Model" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Master Scheme&quot;" ParamSeq="1" Parameterized="0" Data="Master Scheme">
+    </Param>
+    <Param Name="Expected Master Scheme" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Start Date&quot;" ParamSeq="1" Parameterized="0" Data="Start Date">
+    </Param>
+    <Param Name="Expected Start Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;End Date&quot;" ParamSeq="1" Parameterized="0" Data="End Date">
+    </Param>
+    <Param Name="Expected End Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+</Task>

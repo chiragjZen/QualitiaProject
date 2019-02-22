@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Application Data Entry-EnterCIBILDedupeData" Desc="Application Data Entry-EnterCIBILDedupeData" TaskID="23396c2a566f43f18fad79a01818b124" Path="Application Data Entry-EnterCIBILDedupeData.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//span[text()='Close this window']&quot;" ParamSeq="1" Parameterized="0" Data="//span[text()='Close this window']">
+    </Param>
+    <Param Name="&quot;count&quot;" ParamSeq="2" Parameterized="0" Data="count">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="3" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{count}==0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="23" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Windoe not opened&quot;" ParamSeq="1" Parameterized="0" Data="Windoe not opened">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="23" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="24" stepSeq="6" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="23" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="3" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;CIBIL Score&quot;" ParamSeq="1" Parameterized="0" Data="CIBIL Score">
+    </Param>
+    <Param Name="CIBIL Score" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;CIBIL String&quot;" ParamSeq="1" Parameterized="0" Data="CIBIL String">
+    </Param>
+    <Param Name="CIBIL String" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;CD App Score&quot;" ParamSeq="1" Parameterized="0" Data="CD App Score">
+    </Param>
+    <Param Name="CD App Score" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Digital App Score&quot;" ParamSeq="1" Parameterized="0" Data="Digital App Score">
+    </Param>
+    <Param Name="Digital App Score" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Thick/Thin&quot;" ParamSeq="1" Parameterized="0" Data="Thick/Thin">
+    </Param>
+    <Param Name="Thick/Thin" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;De Dupe Customer Status&quot;" ParamSeq="1" Parameterized="0" Data="De Dupe Customer Status">
+    </Param>
+    <Param Name="De Dupe Customer Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Underwriting Status&quot;" ParamSeq="1" Parameterized="0" Data="Underwriting Status">
+    </Param>
+    <Param Name="Underwriting Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Address Line 1&quot;" ParamSeq="1" Parameterized="0" Data="Address Line 1">
+    </Param>
+    <Param Name="Address Line 1" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Landmark&quot;" ParamSeq="1" Parameterized="0" Data="Landmark">
+    </Param>
+    <Param Name="Landmark" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Address Change Flag&quot;" ParamSeq="1" Parameterized="0" Data="Address Change Flag">
+    </Param>
+    <Param Name="Address Change Flag" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;CIBIL No Match&quot;" ParamSeq="1" Parameterized="0" Data="CIBIL No Match">
+    </Param>
+    <Param Name="CIBIL No Match" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+</Task>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Asset Selection-Calculate Gross Tenure Value" Desc="Asset Selection-Calculate Gross Tenure Value" TaskID="a8666cea6bf4491ea76667eedad4f03d" Path="Asset Selection-Calculate Gross Tenure Value.XML">
+  <Step StepId="16" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Invoice Amount}-{Requested Loan Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Invoice Amount}-{Requested Loan Amount}">
+    </Param>
+    <Param Name="&quot;Calcutated Margin Money&quot;" ParamSeq="2" Parameterized="0" Data="Calcutated Margin Money">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Scheme Margin Money}&quot;&gt;&quot;{Calcutated Margin Money}&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="22" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Margin Money&quot;" ParamSeq="1" Parameterized="0" Data="Margin Money">
+    </Param>
+    <Param Name="&quot;Scheme Margin Money&quot;" ParamSeq="2" Parameterized="0" Data="Scheme Margin Money">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="22" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="26" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="25" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Margin Money&quot;" ParamSeq="1" Parameterized="0" Data="Margin Money">
+    </Param>
+    <Param Name="&quot;Calcutated Margin Money&quot;" ParamSeq="2" Parameterized="0" Data="Calcutated Margin Money">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="22" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="21" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;({Advance EMI}*{Per EMI Amount})+{Margin Money}+{Customer charge amount}&quot;" ParamSeq="1" Parameterized="0" Data="({Advance EMI}*{Per EMI Amount})+{Margin Money}+{Customer charge amount}">
+    </Param>
+    <Param Name="&quot;DownPayment&quot;" ParamSeq="2" Parameterized="0" Data="DownPayment">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Down Payment}&quot;&lt;&quot;{Margin Money}&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" ParentID="4" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Invoice Amount}-{Margin Money}&quot;" ParamSeq="1" Parameterized="0" Data="{Invoice Amount}-{Margin Money}">
+    </Param>
+    <Param Name="&quot;Revised Loan Amount&quot;" ParamSeq="2" Parameterized="0" Data="Revised Loan Amount">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="4" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="18" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" ParentID="7" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Invoice Amount}-{Down Payment}&quot;" ParamSeq="1" Parameterized="0" Data="{Invoice Amount}-{Down Payment}">
+    </Param>
+    <Param Name="&quot;Revised Loan Amount&quot;" ParamSeq="2" Parameterized="0" Data="Revised Loan Amount">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="4" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="15" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Revised Loan Amount}/{Per EMI Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Revised Loan Amount}/{Per EMI Amount}">
+    </Param>
+    <Param Name="&quot;Tenure Calculated&quot;" ParamSeq="2" Parameterized="0" Data="Tenure Calculated">
+    </Param>
+  </Step>
+</Task>

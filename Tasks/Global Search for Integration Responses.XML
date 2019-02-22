@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Global Search for Integration Responses" Desc="Global Search for Integration Responses" TaskID="fd67b85239674feb9c981f7be70468a0" Path="Global Search for Integration Responses.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Opportunity No&quot;" ParamSeq="1" Parameterized="0" Data="Opportunity No">
+    </Param>
+    <Param Name="&quot;{Opportunity No}&quot;" ParamSeq="2" Parameterized="0" Data="{Opportunity No}">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="7f0db311d93a4c2d8f9bbe34c4af24f5" ObjectName="Customer Search Salesforce" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="81247dbb7d094d94bc03d470f649e964" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="3" ObjectId="7f0db311d93a4c2d8f9bbe34c4af24f5" ObjectName="Customer Search Salesforce" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Opportunity No}&quot;" ParamSeq="1" Parameterized="0" Data="{Opportunity No}">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="5" ObjectId="74ca68d600734671a7faa119e69136c0" ObjectName="Pulldown record-Integration Responses" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="6" ObjectId="74ca68d600734671a7faa119e69136c0" ObjectName="Pulldown record-Integration Responses" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="18" stepSeq="7" ObjectId="42f67c09e3a34b8abc2ca98c2a45ab03" ObjectName="Integration Response link" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="8" ObjectId="42f67c09e3a34b8abc2ca98c2a45ab03" ObjectName="Integration Response link" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="12" stepSeq="9" ObjectId="cea21aba7c6b4c2382daef57b2fc3955" ObjectName="Edit_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

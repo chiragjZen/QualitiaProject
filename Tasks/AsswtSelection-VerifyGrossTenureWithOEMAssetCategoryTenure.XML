@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="AsswtSelection-VerifyGrossTenureWithOEMAssetCategoryTenure" Desc="AsswtSelection-VerifyGrossTenureWithOEMAssetCategoryTenure" TaskID="dafa94089d734596b2a8d9a67ef1311c" Path="AsswtSelection-VerifyGrossTenureWithOEMAssetCategoryTenure.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="(&quot;{TenureCalculated}&quot;&gt;=&quot;{OEMAssetCatMinTenure}&quot; &amp;&amp; (&quot;{TenureCalculated}&quot;&lt;=&quot;{OEMAssetCatMaxTenure}&quot; ">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="3" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;GrossTenure&quot;" ParamSeq="1" Parameterized="0" Data="GrossTenure">
+    </Param>
+    <Param Name="&quot;TenureCalculated&quot;" ParamSeq="2" Parameterized="0" Data="TenureCalculated">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="3" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="7" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="6" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="ErrorMessage" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="Expected existence" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="3" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

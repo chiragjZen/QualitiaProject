@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Extended Warranty-DetailsVerification" Desc="Extended Warranty-DetailsVerification" TaskID="f1aa64e8c1314c39a4e41aa2a22f7c41" Path="Extended Warranty-DetailsVerification.XML">
+  <Step StepId="6" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Extended Warranty&quot;" ParamSeq="1" Parameterized="0" Data="Extended Warranty">
+    </Param>
+    <Param Name="Expected Extended Warranty" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Extended Warranty Flag&quot;" ParamSeq="1" Parameterized="0" Data="Extended Warranty Flag">
+    </Param>
+    <Param Name="Expected  Extended Warranty Flag" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Extended Warranty Loan&quot;" ParamSeq="1" Parameterized="0" Data="Extended Warranty Loan">
+    </Param>
+    <Param Name="Expected Extended Warranty Loan" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Extended Warranty Tenure&quot;" ParamSeq="1" Parameterized="0" Data="Extended Warranty Tenure">
+    </Param>
+    <Param Name="Expected Extended Warranty Tenure" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Extended Warranty Term&quot;" ParamSeq="1" Parameterized="0" Data="Extended Warranty Term">
+    </Param>
+    <Param Name="Expected Extended Warranty Term" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Extended Warranty Premium&quot;" ParamSeq="1" Parameterized="0" Data="Extended Warranty Premium">
+    </Param>
+    <Param Name="Expected Extended Warranty Premium" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Extended Warranty EMI&quot;" ParamSeq="1" Parameterized="0" Data="Extended Warranty EMI">
+    </Param>
+    <Param Name="Expected Extended Warranty EMI" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Extended Warranty Product Name&quot;" ParamSeq="1" Parameterized="0" Data="Extended Warranty Product Name">
+    </Param>
+    <Param Name="Expected Extended Warranty Product Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Model Asset Category&quot;" ParamSeq="1" Parameterized="0" Data="Model Asset Category">
+    </Param>
+    <Param Name="Expected Model Asset Category" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+</Task>

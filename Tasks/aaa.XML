@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="aa" Desc="aa" TaskID="6ae4e16bc061412792b3111dd1505b10" Path="aaa.XML" IsSystemTask="0" OnError="Continue">
+  <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="e2ab28be49264367bdf1ca93232ef21b" ActionName="CalculateDifferenceInDatesAndStore" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="startDate" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="startFormat" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="endDate" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+    <Param Name="endFormat" ParamSeq="4" Parameterized="1" Data="">
+    </Param>
+    <Param Name="key" ParamSeq="5" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

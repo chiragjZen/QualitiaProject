@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="BFL Branch-VerificationOnCreation" Desc="BFL Branch-VerificationOnCreation" TaskID="7906c9b1512643b59aad959bef7e036c" Path="BFL Branch-VerificationOnCreation.XML">
+  <Step StepId="5" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="2" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Account Name&quot;" ParamSeq="1" Parameterized="0" Data="Account Name">
+    </Param>
+    <Param Name="&quot;{Account Name}&quot;" ParamSeq="2" Parameterized="0" Data="{Account Name}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Address Line 1&quot;" ParamSeq="1" Parameterized="0" Data="Address Line 1">
+    </Param>
+    <Param Name="&quot;{Address Line 1}&quot;" ParamSeq="2" Parameterized="0" Data="{Address Line 1}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ZIP Code&quot;" ParamSeq="1" Parameterized="0" Data="ZIP Code">
+    </Param>
+    <Param Name="&quot;{ZIP Code}&quot;" ParamSeq="2" Parameterized="0" Data="{ZIP Code}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Region&quot;" ParamSeq="1" Parameterized="0" Data="Region">
+    </Param>
+    <Param Name="&quot;{Region}&quot;" ParamSeq="2" Parameterized="0" Data="{Region}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Prime/Growth Classification&quot;" ParamSeq="1" Parameterized="0" Data="Prime/Growth Classification">
+    </Param>
+    <Param Name="&quot;{Prime/Growth Classification}&quot;" ParamSeq="2" Parameterized="0" Data="{Prime/Growth Classification}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Branch Type&quot;" ParamSeq="1" Parameterized="0" Data="Branch Type">
+    </Param>
+    <Param Name="&quot;{Branch Type}&quot;" ParamSeq="2" Parameterized="0" Data="{Branch Type}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;App Score Tier&quot;" ParamSeq="1" Parameterized="0" Data="App Score Tier">
+    </Param>
+    <Param Name="&quot;{App Score Tier}&quot;" ParamSeq="2" Parameterized="0" Data="{App Score Tier}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;FMS Flag&quot;" ParamSeq="1" Parameterized="0" Data="FMS Flag">
+    </Param>
+    <Param Name="&quot;{FMS Flag}&quot;" ParamSeq="2" Parameterized="0" Data="{FMS Flag}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Is Active&quot;" ParamSeq="1" Parameterized="0" Data="Is Active">
+    </Param>
+    <Param Name="&quot;{Is Active}&quot;" ParamSeq="2" Parameterized="0" Data="{Is Active}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Risk Classification&quot;" ParamSeq="1" Parameterized="0" Data="Risk Classification">
+    </Param>
+    <Param Name="&quot;{Risk Classification}&quot;" ParamSeq="2" Parameterized="0" Data="{Risk Classification}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Chronic Classification&quot;" ParamSeq="1" Parameterized="0" Data="Chronic Classification">
+    </Param>
+    <Param Name="&quot;{Chronic Classification}&quot;" ParamSeq="2" Parameterized="0" Data="{Chronic Classification}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Dealer Category&quot;" ParamSeq="1" Parameterized="0" Data="Dealer Category">
+    </Param>
+    <Param Name="&quot;{Dealer Category}&quot;" ParamSeq="2" Parameterized="0" Data="{Dealer Category}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;FCU City Classification&quot;" ParamSeq="1" Parameterized="0" Data="FCU City Classification">
+    </Param>
+    <Param Name="&quot;{FCU City Classification}&quot;" ParamSeq="2" Parameterized="0" Data="{FCU City Classification}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+</Task>

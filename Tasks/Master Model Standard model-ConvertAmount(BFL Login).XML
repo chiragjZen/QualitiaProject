@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Master Model Standard model-ConvertAmount(BFL Login)" Desc="Master Model Standard model-ConvertAmount(BFL Login)" TaskID="e0c505c98d354db2bc6f881c1ac6397c" Path="Master Model Standard model-ConvertAmount(BFL Login).XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Selling Price}&quot;" ParamSeq="1" Parameterized="0" Data="{Selling Price}">
+    </Param>
+    <Param Name="&quot;Selling Price&quot;" ParamSeq="2" Parameterized="0" Data="Selling Price">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Min Invoice Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Min Invoice Amount}">
+    </Param>
+    <Param Name="&quot;Min Invoice Amount&quot;" ParamSeq="2" Parameterized="0" Data="Min Invoice Amount">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Buyback}&quot;" ParamSeq="1" Parameterized="0" Data="{Buyback}">
+    </Param>
+    <Param Name="&quot;Buyback&quot;" ParamSeq="2" Parameterized="0" Data="Buyback">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Selling Price&quot;" ParamSeq="1" Parameterized="0" Data="Selling Price">
+    </Param>
+    <Param Name="&quot;{CurrencySymbol}{Selling Price}.00&quot;" ParamSeq="2" Parameterized="0" Data="{CurrencySymbol}{Selling Price}.00">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Min Invoice Amount&quot;" ParamSeq="1" Parameterized="0" Data="Min Invoice Amount">
+    </Param>
+    <Param Name="&quot;{CurrencySymbol}{Min Invoice Amount}.00&quot;" ParamSeq="2" Parameterized="0" Data="{CurrencySymbol}{Min Invoice Amount}.00">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Buyback&quot;" ParamSeq="1" Parameterized="0" Data="Buyback">
+    </Param>
+    <Param Name="&quot;{CurrencySymbol}{Buyback}.00&quot;" ParamSeq="2" Parameterized="0" Data="{CurrencySymbol}{Buyback}.00">
+    </Param>
+  </Step>
+</Task>

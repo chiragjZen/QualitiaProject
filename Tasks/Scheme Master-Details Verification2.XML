@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Scheme Master-Details Verification2" Desc="Scheme Master-Details Verification2" TaskID="52e2dfe08a45441b862ac8fe42cfb609" Path="Scheme Master-Details Verification2.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="Label Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="Label Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="3" ObjectId="987028fbd5c14f909931cf0e45c53f58" ObjectName="Any field-Details Verification" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="6846cbf009eb422ba232940e16b223db" ActionName="WaitForObject" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Validate CD Prime-Document waived or not waived" Desc="Validate CD Prime-Document waived or not waived" TaskID="56dfbe355d19493db1c867a36358c445" Path="Validate CD Prime-Document waived or not waived.XML">
+  <Step StepId="5" stepSeq="1" ObjectId="efc86bb75ca1460585800e32605cf14a" ObjectName="Document Lib." ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="2" ObjectId="efc86bb75ca1460585800e32605cf14a" ObjectName="Document Lib." ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="6bf71f769859478b83df72bf4ef31b3a" ActionName="SetFocus" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="efc86bb75ca1460585800e32605cf14a" ObjectName="Document Lib." ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="6" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;4&quot;" ParamSeq="1" Parameterized="0" Data="4">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="5" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;DocumentStatus&quot;" ParamSeq="1" Parameterized="0" Data="DocumentStatus">
+    </Param>
+    <Param Name="DocumentStatus-Waived/Pending" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="6" ObjectId="6d0c0c35378c4bc2a8f8594c74af407e" ObjectName="Document Status" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Global Search-Opportunity" Desc="Global Search-Opportunity" TaskID="79ac8384487d41c682db31f5d0a3db0b" Path="Global Search-Opportunity.XML">
+  <Step StepId="8" stepSeq="1" ObjectId="7f0db311d93a4c2d8f9bbe34c4af24f5" ObjectName="Customer Search Salesforce" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="81247dbb7d094d94bc03d470f649e964" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="2" ObjectId="7f0db311d93a4c2d8f9bbe34c4af24f5" ObjectName="Customer Search Salesforce" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Opportunity No}&quot;" ParamSeq="1" Parameterized="0" Data="{Opportunity No}">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="3" ObjectId="9931738b4b3f42989ec8869ea4f5b94c" ObjectName="Global Search WebEdit" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Opportunity No}&quot;" ParamSeq="1" Parameterized="0" Data="{Opportunity No}">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="4" ObjectId="95a6af823d764a63af609d2b69d9b5af" ObjectName="SearchButton" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="7" stepSeq="5" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="6" ObjectId="1030fe43301c47c59f16cc6b0b878f30" ObjectName="SearchRecord-Result" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="7" ObjectId="1030fe43301c47c59f16cc6b0b878f30" ObjectName="SearchRecord-Result" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Search Customer in salesforce" Desc="Search Customer in salesforce" TaskID="d789e044ac944fd4b48a0b578b01e3c4" Path="Search Customer in salesforce.XML">
+  <Step StepId="5" stepSeq="1" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;CustomerName&quot;" ParamSeq="1" Parameterized="0" Data="CustomerName">
+    </Param>
+    <Param Name="MobileNum" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="2" ObjectId="7f0db311d93a4c2d8f9bbe34c4af24f5" ObjectName="Global Search Salesforce" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="81247dbb7d094d94bc03d470f649e964" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="7f0db311d93a4c2d8f9bbe34c4af24f5" ObjectName="Global Search Salesforce" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{CustomerName}&quot;" ParamSeq="1" Parameterized="0" Data="{CustomerName}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="5" ObjectId="d52cc1f3e62f4d8e8a60a15d4ca8bddd" ObjectName="Pulldown record-Customers Search" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="6" ObjectId="d52cc1f3e62f4d8e8a60a15d4ca8bddd" ObjectName="Pulldown record-Customers Search" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="21" stepSeq="7" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;CustomerName&quot;" ParamSeq="1" Parameterized="0" Data="CustomerName">
+    </Param>
+    <Param Name="CustomerName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="8" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;linkName&quot;" ParamSeq="1" Parameterized="0" Data="linkName">
+    </Param>
+    <Param Name="&quot;{CustomerName}&quot;" ParamSeq="2" Parameterized="0" Data="{CustomerName}">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="9" ObjectId="297cd708a333429c971f161ecf9f9d31" ObjectName="Any link" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;20&quot;" ParamSeq="1" Parameterized="0" Data="20">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="10" ObjectId="297cd708a333429c971f161ecf9f9d31" ObjectName="Any link" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="11" stepSeq="11" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{count}+1&quot;" ParamSeq="1" Parameterized="0" Data="{count}+1">
+    </Param>
+    <Param Name="&quot;count&quot;" ParamSeq="2" Parameterized="0" Data="count">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="12" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;//a/div[@title=&quot;Edit&quot; and text()=&quot;Edit&quot;]&quot;" ParamSeq="1" Parameterized="0" Data="//a/div[@title=&quot;Edit&quot; and text()=&quot;Edit&quot;]">
+    </Param>
+    <Param Name="&quot;count&quot;" ParamSeq="2" Parameterized="0" Data="count">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="13" ObjectId="0efd0f99f7494212bf48378db079495b" ObjectName="Edit-2 Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="14" ObjectId="cea21aba7c6b4c2382daef57b2fc3955" ObjectName="Edit_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

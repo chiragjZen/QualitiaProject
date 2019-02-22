@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="AssetSelection-Click On Customer Name Link" Desc="AssetSelection-Click On Customer Name Link" TaskID="3643a557ec004a1ba31e61147b7e825a" Path="AssetSelection-Click On Customer Name Link.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="9c783b2a28d14c738dccfd74831e3740" ObjectName="AssetSelection-Customer First Name Link" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="9c783b2a28d14c738dccfd74831e3740" ObjectName="AssetSelection-Customer First Name Link" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

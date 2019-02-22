@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Verify Scheme Details" Desc="Verify Scheme Details" TaskID="e2bff8e7b0674c3ab56493fc99ea270a" Path="Verify Scheme Details.XML">
+  <Step StepId="5" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;Scheme Name&quot;" ParamSeq="2" Parameterized="0" Data="Scheme Name">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="Scheme Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="3" ObjectId="540ec7f2365c40d490daa5358dce8a12" ObjectName="Verify Details All-Scheme" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;SchemeName&quot;" ParamSeq="1" Parameterized="0" Data="SchemeName">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{SchemeName}&quot;" ParamSeq="1" Parameterized="0" Data="{SchemeName}">
+    </Param>
+    <Param Name="&quot;Label Value&quot;" ParamSeq="2" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="6" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;Scheme Category&quot;" ParamSeq="2" Parameterized="0" Data="Scheme Category">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;OEM/Dealer&quot;" ParamSeq="2" Parameterized="0" Data="OEM/Dealer">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;Scheme End Date (DD/MM/YYYY)&quot;" ParamSeq="2" Parameterized="0" Data="Scheme End Date (DD/MM/YYYY)">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;DIS Charge Value&quot;" ParamSeq="2" Parameterized="0" Data="DIS Charge Value">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;Upfront Interest Borne By&quot;" ParamSeq="2" Parameterized="0" Data="Upfront Interest Borne By">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;Minimum Loan Amount (In Rs)&quot;" ParamSeq="2" Parameterized="0" Data="Minimum Loan Amount (In Rs)">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;Maximum Loan Amount (In Rs)&quot;" ParamSeq="2" Parameterized="0" Data="Maximum Loan Amount (In Rs)">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="Scheme Category" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="OEM/Dealer" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="Scheme End Date (DD/MM/YYYY)" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="DIS Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="Upfront Interest Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="Minimum Loan Amount (In Rs)" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="19" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="Maximum Loan Amount (In Rs)" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="20" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="firstString" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="secondString" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="21" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="firstString" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="secondString" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="22" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="firstString" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="secondString" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="23" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="firstString" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="secondString" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="24" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="firstString" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="secondString" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="25" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="firstString" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="secondString" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+</Task>

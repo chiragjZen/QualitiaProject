@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Verify End Date for Extend Scheme &amp; Terminate Scheme" Desc="Verify End Date for Extend Scheme &amp; Terminate Scheme" TaskID="37d250e090c944a1b86a2ae4105717f2" Path="Verify End Date for Extend Scheme &amp; Terminate Scheme.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="f94daccc632544e2b61ac0eb08ff1940" ObjectName="Extend Scheme" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="2" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="2" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="3" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Scheme Start Date (DD/MM/YYYY)&quot;" ParamSeq="1" Parameterized="0" Data="Scheme Start Date (DD/MM/YYYY)">
+    </Param>
+    <Param Name="Scheme Start Date (DD/MM/YYYY)" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Scheme End Date (DD/MM/YYYY)&quot;" ParamSeq="1" Parameterized="0" Data="Scheme End Date (DD/MM/YYYY)">
+    </Param>
+    <Param Name="Expected-Scheme End Date (DD/MM/YYYY)" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="5" ObjectName="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectTypeId="">
+    <Param Name="&quot;Is Active&quot;" ParamSeq="1" Parameterized="0" Data="Is Active">
+    </Param>
+    <Param Name="Is Active" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="6" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

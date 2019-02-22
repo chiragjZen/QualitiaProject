@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Cross Sell Cards-DO Preparation" Desc="Cross Sell Cards-DO Preparation" TaskID="00854b372ea447069418dbefc247993e" Path="Cross Sell Cards-DO Preparation.XML">
+  <Step StepId="11" stepSeq="1" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Card Type&quot;" ParamSeq="1" Parameterized="0" Data="Card Type">
+    </Param>
+    <Param Name="Card Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Insta Card Opt Out&quot;" ParamSeq="1" Parameterized="0" Data="Insta Card Opt Out">
+    </Param>
+    <Param Name="Insta Card Opt Out" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;EMI Card Limit&quot;" ParamSeq="1" Parameterized="0" Data="EMI Card Limit">
+    </Param>
+    <Param Name="Expected EMI Card Limit" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Co Brand Card BFL Fee&quot;" ParamSeq="1" Parameterized="0" Data="Co Brand Card BFL Fee">
+    </Param>
+    <Param Name="Expected Co Brand Card BFL Fee" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Card Fee&quot;" ParamSeq="1" Parameterized="0" Data="Card Fee">
+    </Param>
+    <Param Name="Expected Card Fee" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Co Brand Card Dealer Fee&quot;" ParamSeq="1" Parameterized="0" Data="Co Brand Card Dealer Fee">
+    </Param>
+    <Param Name="Expected_Co Brand Card Dealer Fee" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Credit Card Consent&quot;" ParamSeq="1" Parameterized="0" Data="Credit Card Consent">
+    </Param>
+    <Param Name="Credit Card Consent" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+</Task>

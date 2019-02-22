@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Application Data Entry-ClickFirstRecord" Desc="Application Data Entry-ClickFirstRecord" TaskID="757a071bb7824c87a9a2e5b5333b65ba" Path="Application Data Entry-ClickFirstRecord.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Record&quot;" ParamSeq="1" Parameterized="0" Data="Record">
+    </Param>
+    <Param Name="Record" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="2" ObjectId="6e0fb9f91bb84bb4a7edea397700a7b0" ObjectName="Click IRR No" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="6e0fb9f91bb84bb4a7edea397700a7b0" ObjectName="Click IRR No" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

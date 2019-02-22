@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD-Top Level Error Message Validation Second" Desc="FD-Top Level Error Message Validation Second" TaskID="f182afc4fd164f3fac1720546ab8ccaa" Path="FD-Top Level Error Message Validation 2.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="17ff29ff2fe945569ed52c9acdc7f7ba" ObjectName="Top Level Error Message 2 Validation-FD" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Top Level Error Message&quot;" ParamSeq="1" Parameterized="0" Data="Top Level Error Message">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Actual Top Level Error Message&quot;" ParamSeq="1" Parameterized="0" Data="Actual Top Level Error Message">
+    </Param>
+    <Param Name="Actual Top Level Error Message" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Top Level Error Message}&quot;" ParamSeq="1" Parameterized="0" Data="{Top Level Error Message}">
+    </Param>
+    <Param Name="&quot;{Actual Top Level Error Message}&quot;" ParamSeq="2" Parameterized="0" Data="{Actual Top Level Error Message}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="4" ObjectId="3d6f4e3022954ccd9722de993f825a50" ObjectName="Close this window" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="6" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

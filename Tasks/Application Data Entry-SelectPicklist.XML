@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Application Data Entry-SelectPicklist" Desc="Application Data Entry-SelectPicklist" TaskID="aca459992d8540eabbec2e3f1bcee22e" Path="Application Data Entry-SelectPicklist.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;PickLabel&quot;" ParamSeq="1" Parameterized="0" Data="PickLabel">
+    </Param>
+    <Param Name="PickLabel" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="551a482afb8544d6bdc384c4500d5638" ObjectName="Picklist" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="099340663fb74ceb9fcac44a3a7e9f1a" ActionName="StoreItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PicklistValues&quot;" ParamSeq="1" Parameterized="0" Data="PicklistValues">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;PicklistValues&quot;" ParamSeq="1" Parameterized="0" Data="PicklistValues">
+    </Param>
+    <Param Name="Expected Picklist Values" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="3" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

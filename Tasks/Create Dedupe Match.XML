@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Create Dedupe Match" Desc="Create Dedupe Match" TaskID="f82d43ee35e04bcab458353693f894f9" Path="Create Dedupe Match.XML">
+  <Step StepId="19" stepSeq="1" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{CD_Prime}&quot;==&quot;rtr&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="2" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="3" ObjectId="6789091ffc7946cab400aefec3eb2c46" ObjectName="Dedupe-New" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="19" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="4" ObjectId="6789091ffc7946cab400aefec3eb2c46" ObjectName="Dedupe-New" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="17" stepSeq="5" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="6" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;DeDupe Mobile&quot;" ParamSeq="1" Parameterized="0" Data="DeDupe Mobile">
+    </Param>
+    <Param Name="&quot;{Mobile Number (New Customer)}&quot;" ParamSeq="2" Parameterized="0" Data="{Mobile Number (New Customer)}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="7" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Status&quot;" ParamSeq="1" Parameterized="0" Data="Status">
+    </Param>
+    <Param Name="Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="8" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Processing Status&quot;" ParamSeq="1" Parameterized="0" Data="Processing Status">
+    </Param>
+    <Param Name="Processing Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="9" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Dedupe source&quot;" ParamSeq="1" Parameterized="0" Data="Dedupe source">
+    </Param>
+    <Param Name="Dedupe source" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="10" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Match Percentage&quot;" ParamSeq="1" Parameterized="0" Data="Match Percentage">
+    </Param>
+    <Param Name="Match Percentage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="11" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="14" stepSeq="12" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="13" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="19" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+</Task>

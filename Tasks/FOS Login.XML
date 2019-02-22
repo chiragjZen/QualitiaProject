@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FOS Login" Desc="FOS Login" TaskID="c9fd97ed85684ddfb7225e46c8bf7d4c" Path="FOS Login.XML">
+  <Step StepId="33" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="10238c42b24a4304aa482704b4bc6dbe" ActionName="CustomOpenURL" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="URL" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="2" Parameterized="0" Data="{waitTime}">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="2" ObjectId="5d820a477aff446298bb6ba28e0f9b89" ObjectName="Username_txtBox" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="81247dbb7d094d94bc03d470f649e964" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="d2510f73a1214511bcfe723732cdc09e" ActionName="MaximizeBrowser" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="49" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="8fca281443674fc8bcdaf7a165c52fd2" ActionName="WaitTillOneOfTheObjectLoaded" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;//span[@class=' profileName']&quot;" ParamSeq="1" Parameterized="0" Data="//span[@class=' profileName']">
+    </Param>
+    <Param Name="&quot;//img[@title='User']&quot;" ParamSeq="2" Parameterized="0" Data="//img[@title='User']">
+    </Param>
+    <Param Name="&quot;//div[@id=&quot;userNav-arrow&quot;]&quot;" ParamSeq="3" Parameterized="0" Data="//div[@id=&quot;userNav-arrow&quot;]">
+    </Param>
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="4" Parameterized="0" Data="{waitTime}">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//span[@class=' profileName']&quot;" ParamSeq="1" Parameterized="0" Data="//span[@class=' profileName']">
+    </Param>
+    <Param Name="&quot;count1&quot;" ParamSeq="2" Parameterized="0" Data="count1">
+    </Param>
+  </Step>
+  <Step StepId="38" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//img[@title='User']&quot;" ParamSeq="1" Parameterized="0" Data="//img[@title='User']">
+    </Param>
+    <Param Name="&quot;count2&quot;" ParamSeq="2" Parameterized="0" Data="count2">
+    </Param>
+  </Step>
+  <Step StepId="37" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//div[@id=&quot;userNav-arrow&quot;]&quot;" ParamSeq="1" Parameterized="0" Data="//div[@id=&quot;userNav-arrow&quot;]">
+    </Param>
+    <Param Name="&quot;count3&quot;" ParamSeq="2" Parameterized="0" Data="count3">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{count2}&quot;==&quot;1&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="40" stepSeq="9" ObjectId="fb9af459cd0f4c1b8c409a895edd55c4" ObjectName="User_Logout_Img" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="335b48f8a7fe4d29b44ea5e4d319f394" ActionName="ClickAt" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="21" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+    <Param Name="&quot;5&quot;" ParamSeq="2" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="41" stepSeq="10" ObjectId="3d053b5e45d945019aad3661fb5d7ce1" ObjectName="Logout" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="21" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="42" stepSeq="11" ObjectId="3d053b5e45d945019aad3661fb5d7ce1" ObjectName="Logout" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="21" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="43" stepSeq="12" ObjectId="5d820a477aff446298bb6ba28e0f9b89" ObjectName="Username_txtBox" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="81247dbb7d094d94bc03d470f649e964" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="21" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="39" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="21" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{count1}&quot;==&quot;1&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="14" ObjectId="9eedfe15c0ba487486893d2694d9f49b" ObjectName="FOS User" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="39" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="25" stepSeq="15" ObjectId="00c1189ed07a4442ae41c441ed0cf800" ObjectName="FOS Logout" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="39" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="16" ObjectId="00c1189ed07a4442ae41c441ed0cf800" ObjectName="FOS Logout" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="39" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="27" stepSeq="17" ObjectId="5d820a477aff446298bb6ba28e0f9b89" ObjectName="Username_txtBox" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="81247dbb7d094d94bc03d470f649e964" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="39" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="44" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="21" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{count3}&quot;==&quot;1&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="46" stepSeq="19" ObjectId="598d74f479c740008eb24ccf9ef5c1b1" ObjectName="Pull down arrow" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="44" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="45" stepSeq="20" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="44" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="48" stepSeq="21" ObjectId="bc2f404aa9f9478aaff47de399b0fcf2" ObjectName="Logout-Salesforce Classic" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="44" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="47" stepSeq="22" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="44" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="23" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="21" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="36" stepSeq="24" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="25" ObjectId="5d820a477aff446298bb6ba28e0f9b89" ObjectName="Username_txtBox" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Username" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="26" ObjectId="bb378f8608784c0ab516572593d2905a" ObjectName="Password_txtBox" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Password" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="27" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="28" ObjectId="550e8a358baf4cbb87e5a82105e80e43" ObjectName="Log In to Sandbox_Btn" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="13" stepSeq="29" ObjectId="5c6fcfafee944ec6b8c473235fb750ca" ObjectName="click on Search Customer" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="30" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="31" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="28" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="29" stepSeq="32" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="28" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

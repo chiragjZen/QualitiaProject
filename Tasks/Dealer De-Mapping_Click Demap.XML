@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Dealer De-Mapping_Click Demap" Desc="Dealer De-Mapping_Click Demap" TaskID="9723da0ed4e44bc0a2b8cfe0575f7cd8" Path="Dealer De-Mapping_Click Demap.XML">
+  <Step StepId="16" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="318d973091bc4fc7a84c5971ed685cc2" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//a[@class='datePicker-openIcon display']&quot;" ParamSeq="1" Parameterized="0" Data="//a[@class='datePicker-openIcon display']">
+    </Param>
+    <Param Name="&quot;count&quot;" ParamSeq="2" Parameterized="0" Data="count">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ButtonName&quot;" ParamSeq="1" Parameterized="0" Data="ButtonName">
+    </Param>
+    <Param Name="&quot;Demap&quot;" ParamSeq="2" Parameterized="0" Data="Demap">
+    </Param>
+  </Step>
+  <Step StepId="27" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DaysToBeAdded&quot;" ParamSeq="1" Parameterized="0" Data="DaysToBeAdded">
+    </Param>
+    <Param Name="DaysToBeAdded_DemapStartDate" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="37" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;(&quot;{DaysToBeAdded}&quot;==&quot;$skip$&quot;)||(&quot;{DaysToBeAdded}&quot;==&quot;&quot;)&quot;">
+    </Param>
+  </Step>
+  <Step StepId="39" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="37" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DaysToBeAdded&quot;" ParamSeq="1" Parameterized="0" Data="DaysToBeAdded">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="2" Parameterized="0" Data="0">
+    </Param>
+  </Step>
+  <Step StepId="38" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="37" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="36" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="6a8fd35c4ae14c8094c4b3a963b3da58" ActionName="StoreCurrentDateInFormat" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;dd MMM, yyyy&quot;" ParamSeq="1" Parameterized="0" Data="dd MMM, yyyy">
+    </Param>
+    <Param Name="&quot;CurrentDate&quot;" ParamSeq="2" Parameterized="0" Data="CurrentDate">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{CurrentDate}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate}">
+    </Param>
+    <Param Name="&quot;dd MMM, yyyy&quot;" ParamSeq="2" Parameterized="0" Data="dd MMM, yyyy">
+    </Param>
+    <Param Name="&quot;{DaysToBeAdded}&quot;" ParamSeq="3" Parameterized="0" Data="{DaysToBeAdded}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;DemapStartDate&quot;" ParamSeq="6" Parameterized="0" Data="DemapStartDate">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{DaysToBeAdded}&quot;&lt;&quot;-1&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="10" ObjectId="d7092ebea5ef4654a8c4fffa0e064bba" ObjectName="Dealer De-map start date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c76677bb6c2b40f6bf832fe5072d9d09" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="25" stepSeq="11" ObjectId="d7092ebea5ef4654a8c4fffa0e064bba" ObjectName="Dealer De-map start date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{DemapStartDate}&quot;" ParamSeq="1" Parameterized="0" Data="{DemapStartDate}">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="12" ObjectId="d7092ebea5ef4654a8c4fffa0e064bba" ObjectName="Dealer De-map start date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Tab&quot;" ParamSeq="1" Parameterized="0" Data="Tab">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="13" ObjectId="ac24cf7d9765446ebe1b2340ef58b157" ObjectName="ErrorMessage_popUp" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="20" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessage&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessage">
+    </Param>
+    <Param Name="&quot;Demap Start Date should not be less than Yesterday!&quot;" ParamSeq="2" Parameterized="0" Data="Demap Start Date should not be less than Yesterday!">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="20" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="28" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="20" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{DaysToBeAdded}&quot;==&quot;0&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="17" ObjectId="d7092ebea5ef4654a8c4fffa0e064bba" ObjectName="Dealer De-map start date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c76677bb6c2b40f6bf832fe5072d9d09" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="28" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="13" stepSeq="18" ObjectId="d773780026ca46e5ad5d27a488b045d8" ObjectName="Mapping_Date Picker icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="28" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="12" stepSeq="19" ObjectId="beea268871ce41e98b239094875bb5f8" ObjectName="Date_Today" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="28" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="20" ObjectId="beea268871ce41e98b239094875bb5f8" ObjectName="Date_Today" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="28" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="34" stepSeq="21" ObjectId="898d01c2956044868c3c116da24d7c55" ObjectName="Spinner_icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="28" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="40" stepSeq="22" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="20" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{DaysToBeAdded}&quot;&gt;=&quot;-1&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="23" ObjectId="d7092ebea5ef4654a8c4fffa0e064bba" ObjectName="Dealer De-map start date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c76677bb6c2b40f6bf832fe5072d9d09" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="40" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="29" stepSeq="24" ObjectId="d7092ebea5ef4654a8c4fffa0e064bba" ObjectName="Dealer De-map start date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="40" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{DemapStartDate}&quot;" ParamSeq="1" Parameterized="0" Data="{DemapStartDate}">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="25" ObjectId="d7092ebea5ef4654a8c4fffa0e064bba" ObjectName="Dealer De-map start date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="40" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Tab&quot;" ParamSeq="1" Parameterized="0" Data="Tab">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="26" ObjectId="898d01c2956044868c3c116da24d7c55" ObjectName="Spinner_icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="40" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="27" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="20" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="2" stepSeq="28" ObjectId="5419ff63bdda4a88a997984d977e4853" ObjectName="Dealer_Demap" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="1" stepSeq="29" ObjectId="5419ff63bdda4a88a997984d977e4853" ObjectName="Dealer_Demap" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="3" stepSeq="30" ObjectId="ac64ebddca744ba792ec0b00581be2d5" ObjectName="SuccessMessage_popUp" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

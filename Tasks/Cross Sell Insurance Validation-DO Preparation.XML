@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Cross Sell Insurance Validation-DO Preparation" Desc="Cross Sell Insurance Validation-DO Preparation" TaskID="91217e305cd34f4baf80cd0029e63b8b" Path="Cross Sell Insurance Validation-DO Preparation.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="ef22ba7e17664dbf834b06a793af5c4c" ObjectName="Available Max Bupa Health Insurance" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Available Max Bupa Health Insurance" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="2" ObjectId="33ef40ff8d7f46428ab3a1612d793173" ObjectName="Available Personal Accident" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Available Personal Accident" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="3" ObjectId="be757cbd66814fa69db4d0ee36bd34e8" ObjectName="Available Life Age Agnostic" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Available Life Age Agnostic" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="4" ObjectId="8c3b0b4709944aa7913d8bdae27d56dd" ObjectName="Available GCPP Insurance" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Available GCPP Insurance" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;GTL/CTL&quot;" ParamSeq="1" Parameterized="0" Data="GTL/CTL">
+    </Param>
+    <Param Name="GTL/CTL" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="6" ObjectId="530944baf6bc49759088a740f7e89c69" ObjectName="Available GTL/CTL Insurance" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Available GTL/CTL Insurance" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Nominee Name&quot;" ParamSeq="1" Parameterized="0" Data="Nominee Name">
+    </Param>
+    <Param Name="Nominee Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Nominee DOB&quot;" ParamSeq="1" Parameterized="0" Data="Nominee DOB">
+    </Param>
+    <Param Name="Nominee DOB" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Nominee Relation&quot;" ParamSeq="1" Parameterized="0" Data="Nominee Relation">
+    </Param>
+    <Param Name="Nominee Relation" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Nominee Phone&quot;" ParamSeq="1" Parameterized="0" Data="Nominee Phone">
+    </Param>
+    <Param Name="Nominee Phone" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Nominee Address&quot;" ParamSeq="1" Parameterized="0" Data="Nominee Address">
+    </Param>
+    <Param Name="Nominee Address" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+</Task>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Create Scheme-2" Desc="Create Scheme-2" TaskID="26467a520c53485196f7185db936eb62" Path="Create Scheme-2.XML">
+  <Step StepId="71" stepSeq="1" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="2" ObjectId="aa2ef178da4c4033a4ccc4c8ec4f03b6" ObjectName="Scheme Name" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Scheme Name" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="72" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;Scheme Category&quot;" ParamSeq="2" Parameterized="0" Data="Scheme Category">
+    </Param>
+  </Step>
+  <Step StepId="73" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="Scheme Category" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="5" ObjectId="284cfc4111ca437c85f30142bbcef385" ObjectName="Any DropDown" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="4" stepSeq="6" ObjectId="20c10db2a3ea4879889ffa2e22674414" ObjectName="DropDown pulldown menu" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="75" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;OEM/Dealer&quot;" ParamSeq="2" Parameterized="0" Data="OEM/Dealer">
+    </Param>
+  </Step>
+  <Step StepId="74" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="OEM/Dealer" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="9" ObjectId="f4bf18780afb40f9a578773646259d84" ObjectName="Any lookup" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Label Value}&quot;" ParamSeq="1" Parameterized="0" Data="{Label Value}">
+    </Param>
+  </Step>
+  <Step StepId="58" stepSeq="10" ObjectId="f896ccd8420843af8af9637f4f4df96a" ObjectName="lookup pulldown menu" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="335b48f8a7fe4d29b44ea5e4d319f394" ActionName="ClickAt" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+    <Param Name="&quot;5&quot;" ParamSeq="2" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="69" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{CurrentDate}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate}">
+    </Param>
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="2" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="3" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;Scheme End Date&quot;" ParamSeq="6" Parameterized="0" Data="Scheme End Date">
+    </Param>
+  </Step>
+  <Step StepId="64" stepSeq="12" ObjectId="f420c6d06bcf4c10b2d7ada1146ffb28" ObjectName="Scheme End Date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Scheme End Date}&quot;" ParamSeq="1" Parameterized="0" Data="{Scheme End Date}">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="13" ObjectId="68d9edea51c649beb45a88e10df5cc09" ObjectName="Gross Tenure" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Gross Tenure" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="14" ObjectId="b6e15fe2e8e940c5b54d787c801e2f3e" ObjectName="Advanced EMI" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Advanced EMI" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="15" ObjectId="f13e364abbd74da5ab62629492f0a1a8" ObjectName="DIS Charge Value" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="DIS Charge Value" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="78" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;Upfront Interest Borne By&quot;" ParamSeq="2" Parameterized="0" Data="Upfront Interest Borne By">
+    </Param>
+  </Step>
+  <Step StepId="77" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="Upfront Interest Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="50" stepSeq="18" ObjectId="284cfc4111ca437c85f30142bbcef385" ObjectName="Any DropDown" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="76" stepSeq="19" ObjectId="20c10db2a3ea4879889ffa2e22674414" ObjectName="DropDown pulldown menu" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

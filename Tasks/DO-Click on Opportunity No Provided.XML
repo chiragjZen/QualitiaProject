@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="DO-Click on Opportunity No Provided" Desc="DO-Click on Opportunity No Provided" TaskID="8a948dc516ee4720b46b9e559ed077e4" Path="DO-Click on Opportunity No Provided.XML">
+  <Step StepId="10" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Opportunity No&quot;" ParamSeq="1" Parameterized="0" Data="Opportunity No">
+    </Param>
+    <Param Name="Opportunity No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="2" ObjectId="2997fb2828c142439f8e22bb688eb9f7" ObjectName="Opportunity link" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;6&quot;" ParamSeq="1" Parameterized="0" Data="6">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="4" ObjectId="0ac0cb652678425a92eb0f439aa06827" ObjectName="AssetSelection-OppotunityName" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="11" stepSeq="5" ObjectId="2997fb2828c142439f8e22bb688eb9f7" ObjectName="Opportunity link" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="1" stepSeq="6" ObjectId="8eb0d86fd97d43c681e0e7efda3d09b8" ObjectName="Close this window'" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+</Task>

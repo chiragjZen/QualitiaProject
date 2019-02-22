@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Application Data Entry-Validate Line Limit-01022019" Desc="Application Data Entry-Validate Line Limit-01022019" TaskID="5b1103ef2865469f8770e935b6514698" Path="Application Data Entry-Validate Line Limit-01022019.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ExpectedCDApproved&quot;" ParamSeq="1" Parameterized="0" Data="ExpectedCDApproved">
+    </Param>
+    <Param Name="ExpectedCDApproved" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ExpectedDigitalApproved&quot;" ParamSeq="1" Parameterized="0" Data="ExpectedDigitalApproved">
+    </Param>
+    <Param Name="ExpectedDigitalApproved" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="66" stepSeq="3" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ExpectedCDAppApproved&quot;" ParamSeq="1" Parameterized="0" Data="ExpectedCDAppApproved">
+    </Param>
+    <Param Name="ExpectedCDAppApproved" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="67" stepSeq="4" ObjectId="0efd0f99f7494212bf48378db079495b" ObjectName="Edit-2 Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="5" ObjectId="86ef9c84bd894d109b9f8b53653426ce" ObjectName="Object CDLimit" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ActualCDLimit&quot;" ParamSeq="1" Parameterized="0" Data="ActualCDLimit">
+    </Param>
+    <Param Name="&quot;Text&quot;" ParamSeq="2" Parameterized="0" Data="Text">
+    </Param>
+  </Step>
+  <Step StepId="72" stepSeq="6" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ActualCDLimit&quot;" ParamSeq="1" Parameterized="0" Data="ActualCDLimit">
+    </Param>
+    <Param Name="&quot;{ActualCDLimit}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualCDLimit}">
+    </Param>
+    <Param Name="&quot;-&quot;" ParamSeq="3" Parameterized="0" Data="-">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="77" stepSeq="7" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="d8b19b1aa3d340919d2f50b709173243" ActionName="Trim" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ActualCDLimit}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualCDLimit}">
+    </Param>
+    <Param Name="&quot;ActualCDLimit&quot;" ParamSeq="2" Parameterized="0" Data="ActualCDLimit">
+    </Param>
+  </Step>
+  <Step StepId="68" stepSeq="8" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;ActualCDLimit&quot;" ParamSeq="1" Parameterized="0" Data="ActualCDLimit">
+    </Param>
+    <Param Name="&quot;{ActualCDLimit}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualCDLimit}">
+    </Param>
+    <Param Name="&quot;CD Approved - &quot;" ParamSeq="3" Parameterized="0" Data="CD Approved - ">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="9" ObjectId="f1fa87f521484ca1b3fa160b58844c95" ObjectName="Object DigitalLimit" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ActualDigitalLimit&quot;" ParamSeq="1" Parameterized="0" Data="ActualDigitalLimit">
+    </Param>
+    <Param Name="&quot;Text&quot;" ParamSeq="2" Parameterized="0" Data="Text">
+    </Param>
+  </Step>
+  <Step StepId="74" stepSeq="10" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ActualDigitalLimit&quot;" ParamSeq="1" Parameterized="0" Data="ActualDigitalLimit">
+    </Param>
+    <Param Name="&quot;{ActualDigitalLimit}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualDigitalLimit}">
+    </Param>
+    <Param Name="&quot;-&quot;" ParamSeq="3" Parameterized="0" Data="-">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="73" stepSeq="11" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;ActualDigitalLimit&quot;" ParamSeq="1" Parameterized="0" Data="ActualDigitalLimit">
+    </Param>
+    <Param Name="&quot;{ActualDigitalLimit}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualDigitalLimit}">
+    </Param>
+    <Param Name="&quot;Digital Balance&quot;" ParamSeq="3" Parameterized="0" Data="Digital Balance">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="78" stepSeq="12" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="d8b19b1aa3d340919d2f50b709173243" ActionName="Trim" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ActualDigitalLimit}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualDigitalLimit}">
+    </Param>
+    <Param Name="&quot;ActualDigitalLimit&quot;" ParamSeq="2" Parameterized="0" Data="ActualDigitalLimit">
+    </Param>
+  </Step>
+  <Step StepId="69" stepSeq="13" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;ActualDigitalLimit&quot;" ParamSeq="1" Parameterized="0" Data="ActualDigitalLimit">
+    </Param>
+    <Param Name="&quot;{ActualDigitalLimit}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualDigitalLimit}">
+    </Param>
+    <Param Name="&quot;Digital Approved - &quot;" ParamSeq="3" Parameterized="0" Data="Digital Approved - ">
+    </Param>
+    <Param Name="instance" ParamSeq="4" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="62" stepSeq="14" ObjectId="3bf87aad7ab342c390dd3ec6e4b44cf5" ObjectName="CD Appliance Line" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ActualCDApplianceLine&quot;" ParamSeq="1" Parameterized="0" Data="ActualCDApplianceLine">
+    </Param>
+    <Param Name="&quot;Text&quot;" ParamSeq="2" Parameterized="0" Data="Text">
+    </Param>
+  </Step>
+  <Step StepId="76" stepSeq="15" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ActualCDApplianceLine&quot;" ParamSeq="1" Parameterized="0" Data="ActualCDApplianceLine">
+    </Param>
+    <Param Name="&quot;{ActualCDApplianceLine}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualCDApplianceLine}">
+    </Param>
+    <Param Name="&quot;-&quot;" ParamSeq="3" Parameterized="0" Data="-">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="75" stepSeq="16" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;ActualCDApplianceLine&quot;" ParamSeq="1" Parameterized="0" Data="ActualCDApplianceLine">
+    </Param>
+    <Param Name="&quot;{ActualCDApplianceLine}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualCDApplianceLine}">
+    </Param>
+    <Param Name="&quot;Appliances Balance&quot;" ParamSeq="3" Parameterized="0" Data="Appliances Balance">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="79" stepSeq="17" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="d8b19b1aa3d340919d2f50b709173243" ActionName="Trim" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ActualCDApplianceLine}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualCDApplianceLine}">
+    </Param>
+    <Param Name="&quot;ActualCDApplianceLine&quot;" ParamSeq="2" Parameterized="0" Data="ActualCDApplianceLine">
+    </Param>
+  </Step>
+  <Step StepId="70" stepSeq="18" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;ActualCDApplianceLine&quot;" ParamSeq="1" Parameterized="0" Data="ActualCDApplianceLine">
+    </Param>
+    <Param Name="&quot;{ActualCDApplianceLine}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualCDApplianceLine}">
+    </Param>
+    <Param Name="&quot;Appliances Approved - &quot;" ParamSeq="3" Parameterized="0" Data="Appliances Approved - ">
+    </Param>
+    <Param Name="instance" ParamSeq="4" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="19" ObjectId="737b8b2e617d42b1b24831731a0b0a2f" ObjectName="Object EMI Card Limit" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;ActualEMIcardLimit&quot;" ParamSeq="1" Parameterized="0" Data="ActualEMIcardLimit">
+    </Param>
+    <Param Name="&quot;Text&quot;" ParamSeq="2" Parameterized="0" Data="Text">
+    </Param>
+  </Step>
+  <Step StepId="52" stepSeq="20" ObjectId="d883a6cd8b30434e945be0528c2a275b" ObjectName="CD Reject Reason" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;CD Reject Reason&quot;" ParamSeq="1" Parameterized="0" Data="CD Reject Reason">
+    </Param>
+    <Param Name="&quot;Text&quot;" ParamSeq="2" Parameterized="0" Data="Text">
+    </Param>
+  </Step>
+  <Step StepId="51" stepSeq="21" ObjectId="605c09c865004cffb6e0a53d481face5" ObjectName="Digital Reject Reason" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;Digital Reject Reason&quot;" ParamSeq="1" Parameterized="0" Data="Digital Reject Reason">
+    </Param>
+    <Param Name="&quot;Text&quot;" ParamSeq="2" Parameterized="0" Data="Text">
+    </Param>
+  </Step>
+  <Step StepId="49" stepSeq="22" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;Approval Status&quot;" ParamSeq="1" Parameterized="0" Data="Approval Status">
+    </Param>
+    <Param Name="Approval Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="27" stepSeq="23" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;flag&quot;" ParamSeq="1" Parameterized="0" Data="flag">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="47" stepSeq="24" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ExpectedCDApproved}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="25" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="47" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{ExpectedCDLimit}&quot;" ParamSeq="1" Parameterized="0" Data="{ExpectedCDLimit}">
+    </Param>
+    <Param Name="&quot;{ActualCDLimit}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualCDLimit}">
+    </Param>
+    <Param Name="&quot;True&quot;" ParamSeq="3" Parameterized="0" Data="True">
+    </Param>
+  </Step>
+  <Step StepId="63" stepSeq="26" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" ParentID="47" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;CD Approved - {ActualCDLimit}&quot;" ParamSeq="1" Parameterized="0" Data="CD Approved - {ActualCDLimit}">
+    </Param>
+    <Param Name="&quot;CD Approved - {ExpectedCDApproved}&quot;" ParamSeq="2" Parameterized="0" Data="CD Approved - {ExpectedCDApproved}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="48" stepSeq="27" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="47" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="25" stepSeq="28" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="29" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="25" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;flag&quot;" ParamSeq="1" Parameterized="0" Data="flag">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="30" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="25" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="43" stepSeq="31" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ExpectedDigitalApproved}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="32" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="43" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{ActualDigitalLimit}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualDigitalLimit}">
+    </Param>
+    <Param Name="&quot;{ActualDigitalLimit}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualDigitalLimit}">
+    </Param>
+    <Param Name="&quot;True&quot;" ParamSeq="3" Parameterized="0" Data="True">
+    </Param>
+  </Step>
+  <Step StepId="64" stepSeq="33" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" ParentID="43" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;Digital Approved - {ActualDigitalLimit}&quot;" ParamSeq="1" Parameterized="0" Data="Digital Approved - {ActualDigitalLimit}">
+    </Param>
+    <Param Name="&quot;Digital Approved - {ExpectedDigitalApproved}&quot;" ParamSeq="2" Parameterized="0" Data="Digital Approved - {ExpectedDigitalApproved}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="44" stepSeq="34" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="43" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="29" stepSeq="35" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="36" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;flag&quot;" ParamSeq="1" Parameterized="0" Data="flag">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="37" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="45" stepSeq="38" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ExpectedCDAppApproved}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="39" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="45" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{ExpectedEMICardLimit}&quot;" ParamSeq="1" Parameterized="0" Data="{ExpectedEMICardLimit}">
+    </Param>
+    <Param Name="&quot;{ActualEMIcardLimit}&quot;" ParamSeq="2" Parameterized="0" Data="{ActualEMIcardLimit}">
+    </Param>
+    <Param Name="&quot;True&quot;" ParamSeq="3" Parameterized="0" Data="True">
+    </Param>
+  </Step>
+  <Step StepId="65" stepSeq="40" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" ParentID="45" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;CD App Approved - {ActualCDApplianceLine}&quot;" ParamSeq="1" Parameterized="0" Data="CD App Approved - {ActualCDApplianceLine}">
+    </Param>
+    <Param Name="&quot;CD App Approved - {ExpectedCDAppApproved}&quot;" ParamSeq="2" Parameterized="0" Data="CD App Approved - {ExpectedCDAppApproved}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="46" stepSeq="41" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="45" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="32" stepSeq="42" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="43" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="32" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;flag&quot;" ParamSeq="1" Parameterized="0" Data="flag">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="44" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="32" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="57" stepSeq="45" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Excel path&quot;" ParamSeq="1" Parameterized="0" Data="Excel path">
+    </Param>
+    <Param Name="Excel path" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="46" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Excel path}&quot;" ParamSeq="1" Parameterized="0" Data="{Excel path}">
+    </Param>
+    <Param Name="&quot;{ManualTCId}&quot;" ParamSeq="2" Parameterized="0" Data="{ManualTCId}">
+    </Param>
+    <Param Name="&quot;CDStatus&quot;" ParamSeq="3" Parameterized="0" Data="CDStatus">
+    </Param>
+    <Param Name="&quot;{ActualCDLimit}&quot;" ParamSeq="4" Parameterized="0" Data="{ActualCDLimit}">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="47" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Excel path}&quot;" ParamSeq="1" Parameterized="0" Data="{Excel path}">
+    </Param>
+    <Param Name="&quot;{ManualTCId}&quot;" ParamSeq="2" Parameterized="0" Data="{ManualTCId}">
+    </Param>
+    <Param Name="&quot;DigitalStatus&quot;" ParamSeq="3" Parameterized="0" Data="DigitalStatus">
+    </Param>
+    <Param Name="&quot;{ActualDigitalLimit}&quot;" ParamSeq="4" Parameterized="0" Data="{ActualDigitalLimit}">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="48" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Excel path}&quot;" ParamSeq="1" Parameterized="0" Data="{Excel path}">
+    </Param>
+    <Param Name="&quot;{ManualTCId}&quot;" ParamSeq="2" Parameterized="0" Data="{ManualTCId}">
+    </Param>
+    <Param Name="&quot;ApplianceStatus&quot;" ParamSeq="3" Parameterized="0" Data="ApplianceStatus">
+    </Param>
+    <Param Name="&quot;{ActualCDApplianceLine}&quot;" ParamSeq="4" Parameterized="0" Data="{ActualCDApplianceLine}">
+    </Param>
+  </Step>
+  <Step StepId="54" stepSeq="49" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{Excel path}&quot;" ParamSeq="1" Parameterized="0" Data="{Excel path}">
+    </Param>
+    <Param Name="&quot;{CustomerName}&quot;" ParamSeq="2" Parameterized="0" Data="{CustomerName}">
+    </Param>
+    <Param Name="&quot;CD Reject Reason&quot;" ParamSeq="3" Parameterized="0" Data="CD Reject Reason">
+    </Param>
+    <Param Name="&quot;{CD Reject Reason}&quot;" ParamSeq="4" Parameterized="0" Data="{CD Reject Reason}">
+    </Param>
+  </Step>
+  <Step StepId="53" stepSeq="50" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{Excel path}&quot;" ParamSeq="1" Parameterized="0" Data="{Excel path}">
+    </Param>
+    <Param Name="&quot;{CustomerName}&quot;" ParamSeq="2" Parameterized="0" Data="{CustomerName}">
+    </Param>
+    <Param Name="&quot;Digital Reject Reason&quot;" ParamSeq="3" Parameterized="0" Data="Digital Reject Reason">
+    </Param>
+    <Param Name="&quot;{Digital Reject Reason}&quot;" ParamSeq="4" Parameterized="0" Data="{Digital Reject Reason}">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="51" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{flag}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="37" stepSeq="52" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="35" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{Excel path}&quot;" ParamSeq="1" Parameterized="0" Data="{Excel path}">
+    </Param>
+    <Param Name="&quot;{CustomerName}&quot;" ParamSeq="2" Parameterized="0" Data="{CustomerName}">
+    </Param>
+    <Param Name="&quot;ExecutionStatus&quot;" ParamSeq="3" Parameterized="0" Data="ExecutionStatus">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="38" stepSeq="53" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="35" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="39" stepSeq="54" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="38" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{Excel path}&quot;" ParamSeq="1" Parameterized="0" Data="{Excel path}">
+    </Param>
+    <Param Name="&quot;{CustomerName}&quot;" ParamSeq="2" Parameterized="0" Data="{CustomerName}">
+    </Param>
+    <Param Name="&quot;ExecutionStatus&quot;" ParamSeq="3" Parameterized="0" Data="ExecutionStatus">
+    </Param>
+    <Param Name="&quot;Passed&quot;" ParamSeq="4" Parameterized="0" Data="Passed">
+    </Param>
+  </Step>
+  <Step StepId="36" stepSeq="55" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="35" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="20" stepSeq="56" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ActualCDLimit&quot;" ParamSeq="1" Parameterized="0" Data="ActualCDLimit">
+    </Param>
+    <Param Name="CDStatus" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="57" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ApplianceStatus&quot;" ParamSeq="1" Parameterized="0" Data="ApplianceStatus">
+    </Param>
+    <Param Name="ApplianceStatus" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="58" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;DigitalStatus&quot;" ParamSeq="1" Parameterized="0" Data="DigitalStatus">
+    </Param>
+    <Param Name="DigitalStatus" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="81" stepSeq="59" ObjectName="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectTypeId="">
+    <Param Name="&quot;Output-Mobile Number&quot;" ParamSeq="1" Parameterized="0" Data="Output-Mobile Number">
+    </Param>
+    <Param Name="Output-Mobile Number" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="80" stepSeq="60" ObjectName="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectTypeId="">
+    <Param Name="&quot;Output-Customer Name&quot;" ParamSeq="1" Parameterized="0" Data="Output-Customer Name">
+    </Param>
+    <Param Name="Output-Customer Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="56" stepSeq="61" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;CD Reject Reason&quot;" ParamSeq="1" Parameterized="0" Data="CD Reject Reason">
+    </Param>
+    <Param Name="CD Reject Reason" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="55" stepSeq="62" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;Digital Reject Reason&quot;" ParamSeq="1" Parameterized="0" Data="Digital Reject Reason">
+    </Param>
+    <Param Name="Digital Reject Reason" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="63" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;ExecutionStatus&quot;" ParamSeq="1" Parameterized="0" Data="ExecutionStatus">
+    </Param>
+    <Param Name="ExecutionStatus" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

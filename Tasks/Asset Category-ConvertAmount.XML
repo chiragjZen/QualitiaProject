@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Asset Category-ConvertAmount" Desc="Asset Category-ConvertAmount" TaskID="f15868b08f1c40b8adb199280407cf8d" Path="Asset Category-ConvertAmount.XML">
+  <Step StepId="4" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Minimum Invoice Value}&quot;" ParamSeq="1" Parameterized="0" Data="{Minimum Invoice Value}">
+    </Param>
+    <Param Name="&quot;Minimum Invoice Value&quot;" ParamSeq="2" Parameterized="0" Data="Minimum Invoice Value">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Minimum Amount Financed}&quot;" ParamSeq="1" Parameterized="0" Data="{Minimum Amount Financed}">
+    </Param>
+    <Param Name="&quot;Minimum Amount Financed&quot;" ParamSeq="2" Parameterized="0" Data="Minimum Amount Financed">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{PAPS Mutiplier}&quot;" ParamSeq="1" Parameterized="0" Data="{PAPS Mutiplier}">
+    </Param>
+    <Param Name="&quot;PAPS Mutiplier&quot;" ParamSeq="2" Parameterized="0" Data="PAPS Mutiplier">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Minimum Invoice Value&quot;" ParamSeq="1" Parameterized="0" Data="Minimum Invoice Value">
+    </Param>
+    <Param Name="&quot;{Minimum Invoice Value}.00&quot;" ParamSeq="2" Parameterized="0" Data="{Minimum Invoice Value}.00">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Minimum Amount Financed&quot;" ParamSeq="1" Parameterized="0" Data="Minimum Amount Financed">
+    </Param>
+    <Param Name="&quot;{CurrencySymbol}{Minimum Amount Financed}.00&quot;" ParamSeq="2" Parameterized="0" Data="{CurrencySymbol}{Minimum Amount Financed}.00">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;PAPS Mutiplier&quot;" ParamSeq="1" Parameterized="0" Data="PAPS Mutiplier">
+    </Param>
+    <Param Name="&quot;{PAPS Mutiplier}.00&quot;" ParamSeq="2" Parameterized="0" Data="{PAPS Mutiplier}.00">
+    </Param>
+  </Step>
+</Task>

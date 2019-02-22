@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="ChargeSlip" Desc="ChargeSlip" TaskID="acfc7316f5a04fbb9c28397a45297e14" Path="ChargeSlip.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{MainPage}&quot;" ParamSeq="1" Parameterized="0" Data="{MainPage}">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="e86a64fc28c646d4a4694526865bcab7" ObjectName="ChargeSlip_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="7" stepSeq="3" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="6d3264d449584887918c0ce1d6702ce5" ActionName="CustomStoreWindowHandle" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ChildWindow_1&quot;" ParamSeq="1" Parameterized="0" Data="ChildWindow_1">
+    </Param>
+    <Param Name="&quot;3&quot;" ParamSeq="2" Parameterized="0" Data="3">
+    </Param>
+    <Param Name="&quot;30&quot;" ParamSeq="3" Parameterized="0" Data="30">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ChildWindow_1}&quot;" ParamSeq="1" Parameterized="0" Data="{ChildWindow_1}">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="6" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="533eae44403341388a01aced8353ff9c" ActionName="ExecuteFile" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\ChargeSlip.exe&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\ChargeSlip.exe">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="7" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~^s&quot;" ParamSeq="1" Parameterized="0" Data="~^s">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="8" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;4&quot;" ParamSeq="1" Parameterized="0" Data="4">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="9" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="533eae44403341388a01aced8353ff9c" ActionName="ExecuteFile" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\SaveAs.exe&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\SaveAs.exe">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="10" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\chargeslip_{CurrentDate}.pdf&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\chargeslip_{CurrentDate}.pdf">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="11" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="12" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="13" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{ENTER~}&quot;" ParamSeq="1" Parameterized="0" Data="~{ENTER~}">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="14" ObjectName="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectTypeId="">
+    <Param Name="&quot;10&quot;" ParamSeq="1" Parameterized="0" Data="10">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="15" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="3a4c3eab08f14ca08ab510b39d4541f1" ActionName="readPDFFile" QClass="CustomActions.GenralCustomActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\chargeslip_{CurrentDate}.pdf&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\chargeslip_{CurrentDate}.pdf">
+    </Param>
+    <Param Name="&quot;ActualAddress&quot;" ParamSeq="2" Parameterized="0" Data="ActualAddress">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="16" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ActualAddress}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualAddress}">
+    </Param>
+    <Param Name="&quot;{Address Line 11}&quot;" ParamSeq="2" Parameterized="0" Data="{Address Line 11}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="17" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ActualAddress}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualAddress}">
+    </Param>
+    <Param Name="&quot;{Address Line 21}&quot;" ParamSeq="2" Parameterized="0" Data="{Address Line 21}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="18" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ActualAddress}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualAddress}">
+    </Param>
+    <Param Name="&quot;{Address Line 31}&quot;" ParamSeq="2" Parameterized="0" Data="{Address Line 31}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="19" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ActualAddress}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualAddress}">
+    </Param>
+    <Param Name="&quot;{City1}&quot;" ParamSeq="2" Parameterized="0" Data="{City1}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="20" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{MainPage}&quot;" ParamSeq="1" Parameterized="0" Data="{MainPage}">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="21" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="353108419ea7466c92fddb5e19d3a65a" ActionName="quitdriver_reinstantiate" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="4" stepSeq="22" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

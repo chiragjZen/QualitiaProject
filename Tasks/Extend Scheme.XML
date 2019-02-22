@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Extend Scheme" Desc="Extend Scheme" TaskID="3475c106916249339c9489ec18080e9a" Path="Extend Scheme.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="f94daccc632544e2b61ac0eb08ff1940" ObjectName="Extend Scheme" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="2" ObjectId="f94daccc632544e2b61ac0eb08ff1940" ObjectName="Extend Scheme" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="9" stepSeq="3" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="5" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;days_startdate&quot;" ParamSeq="1" Parameterized="0" Data="days_startdate">
+    </Param>
+    <Param Name="Days to be added for Start Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="6" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{days_startdate}&quot;==&quot;&quot;||&quot;{days_startdate}&quot;==&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="7" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="13" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;days_startdate&quot;" ParamSeq="1" Parameterized="0" Data="days_startdate">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="2" Parameterized="0" Data="0">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="8" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="13" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="15" stepSeq="9" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Scheme Start Date}&quot;" ParamSeq="1" Parameterized="0" Data="{Scheme Start Date}">
+    </Param>
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="2" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;{days_startdate}&quot;" ParamSeq="3" Parameterized="0" Data="{days_startdate}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;Scheme Start Date&quot;" ParamSeq="6" Parameterized="0" Data="Scheme Start Date">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="10" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Scheme Start Date (DD/MM/YYYY)&quot;" ParamSeq="1" Parameterized="0" Data="Scheme Start Date (DD/MM/YYYY)">
+    </Param>
+    <Param Name="&quot;{Scheme Start Date}&quot;" ParamSeq="2" Parameterized="0" Data="{Scheme Start Date}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="11" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;days_enddate&quot;" ParamSeq="1" Parameterized="0" Data="days_enddate">
+    </Param>
+    <Param Name="Days to be added for End Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="12" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{days_enddate}&quot;==&quot;&quot;||&quot;{days_enddate}&quot;==&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="13" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;days_enddate&quot;" ParamSeq="1" Parameterized="0" Data="days_enddate">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="2" Parameterized="0" Data="0">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="14" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="19" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="16" stepSeq="15" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Scheme End Date}&quot;" ParamSeq="1" Parameterized="0" Data="{Scheme End Date}">
+    </Param>
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="2" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;{days_enddate}&quot;" ParamSeq="3" Parameterized="0" Data="{days_enddate}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;Scheme End Date&quot;" ParamSeq="6" Parameterized="0" Data="Scheme End Date">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="16" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Scheme End Date (DD/MM/YYYY)&quot;" ParamSeq="1" Parameterized="0" Data="Scheme End Date (DD/MM/YYYY)">
+    </Param>
+    <Param Name="&quot;{Scheme End Date}&quot;" ParamSeq="2" Parameterized="0" Data="{Scheme End Date}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="17" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Status&quot;" ParamSeq="1" Parameterized="0" Data="Status">
+    </Param>
+    <Param Name="Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="18" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="10" stepSeq="19" ObjectId="1779f49ca8114f4b9ebd9dc99407fda2" ObjectName="Success Message" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

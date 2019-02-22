@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger-Click on Radio Button &amp; Link Applicant" Desc="FD Challenger-Click on Radio Button &amp; Link Applicant" TaskID="889e575153164ac19842d8f343440990" Path="FD Challenger-Click on Radio Button &amp; Link Applicant.XML">
+  <Step StepId="12" stepSeq="1" ObjectId="569f11ce5a984988a7be1f0decac209b" ObjectName="Radio Button" ObjectTypeId="c5c304948c804156be730ad87ae934b2" ActionId="545bcf532beb4a09a9ed878e278c20f8" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="2" ObjectId="569f11ce5a984988a7be1f0decac209b" ObjectName="Radio Button" ObjectTypeId="c5c304948c804156be730ad87ae934b2" ActionId="e3d83ff9fba743d19af59a236d9a222f" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebRadioButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="16" stepSeq="3" ObjectId="13b0a35c17e74789be7968844dcb2a52" ObjectName="Link Applicant Button" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="976d3ef33eb64113ae787936a7edac89" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="4" ObjectId="13b0a35c17e74789be7968844dcb2a52" ObjectName="Link Applicant Button" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="14" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+</Task>

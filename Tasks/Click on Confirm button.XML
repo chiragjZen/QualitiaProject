@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Click on Confirm button" Desc="Click on Confirm button" TaskID="a0426df89711491c827e3f2bca8421b3" Path="Click on Confirm button.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="28c71b50886943ab959bc9f930d1a875" ObjectName="Clcik on Confirm button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="4" stepSeq="2" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;Proceed as New or Proceed to Cart&quot;" ParamSeq="1" Parameterized="0" Data="Proceed as New or Proceed to Cart">
+    </Param>
+    <Param Name="&quot;Proceed as NTB&quot;" ParamSeq="2" Parameterized="0" Data="Proceed as NTB">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="bcaab9049e4e4b0db1b38c674bd7829b" ObjectName="Proceed as New or Proceed to Cart Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+</Task>

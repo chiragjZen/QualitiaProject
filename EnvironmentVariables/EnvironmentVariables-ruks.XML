@@ -1,0 +1,1187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EnvironmentVariables>
+  <variable Name="Region1" Datatype="String">
+    <Value>WEST</Value>
+  </variable>
+  <variable Name="Region2" Datatype="String">
+    <Value>WEST</Value>
+  </variable>
+  <variable Name="OEM Name" Datatype="String">
+    <Value>SONY QA123</Value>
+  </variable>
+  <variable Name="InsuranceName4" Datatype="String">
+    <Value>EW/EWP/T-5/P-2000</Value>
+  </variable>
+  <variable Name="AutomationModel05" Datatype="String">
+<<<<<<< .mine
+    <Value>Sansui07035407 - OEM Asset Category-07034939 Rs90000</Value>
+=======
+    <Value>Sansui05011008 - OEM Asset Category-04080503 Rs50000</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="AutomationModel03" Datatype="String">
+<<<<<<< .mine
+    <Value>Sansui03101357 - OEM Asset Category-03084830 Rs90000</Value>
+=======
+    <Value>Sansui05010510 - OEM Asset Category-04080215 Rs50000</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="AutomationModel02" Datatype="String">
+<<<<<<< .mine
+    <Value>Sansui03101150 - OEM Asset Category-03084706 Rs90000</Value>
+=======
+    <Value>Sansui05010256 - OEM Asset Category-04080050 Rs50000</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="AutomationModel01" Datatype="String">
+<<<<<<< .mine
+    <Value>Sansui03100942 - OEM Asset Category-03084545 Rs90000</Value>
+=======
+    <Value>Sansui05010038 - OEM Asset Category-05125716 Rs50000</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="AutomationModel06" Datatype="String">
+<<<<<<< .mine
+    <Value>Sansui03102241 - OEM Asset Category-03084545 Rs90000</Value>
+=======
+    <Value>Sansui05011219 - OEM Asset Category-04080628 Rs50000</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="AutomationModel04" Datatype="String">
+<<<<<<< .mine
+    <Value>Sansui03101605 - OEM Asset Category-03084950 Rs90000</Value>
+=======
+    <Value>Sansui05010721 - OEM Asset Category-04080339 Rs50000</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="Dealer-Account Name" Datatype="String">
+    <Value>Reliance Digital -1</Value>
+  </variable>
+  <variable Name="Group Dealer-Name" Datatype="String">
+    <Value>Reliance Digital</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive" Datatype="String">
+    <Value>OEM Asset Category-03084545</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive05" Datatype="String">
+    <Value>OEM Asset Category-07034939</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive04" Datatype="String">
+    <Value>OEM Asset Category-03084950</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive03" Datatype="String">
+    <Value>OEM Asset Category-03084830</Value>
+  </variable>
+  <variable Name="Region3" Datatype="String">
+    <Value>WEST</Value>
+  </variable>
+  <variable Name="Dealer State1" Datatype="String">
+    <Value>BIHAR</Value>
+  </variable>
+  <variable Name="InsuranceName12" Datatype="String">
+    <Value>INS/RPA/SA-40000/T-5/P-2000</Value>
+  </variable>
+  <variable Name="InsuranceName8" Datatype="String">
+    <Value>INS/LAA/SA-40000/T-5/P-2000</Value>
+  </variable>
+  <variable Name="InsuranceName2" Datatype="String">
+    <Value>INS/GTL/SA-40000/T-5/P-2000</Value>
+  </variable>
+  <variable Name="InsuranceName7" Datatype="String">
+    <Value>INS/CTL/SA-40000/T-5/P-2000</Value>
+  </variable>
+  <variable Name="InsuranceName14" Datatype="String">
+    <Value>INS/CTL/SA-40000/T-5/P-2000</Value>
+  </variable>
+  <variable Name="Dealer Branch1" Datatype="String">
+    <Value>PATNA</Value>
+  </variable>
+  <variable Name="City" Datatype="String">
+    <Value>INDORE</Value>
+  </variable>
+  <variable Name="GenFeatureName_01" Datatype="String">
+<<<<<<< .mine
+    <Value>FeatureNm103082924</Value>
+=======
+    <Value>FeatureNm104074713</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="InsuranceName1" Datatype="String">
+    <Value>EW/EWC/T-5/P-2000</Value>
+  </variable>
+  <variable Name="InsuranceName3" Datatype="String">
+    <Value>EW/DFS/T-5/P-2000</Value>
+  </variable>
+  <variable Name="InsuranceName5" Datatype="String">
+    <Value>EW/BEW/T-5/P-2000</Value>
+  </variable>
+  <variable Name="InsuranceName6" Datatype="String">
+    <Value>EW/BAR/T-5/P-2000</Value>
+  </variable>
+  <variable Name="ProjectPath" Datatype="String">
+    <Value>D:\Bajaj\POS_Reinvent_projectdb</Value>
+  </variable>
+  <variable Name="AssetCategory5" Datatype="String">
+    <Value>AssCat04075627</Value>
+  </variable>
+  <variable Name="AssetCategory3" Datatype="String">
+    <Value>AssCat04075332</Value>
+  </variable>
+  <variable Name="AssetCategory2" Datatype="String">
+    <Value>AssCat04075224</Value>
+  </variable>
+  <variable Name="AssetCategory1" Datatype="String">
+<<<<<<< .mine
+    <Value>AssCat04051008</Value>
+=======
+    <Value>AssCat04075117</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="AssetCategory05" Datatype="String">
+    <Value>AssCat04083514</Value>
+  </variable>
+  <variable Name="waitTime" Datatype="String">
+    <Value>120</Value>
+  </variable>
+  <variable Name="GenFeatureValue_01" Datatype="String">
+    <Value>1</Value>
+  </variable>
+  <variable Name="Scheme05" Datatype="String">
+    <Value>0003583</Value>
+  </variable>
+  <variable Name="Scheme03" Datatype="String">
+    <Value>0003582</Value>
+  </variable>
+  <variable Name="Scheme02" Datatype="String">
+    <Value>0003581</Value>
+  </variable>
+  <variable Name="Scheme01" Datatype="String">
+    <Value>0009099</Value>
+  </variable>
+  <variable Name="Region" Datatype="String">
+    <Value>WEST</Value>
+  </variable>
+  <variable Name="OEM_DealerAuthRequired_Unchecked_01" Datatype="String">
+    <Value>INTEX QA</Value>
+  </variable>
+  <variable Name="AssetCategory" Datatype="String">
+    <Value>AssCat17085732</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_01" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-03084545 FeatureNm103082924</Value>
+=======
+    <Value>OEM Asset Category-05125716 FeatureNm104074713</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_01" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-03084545 FeatureNm103082924 1</Value>
+=======
+    <Value>OEM Asset Category-05125716 FeatureNm104074713 1</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="Group Dealer Name01" Datatype="String">
+    <Value>Group G2</Value>
+  </variable>
+  <variable Name="Dealer City1" Datatype="String">
+    <Value>PATNA</Value>
+  </variable>
+  <variable Name="MasterSchemeCode" Datatype="String">
+    <Value>0007894</Value>
+  </variable>
+  <variable Name="Dealer Branch2" Datatype="String">
+    <Value>Indore</Value>
+  </variable>
+  <variable Name="Group Dealer Name02" Datatype="String">
+    <Value>Parent Local Dealer-9</Value>
+  </variable>
+  <variable Name="Dealer City2" Datatype="String">
+    <Value>INDORE</Value>
+  </variable>
+  <variable Name="Dealer State2" Datatype="String">
+    <Value>MADHYA PRADESH</Value>
+  </variable>
+  <variable Name="GenFeatureName_02" Datatype="String">
+    <Value>Size03083058</Value>
+  </variable>
+  <variable Name="GenFeatureName_03" Datatype="String">
+    <Value>FeatureNm306083104</Value>
+  </variable>
+  <variable Name="GenFeatureValue_02" Datatype="String">
+    <Value>20</Value>
+  </variable>
+  <variable Name="GenFeatureValue_03" Datatype="String">
+    <Value>Value106083441</Value>
+  </variable>
+  <variable Name="GenFeatureValue_04" Datatype="String">
+    <Value>Value206083549</Value>
+  </variable>
+  <variable Name="GenFeatureValue_05" Datatype="String">
+    <Value>Value106083658</Value>
+  </variable>
+  <variable Name="GenFeatureValue_06" Datatype="String">
+    <Value>Value206083806</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive1" Datatype="String">
+    <Value>OEM Asset Category-05125716</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive2" Datatype="String">
+    <Value>OEM Asset Category-04080050</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive3" Datatype="String">
+    <Value>OEM Asset Category-04080215</Value>
+  </variable>
+  <variable Name="OemAssetCategory01_FeatureName_01" Datatype="String">
+    <Value>OEM Asset Category-06084039 FeatureNm106082853</Value>
+  </variable>
+  <variable Name="OemAssetCategory01_FeatureName_02" Datatype="String">
+    <Value>OEM Asset Category-06084039 FeatureNm206082958</Value>
+  </variable>
+  <variable Name="OemAssetCategory01_FeatureName_03" Datatype="String">
+    <Value>OEM Asset Category-06084039 FeatureNm306083104</Value>
+  </variable>
+  <variable Name="OemAssetCategory02_FeatureName_02" Datatype="String">
+    <Value>OEM Asset Category-06084148 FeatureNm206082958</Value>
+  </variable>
+  <variable Name="OemAssetCategory03_FeatureName_03" Datatype="String">
+    <Value>OEM Asset Category-06084256 FeatureNm306083104</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive1FeatureValue_01" Datatype="String">
+    <Value>OEM Asset Category-06084039 FeatureNm106082853 Value106083224</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive1FeatureValue_02" Datatype="String">
+    <Value>OEM Asset Category-06084039 FeatureNm106082853 Value206083332</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive1FeatureValue_03" Datatype="String">
+    <Value>OEM Asset Category-06084039 FeatureNm206082958 Value106083441</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive1FeatureValue_04" Datatype="String">
+    <Value>OEM Asset Category-06084039 FeatureNm206082958 Value206083549</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive1FeatureValue_05" Datatype="String">
+    <Value>OEM Asset Category-06084039 FeatureNm306083104 Value106083658</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive1FeatureValue_06" Datatype="String">
+    <Value>OEM Asset Category-06084039 FeatureNm306083104 Value206083806</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive2FeatureValue_04" Datatype="String">
+    <Value>OEM Asset Category-06084148 FeatureNm206082958 Value206083549</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive3FeatureValue_06" Datatype="String">
+    <Value>OEM Asset Category-06084256 FeatureNm306083104 Value206083806</Value>
+  </variable>
+  <variable Name="AutomationModel09" Datatype="String">
+    <Value>Sansui03102913 - OEM Asset Category-03085236 Rs90000</Value>
+  </variable>
+  <variable Name="AutomationModel10" Datatype="String">
+    <Value>Sansui03102913 - OEM Asset Category-03085236 Rs90000</Value>
+  </variable>
+  <variable Name="AutomationModel11" Datatype="String">
+    <Value>Sansui03102913 - OEM Asset Category-03085236 Rs90000</Value>
+  </variable>
+  <variable Name="AutomationModel12" Datatype="String">
+    <Value>Sansui03102913 - OEM Asset Category-03085236 Rs90000</Value>
+  </variable>
+  <variable Name="Dealer Account Name1" Datatype="String">
+    <Value>Hyco Electronics</Value>
+  </variable>
+  <variable Name="Dealer Account Name3" Datatype="String">
+    <Value>G1 MDL</Value>
+  </variable>
+  <variable Name="Dealer Branch3" Datatype="String">
+    <Value>DELHI</Value>
+  </variable>
+  <variable Name="Group Dealer Name03" Datatype="String">
+    <Value>Group G1</Value>
+  </variable>
+  <variable Name="Dealer City3" Datatype="String">
+    <Value>DELHI</Value>
+  </variable>
+  <variable Name="Dealer State3" Datatype="String">
+    <Value>TAMILNADU</Value>
+  </variable>
+  <variable Name="SpecialScheme17" Datatype="String">
+    <Value>0010450</Value>
+  </variable>
+  <variable Name="SpecialScheme18" Datatype="String">
+    <Value>0010452</Value>
+  </variable>
+  <variable Name="Dealer Account Name2" Datatype="String">
+    <Value>Local Dealer -21</Value>
+  </variable>
+  <variable Name="Group Dealer Name1" Datatype="String">
+    <Value>Parent Local Dealer-9</Value>
+  </variable>
+  <variable Name="Account_Name_01" Datatype="String">
+    <Value>Local Dealer -21</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive02" Datatype="String">
+    <Value>OEM Asset Category-03084706</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive06" Datatype="String">
+    <Value>OEM Asset Category-03085236</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_02" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-03084706 FeatureNm103082924</Value>
+=======
+    <Value>OEM Asset Category-04080050 FeatureNm104074713</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_03" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-03084830 FeatureNm103082924</Value>
+=======
+    <Value>OEM Asset Category-04080215 FeatureNm104074713</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_04" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-03084950 FeatureNm103082924</Value>
+=======
+    <Value>OEM Asset Category-04080339 FeatureNm104074713</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_05" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-07034939 FeatureNm103082924</Value>
+=======
+    <Value>OEM Asset Category-04080503 FeatureNm104074713</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_06" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-03085236 FeatureNm103082924</Value>
+=======
+    <Value>OEM Asset Category-04080628 FeatureNm104074713</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_02" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-03084706 FeatureNm103082924 1</Value>
+=======
+    <Value>OEM Asset Category-04080050 FeatureNm104074713 1</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_03" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-03084830 FeatureNm103082924 1</Value>
+=======
+    <Value>OEM Asset Category-04080215 FeatureNm104074713 1</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_04" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-03084950 FeatureNm103082924 1</Value>
+=======
+    <Value>OEM Asset Category-04080339 FeatureNm104074713 1</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_05" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-07034939 FeatureNm103082924 1</Value>
+=======
+    <Value>OEM Asset Category-04080503 FeatureNm104074713 1</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_06" Datatype="String">
+<<<<<<< .mine
+    <Value>OEM Asset Category-03085236 FeatureNm103082924 1</Value>
+=======
+    <Value>OEM Asset Category-04080628 FeatureNm104074713 1</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Name="MasterSchemeCode04" Datatype="String">
+    <Value>0008943</Value>
+  </variable>
+  <variable Name="MasterSchemeCode01" Datatype="String">
+    <Value>0008944</Value>
+  </variable>
+  <variable Name="MasterSchemeCode02" Datatype="String">
+    <Value>0008945</Value>
+  </variable>
+  <variable Name="MasterSchemeCode03" Datatype="String">
+    <Value>0008946</Value>
+  </variable>
+  <variable Name="MasterSchemeOEMNormal05" Datatype="String">
+    <Value>0008947</Value>
+  </variable>
+  <variable Name="MasterSchemeDealerNormal06" Datatype="String">
+    <Value>0008948</Value>
+  </variable>
+  <variable Name="MasterSchemeMasterNormal07" Datatype="String">
+    <Value>0008949</Value>
+  </variable>
+  <variable Name="MasterSchemeOEMSpecial08" Datatype="String">
+    <Value>0008950</Value>
+  </variable>
+  <variable Name="MasterSchemeDealerSpecial09" Datatype="String">
+    <Value>0008951</Value>
+  </variable>
+  <variable Name="MasterSchemeDealerRanking10" Datatype="String">
+    <Value>0008952</Value>
+  </variable>
+  <variable Name="MasterSchemeExpiredSpecial11" Datatype="String">
+    <Value>0008953</Value>
+  </variable>
+  <variable Name="MasterSchemeRelianceDigital12" Datatype="String">
+    <Value>0008954</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="AssetCategory02" Datatype="String">
+    <Value>AssCat03083753</Value>
+=======
+  <variable Datatype="String" Name="AssetCategory01">
+    <Value>AssCat12123325</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="AssetCategory03" Datatype="String">
+    <Value>AssCat03083857</Value>
+=======
+  <variable Datatype="String" Name="NormalScheme01">
+    <Value>0009735</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="ProductName1_02" Datatype="String">
+    <Value>CD</Value>
+=======
+  <variable Datatype="String" Name="SpecialScheme01">
+    <Value>0009592</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="ProductName2_02" Datatype="String">
+    <Value>CDD</Value>
+=======
+  <variable Datatype="String" Name="OEM_DealerAuthRequired_Unchecked_02">
+    <Value>SONY QA123</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="ProductName1_03" Datatype="String">
+    <Value>CD</Value>
+=======
+  <variable Datatype="String" Name="OEM_DealerAuthRequired_checked_01">
+    <Value>Panasonic OEM</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="ProductName2_03" Datatype="String">
+    <Value>CDD</Value>
+=======
+  <variable Datatype="String" Name="OEM_DealerAuthRequired_Unchecked_03">
+    <Value>OEM11083108</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="Dealer State4" Datatype="String">
+    <Value>MAHARASHTRA</Value>
+=======
+  <variable Datatype="String" Name="OEM_DealerAuthRequired_Unchecked_04">
+    <Value>OEM11083257</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="Dealer City4" Datatype="String">
+    <Value>PUNE</Value>
+=======
+  <variable Datatype="String" Name="OEM_DealerAuthRequired_Unchecked_05">
+    <Value>OEM11083447</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="Group Dealer Name04" Datatype="String">
+    <Value>Group Shree Nath Electrovision</Value>
+=======
+  <variable Datatype="String" Name="AssetCategory02">
+    <Value>AssCat13062222</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="Dealer Branch4" Datatype="String">
+    <Value>PUNE</Value>
+=======
+  <variable Datatype="String" Name="AssetCategory03">
+    <Value>AssCat13062329</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="Dealer Account Name4" Datatype="String">
+    <Value>QA_Shree Nath Electrovision</Value>
+  </variable>
+  <variable Name="ProductName1_04" Datatype="String">
+    <Value>CD</Value>
+  </variable>
+  <variable Name="ProductName2_04" Datatype="String">
+    <Value>CD</Value>
+  </variable>
+  <variable Name="SpecialScheme04" Datatype="String">
+    <Value>0010432</Value>
+  </variable>
+  <variable Name="AssetCategory01" Datatype="String">
+    <Value>AssCat03083648</Value>
+  </variable>
+  <variable Name="NormalScheme32" Datatype="String">
+    <Value>0010411</Value>
+  </variable>
+  <variable Name="AssetCategory04" Datatype="String">
+=======
+  <variable Datatype="String" Name="AssetCategory04">
+>>>>>>> .r21932
+    <Value>AssCat03084002</Value>
+  </variable>
+  <variable Datatype="String" Name="AssetCategory06">
+    <Value>AssCat03084211</Value>
+  </variable>
+  <variable Datatype="String" Name="AssetCategory07">
+    <Value>AssCat03084316</Value>
+  </variable>
+  <variable Datatype="String" Name="AssetCategory08">
+    <Value>AssCat03084421</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive07">
+    <Value>OEM Asset Category-05015425</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive08">
+    <Value>OEM Asset Category-03085521</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive09">
+    <Value>OEM Asset Category-03085642</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive10">
+    <Value>OEM Asset Category-04084238</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive11">
+    <Value>OEM Asset Category-03085928</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive12">
+    <Value>OEM Asset Category-03090048</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive13">
+    <Value>OEM Asset Category-03090209</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive14">
+    <Value>OEM Asset Category-04084359</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive15">
+    <Value>OEM Asset Category-04084520</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive16">
+    <Value>OEM Asset Category-03090619</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive17">
+    <Value>OEM Asset Category-04084641</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive18">
+    <Value>OEM Asset Category-03090904</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive19">
+    <Value>OEM Asset Category-03091025</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="OemAssetCategoryFeatureName_07" Datatype="String">
+    <Value>OEM Asset Category-04084117 FeatureNm104082317</Value>
+=======
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_07">
+    <Value>OEM Asset Category-04080752 FeatureNm104074713</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_08">
+    <Value>OEM Asset Category-03085521 FeatureNm103082924</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_09">
+    <Value>OEM Asset Category-03085642 FeatureNm103082924</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_10">
+    <Value>OEM Asset Category-04084238 FeatureNm104082317</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_11">
+    <Value>OEM Asset Category-03085928 FeatureNm103082924</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_12">
+    <Value>OEM Asset Category-03090048 FeatureNm103082924</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_13">
+    <Value>OEM Asset Category-03090209 FeatureNm103082924</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_14">
+    <Value>OEM Asset Category-04084359 FeatureNm104082317</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_15">
+    <Value>OEM Asset Category-04084520 FeatureNm104082317</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_16">
+    <Value>OEM Asset Category-03090619 FeatureNm103082924</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_17">
+    <Value>OEM Asset Category-04084641 FeatureNm104082317</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_18">
+    <Value>OEM Asset Category-03090904 FeatureNm103082924</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureName_19">
+    <Value>OEM Asset Category-03091025 FeatureNm103082924</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="OemAssetCategoryFeatureValue_07" Datatype="String">
+    <Value>OEM Asset Category-03085357 FeatureNm103082924 1</Value>
+=======
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_07">
+    <Value>OEM Asset Category-04080752 FeatureNm104074713 1</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_08">
+    <Value>OEM Asset Category-03085521 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_09">
+    <Value>OEM Asset Category-03085642 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_10">
+    <Value>OEM Asset Category-03085803 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_11">
+    <Value>OEM Asset Category-03085928 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_12">
+    <Value>OEM Asset Category-03090048 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_13">
+    <Value>OEM Asset Category-03090209 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_14">
+    <Value>OEM Asset Category-03090329 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_15">
+    <Value>OEM Asset Category-03090454 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_16">
+    <Value>OEM Asset Category-03090619 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_17">
+    <Value>OEM Asset Category-03090739 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_18">
+    <Value>OEM Asset Category-03090904 FeatureNm103082924 1</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryFeatureValue_19">
+    <Value>OEM Asset Category-03091025 FeatureNm103082924 1</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="ProductName1_01" Datatype="String">
+    <Value>CDD</Value>
+=======
+  <variable Datatype="String" Name="Dealer State4">
+    <Value>TAMILNADU</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="ProductName2_01" Datatype="String">
+    <Value>VS</Value>
+=======
+  <variable Datatype="String" Name="Dealer City4">
+    <Value>CHENNAI</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="Group Dealer Name04">
+    <Value>Group Shree Nath Electrovision</Value>
+  </variable>
+  <variable Datatype="String" Name="Dealer Branch4">
+    <Value>CHENNAI</Value>
+  </variable>
+  <variable Datatype="String" Name="Dealer Account Name4">
+    <Value>QA_Shree Nath Electrovision</Value>
+  </variable>
+  <variable Datatype="String" Name="AutomationModel17">
+    <Value>Sansui12043139 - OEM Asset Category-12010938 Rs90000</Value>
+  </variable>
+>>>>>>> .r21932
+<<<<<<< .mine
+  <variable Name="AutomationModel07" Datatype="String">
+    <Value>Sansui07035617 - OEM Asset Category-07034939 Rs90000</Value>
+=======
+  <variable Datatype="String" Name="AutomationModel07">
+    <Value>Sansui05011431 - OEM Asset Category-04080752 Rs50000</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Datatype="String" Name="AutomationModel08">
+    <Value>Sansui03102913 - OEM Asset Category-03085236 Rs90000</Value>
+  </variable>
+  <variable Datatype="String" Name="AutomationModel13">
+    <Value>Sansui03104830 - OEM Asset Category-03084545 Rs90000</Value>
+  </variable>
+  <variable Datatype="String" Name="AutomationModel14">
+    <Value>Sansui03105037 - OEM Asset Category-03085928 Rs90000</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="AutomationModel15" Datatype="String">
+    <Value>Sansui03105245 - OEM Asset Category-03090048 Rs90000</Value>
+  </variable>
+  <variable Name="AutomationModel16" Datatype="String">
+=======
+  <variable Datatype="String" Name="AutomationModel16">
+>>>>>>> .r21932
+    <Value>Sansui03105452 - OEM Asset Category-03090209 Rs90000</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="AutomationModel17" Datatype="String">
+    <Value>Sansui06104933 - OEM Asset Category-04084359 Rs90000</Value>
+  </variable>
+  <variable Name="AutomationModel18" Datatype="String">
+=======
+  <variable Datatype="String" Name="AutomationModel18">
+>>>>>>> .r21932
+    <Value>Sansui06105148 - OEM Asset Category-04084520 Rs90000</Value>
+  </variable>
+  <variable Datatype="String" Name="AutomationModel19">
+    <Value>Sansui03110553 - OEM Asset Category-03090619 Rs90000</Value>
+  </variable>
+  <variable Datatype="String" Name="AutomationModel20">
+    <Value>Sansui03110553 - OEM Asset Category-03090619 Rs90000</Value>
+  </variable>
+  <variable Datatype="String" Name="AutomationModel21">
+    <Value>Sansui03111228 - OEM Asset Category-03090904 Rs90000</Value>
+  </variable>
+  <variable Datatype="String" Name="AutomationModel22">
+    <Value>Sansui03111435 - OEM Asset Category-03091025 Rs90000</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="NormalScheme01" Datatype="String">
+    <Value>0010366</Value>
+=======
+  <variable Datatype="String" Name="AutomationModel15">
+    <Value>Sansui12050804 - OEM Asset Category-12010651 Rs90000</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="NormalScheme02" Datatype="String">
+    <Value>0010367</Value>
+  </variable>
+  <variable Name="NormalScheme03" Datatype="String">
+=======
+  <variable Datatype="String" Name="NormalScheme03">
+>>>>>>> .r21932
+    <Value>0010368</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme04">
+    <Value>0010369</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme06">
+    <Value>0010370</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="NormalScheme07" Datatype="String">
+    <Value>0010371</Value>
+  </variable>
+  <variable Name="NormalScheme08" Datatype="String">
+=======
+  <variable Datatype="String" Name="NormalScheme08">
+>>>>>>> .r21932
+    <Value>0010373</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme09">
+    <Value>0010375</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="NormalScheme11" Datatype="String">
+    <Value>0010377</Value>
+  </variable>
+  <variable Name="NormalScheme12" Datatype="String">
+    <Value>0010379</Value>
+  </variable>
+  <variable Name="NormalScheme13" Datatype="String">
+=======
+  <variable Datatype="String" Name="NormalScheme13">
+>>>>>>> .r21932
+    <Value>0010380</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme14">
+    <Value>0010382</Value>
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="ProductName1_01">
+    <Value>DPF</Value>
+  </variable>
+  <variable Datatype="String" Name="ProductName2_01">
+    <Value>VS</Value>
+  </variable>
+  <variable Datatype="String" Name="ProductName1_02">
+    <Value>CD</Value>
+  </variable>
+  <variable Datatype="String" Name="ProductName2_02">
+    <Value>CDD</Value>
+  </variable>
+  <variable Datatype="String" Name="ProductName1_03">
+    <Value>CD</Value>
+  </variable>
+  <variable Datatype="String" Name="ProductName2_03">
+    <Value>CDD</Value>
+  </variable>
+  <variable Datatype="String" Name="ProductName1_04">
+    <Value>CD</Value>
+  </variable>
+  <variable Datatype="String" Name="ProductName2_04">
+    <Value>VS</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme02">
+    <Value>0009656</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme05">
+    <Value>0009630</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme07">
+    <Value>0009301</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme10">
+    <Value>0009462</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme12">
+    <Value>0009659</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme15">
+    <Value>0009600</Value>
+  </variable>
+>>>>>>> .r21932
+  <variable Datatype="String" Name="NormalScheme16">
+    <Value>0010384</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme17">
+    <Value>0010385</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme18">
+    <Value>0010387</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme19">
+    <Value>0010389</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme20">
+    <Value>0010573</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme21">
+    <Value>0010392</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme22">
+    <Value>0010394</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme23">
+    <Value>0010574</Value>
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="NormalScheme24">
+    <Value>0009637</Value>
+  </variable>
+>>>>>>> .r21932
+  <variable Datatype="String" Name="NormalScheme25">
+    <Value>0010398</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme26">
+    <Value>0010576</Value>
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="NormalScheme27">
+    <Value>0009640</Value>
+  </variable>
+>>>>>>> .r21932
+  <variable Datatype="String" Name="NormalScheme28">
+    <Value>0010404</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme29">
+    <Value>0010405</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme30">
+    <Value>0010408</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme31">
+    <Value>0010409</Value>
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="NormalScheme32">
+    <Value>0009354</Value>
+  </variable>
+>>>>>>> .r21932
+  <variable Datatype="String" Name="NormalScheme33">
+    <Value>0010413</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme34">
+    <Value>0010415</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme35">
+    <Value>0010417</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme36">
+    <Value>0010418</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme37">
+    <Value>0010953</Value>
+  </variable>
+  <variable Datatype="String" Name="NormalScheme38">
+    <Value>0010968</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="NormalScheme41" Datatype="String">
+    <Value>0010427</Value>
+=======
+  <variable Datatype="String" Name="NormalScheme39">
+    <Value>0009644</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="SpecialScheme01" Datatype="String">
+    <Value>0010428</Value>
+=======
+  <variable Datatype="String" Name="NormalScheme40">
+    <Value>0009645</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="NormalScheme41">
+    <Value>0009647</Value>
+  </variable>
+>>>>>>> .r21932
+<<<<<<< .mine
+  <variable Name="SpecialScheme02" Datatype="String">
+    <Value>0010430</Value>
+=======
+  <variable Datatype="String" Name="SpecialScheme02">
+    <Value>0009941</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="SpecialScheme03">
+    <Value>0009942</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme04">
+    <Value>0010022</Value>
+  </variable>
+>>>>>>> .r21932
+<<<<<<< .mine
+  <variable Name="SpecialScheme05" Datatype="String">
+    <Value>0010434</Value>
+=======
+  <variable Datatype="String" Name="SpecialScheme05">
+    <Value>0009943</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="SpecialScheme06" Datatype="String">
+    <Value>0010436</Value>
+=======
+  <variable Datatype="String" Name="SpecialScheme06">
+    <Value>0009944</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="SpecialScheme07" Datatype="String">
+    <Value>0010437</Value>
+=======
+  <variable Datatype="String" Name="SpecialScheme07">
+    <Value>0009945</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="SpecialScheme08">
+    <Value>0009385</Value>
+  </variable>
+>>>>>>> .r21932
+  <variable Datatype="String" Name="SpecialScheme09">
+    <Value>0010439</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme10">
+    <Value>0010440</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme11">
+    <Value>0010442</Value>
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="SpecialScheme12">
+    <Value>0009389</Value>
+  </variable>
+>>>>>>> .r21932
+  <variable Datatype="String" Name="SpecialScheme13">
+    <Value>0010444</Value>
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="SpecialScheme14">
+    <Value>0009391</Value>
+  </variable>
+>>>>>>> .r21932
+  <variable Datatype="String" Name="SpecialScheme15">
+    <Value>0010446</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme16">
+    <Value>0010448</Value>
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="SpecialScheme19">
+    <Value>0009946</Value>
+  </variable>
+>>>>>>> .r21932
+  <variable Datatype="String" Name="SpecialScheme20">
+    <Value>0010454</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme21">
+    <Value>0010456</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme22">
+    <Value>0010458</Value>
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="SpecialScheme23">
+    <Value>0009398</Value>
+  </variable>
+>>>>>>> .r21932
+  <variable Datatype="String" Name="SpecialScheme24">
+    <Value>0010459</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme25">
+    <Value>0010461</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme26">
+    <Value>0010462</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme27">
+    <Value>0010464</Value>
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="SpecialScheme28">
+    <Value>0009434</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme29">
+    <Value>0009947</Value>
+  </variable>
+>>>>>>> .r21932
+<<<<<<< .mine
+  <variable Name="SpecialScheme30" Datatype="String">
+    <Value>0010467</Value>
+=======
+  <variable Datatype="String" Name="SpecialScheme30">
+    <Value>0009948</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="SpecialScheme31" Datatype="String">
+    <Value>0010468</Value>
+=======
+  <variable Datatype="String" Name="SpecialScheme31">
+    <Value>0009949</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme32">
+    <Value>0010470</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="SpecialScheme33" Datatype="String">
+    <Value>0010472</Value>
+=======
+  <variable Datatype="String" Name="SpecialScheme33">
+    <Value>0009950</Value>
+>>>>>>> .r21932
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme34">
+    <Value>0010474</Value>
+  </variable>
+  <variable Datatype="String" Name="SpecialScheme35">
+    <Value>0010476</Value>
+  </variable>
+<<<<<<< .mine
+=======
+  <variable Datatype="String" Name="NormalScheme11">
+    <Value>0009596</Value>
+  </variable>
+>>>>>>> .r21932
+  <variable Datatype="String" Name="TenureFromTicketSizeMaster">
+    <Value>9</Value>
+  </variable>
+<<<<<<< .mine
+  <variable Name="OEM_DealerAuthRequired_Unchecked_04" Datatype="String">
+    <Value>OEM11083257</Value>
+=======
+  <variable Datatype="String" Name="Day of the week">
+    <Value>Saturday</Value>
+>>>>>>> .r21932
+  </variable>
+<<<<<<< .mine
+  <variable Name="OEM_DealerAuthRequired_checked_01" Datatype="String">
+    <Value>Panasonic OEM</Value>
+  </variable>
+  <variable Name="OEM_DealerAuthRequired_Unchecked_05" Datatype="String">
+    <Value>OEM11083447</Value>
+  </variable>
+  <variable Name="OEM_DealerAuthRequired_Unchecked_03" Datatype="String">
+    <Value>OEM11083108</Value>
+  </variable>
+  <variable Name="OEM_DealerAuthRequired_Unchecked_02" Datatype="String">
+    <Value>SONY QA123</Value>
+  </variable>
+  <variable Name="NormalScheme24" Datatype="String">
+    <Value>0010575</Value>
+  </variable>
+  <variable Name="NormalScheme27" Datatype="String">
+    <Value>0010577</Value>
+  </variable>
+  <variable Name="NormalScheme39" Datatype="String">
+    <Value>0010969</Value>
+  </variable>
+  <variable Name="NormalScheme40" Datatype="String">
+    <Value>0010970</Value>
+  </variable>
+  <variable Name="SpecialScheme03" Datatype="String">
+    <Value>0010971</Value>
+  </variable>
+  <variable Name="SpecialScheme19" Datatype="String">
+    <Value>0010609</Value>
+  </variable>
+  <variable Name="SpecialScheme28" Datatype="String">
+    <Value>0010615</Value>
+  </variable>
+  <variable Name="SpecialScheme29" Datatype="String">
+    <Value>0010973</Value>
+  </variable>
+  <variable Name="NormalScheme05" Datatype="String">
+    <Value>0010568</Value>
+  </variable>
+  <variable Name="NormalScheme10" Datatype="String">
+    <Value>0010570</Value>
+  </variable>
+  <variable Name="NormalScheme15" Datatype="String">
+    <Value>0010572</Value>
+  </variable>
+  <variable Name="SpecialScheme08" Datatype="String">
+    <Value>0010602</Value>
+  </variable>
+  <variable Name="SpecialScheme12" Datatype="String">
+    <Value>0010605</Value>
+  </variable>
+  <variable Name="SpecialScheme23" Datatype="String">
+    <Value>0010612</Value>
+  </variable>
+  <variable Name="SpecialScheme14" Datatype="String">
+    <Value>0010972</Value>
+  </variable>
+</EnvironmentVariables>=======
+  <variable Datatype="String" Name="DateOfBirth">
+    <Value>18/1/1985</Value>
+  </variable>
+  <variable Datatype="String" Name="PAN_NO">
+    <Value>2018</Value>
+  </variable>
+  <variable Datatype="String" Name="OemAssetCategoryActive5">
+    <Value>OEM Asset Category-04080503</Value>
+  </variable>
+<variable Datatype="String" Name="AssetCategory4"><Value>AssCat04075519</Value></variable><variable Datatype="String" Name="AssetCategory6"><Value>AssCat04075734</Value></variable><variable Datatype="String" Name="AssetCategory7"><Value>AssCat04075842</Value></variable><variable Datatype="String" Name="OemAssetCategoryActive4"><Value>OEM Asset Category-04080339</Value></variable><variable Datatype="String" Name="OemAssetCategoryActive6"><Value>OEM Asset Category-04080628</Value></variable><variable Datatype="String" Name="OemAssetCategoryActive7"><Value>OEM Asset Category-04080752</Value></variable><variable Datatype="String" Name=""><Value/></variable><variable Datatype="String" Name="Group Dealer Name2"><Value>Group G2</Value></variable><variable Datatype="String" Name="Account_Name_02"><Value>Hyco Electronics</Value></variable><variable Datatype="String" Name="Group Dealer Name3"><Value>Group NEW HOLLYWOOD MOBILE QA</Value></variable><variable Datatype="String" Name="Account_Name_03"><Value>CREDO BRANDS MKTG PVT LTD #COMMERCIAL STREET#MUFTI</Value></variable><variable Datatype="String" Name="Group Dealer Name4"><Value>Group GUNJAN RADIOS</Value></variable><variable Datatype="String" Name="Account_Name_04"><Value>QA_GUNJAN RADIOS</Value></variable><variable Datatype="String" Name="InsuranceName9"><Value>INS/LSM/SA-40000/T-5/P-2000</Value></variable><variable Datatype="String" Name="InsuranceName10"><Value>INS/GCPP/SA-40000/T-5/P-2000</Value></variable><variable Datatype="String" Name="InsuranceName11"><Value>INS/LPA/SA-40000/T-5/P-2000</Value></variable><variable Datatype="String" Name="InsuranceName13"><Value>EW/EWP/T-5/P-2000</Value></variable><variable Datatype="String" Name="InsuranceName15"><Value>INS/LSM/SA-40000/T-5/P-2000</Value></variable><variable Datatype="String" Name="InsuranceName16"><Value>INS/GCPP/SA-40000/T-5/P-2000</Value></variable><variable Datatype="String" Name="InsuranceName17"><Value>INS/LPA/SA-40000/T-5/P-2000</Value></variable></EnvironmentVariables>>>>>>>> .r21932

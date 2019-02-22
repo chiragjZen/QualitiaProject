@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenfer-Add Family Details For Nominee" Desc="FD Challenfer-Add Family Details For Nominee" TaskID="28932ba483e042f3a61f01d233f50111" Path="FD Challenfer-Add Family Details For Nominee.XML">
+  <Step StepId="7" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="2" ObjectId="4ac91b7356b2493caff709aa83c2ae0a" ObjectName="SaveButton_Select Dealer" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Nominee Relationship &quot;" ParamSeq="1" Parameterized="0" Data="Nominee Relationship ">
+    </Param>
+    <Param Name="Nominee Relationship" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="4" ObjectId="66dcfc4255bf482f9d6de252bb82f912" ObjectName="Nominee Relationship-FD" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Nominee Relationship" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="5" ObjectId="b7d86e8cf2fb41ccbe0ce44dbbb29a0d" ObjectName="Nominee Communication Required-Checkbox" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="5" stepSeq="6" ObjectId="4ac91b7356b2493caff709aa83c2ae0a" ObjectName="SaveButton_Select Dealer" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

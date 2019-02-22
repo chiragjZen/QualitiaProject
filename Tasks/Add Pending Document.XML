@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Add Pending Document" Desc="Add Pending Document" TaskID="2e49af3a4e0c45afbbeceebd660e5b66" Path="Add Pending Document.XML">
+  <Step StepId="4" stepSeq="1" ObjectId="1efec2c531334635bb58db3e520f9466" ObjectName="click on customer link" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="2" ObjectId="1efec2c531334635bb58db3e520f9466" ObjectName="click on customer link" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="5" stepSeq="3" ObjectId="efc86bb75ca1460585800e32605cf14a" ObjectName="Document Lib." ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="4" ObjectId="efc86bb75ca1460585800e32605cf14a" ObjectName="Document Lib." ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="6bf71f769859478b83df72bf4ef31b3a" ActionName="SetFocus" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="8" stepSeq="5" ObjectId="efc86bb75ca1460585800e32605cf14a" ObjectName="Document Lib." ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="25" stepSeq="6" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;4&quot;" ParamSeq="1" Parameterized="0" Data="4">
+    </Param>
+  </Step>
+  <Step StepId="57" stepSeq="7" ObjectId="4ac91b7356b2493caff709aa83c2ae0a" ObjectName="SaveButton_Select Dealer" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="8" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="5318982b2ada48f8b1333c3c11980bcc" ActionName="CustomAttachFile" QClass="AttachFileAction" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;//span[text()=&quot;Upload Files&quot;]&quot;" ParamSeq="1" Parameterized="0" Data="//span[text()=&quot;Upload Files&quot;]">
+    </Param>
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\Application_Issue.png&quot;" ParamSeq="2" Parameterized="0" Data="{ProjectPath}\ExternalFiles\Application_Issue.png">
+    </Param>
+  </Step>
+  <Step StepId="53" stepSeq="9" ObjectId="0a4a9b189e0b49f8bd217f5d5ebfb575" ObjectName="Customer Photo" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="56ad612eacd949e3b383f5fcf756c3c3" ActionName="StoreExistence" QClass="com.webdriverfw.Wrappers.WebCheckbox" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;CustomerExistance&quot;" ParamSeq="1" Parameterized="0" Data="CustomerExistance">
+    </Param>
+  </Step>
+  <Step StepId="51" stepSeq="10" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{CustomerExistance}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="11" ObjectId="0a4a9b189e0b49f8bd217f5d5ebfb575" ObjectName="Customer Photo" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="f0d70168d9f0450d970e71ad544ab118" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="51" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="12" ObjectId="0a4a9b189e0b49f8bd217f5d5ebfb575" ObjectName="Customer Photo" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="913640807f4d44289f1c8fa83e360d18" ActionName="Check" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="51" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="52" stepSeq="13" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="51" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="59" stepSeq="14" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Filetype}&quot;==&quot;physical&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="58" stepSeq="15" ObjectId="4ac91b7356b2493caff709aa83c2ae0a" ObjectName="SaveButton_Select Dealer" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="59" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="61" stepSeq="16" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="59" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="62" stepSeq="17" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="e0e32138e8f24f01baca0ed0454a6f71" ActionName="RefreshPage" QClass="com.webdriverfw.Wrappers.General" ParentID="59" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="60" stepSeq="18" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="59" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="27" stepSeq="19" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;10&quot;" ParamSeq="1" Parameterized="0" Data="10">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="20" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;count&quot;" ParamSeq="1" Parameterized="0" Data="count">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="2" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="21" ObjectId="b37798a2c262482d8aed83743d5bb50f" ObjectName="Form_Type" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="CustomerPhoto_FormType" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="63" stepSeq="22" ObjectId="26fd1d7365574ab18f70f98e0c683f91" ObjectName="ECS Mandate-document" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="f0d70168d9f0450d970e71ad544ab118" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="23" ObjectId="26fd1d7365574ab18f70f98e0c683f91" ObjectName="ECS Mandate-document" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="913640807f4d44289f1c8fa83e360d18" ActionName="Check" QClass="com.webdriverfw.Wrappers.WebCheckbox" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="14" stepSeq="24" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;count&quot;" ParamSeq="1" Parameterized="0" Data="count">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="2" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="25" ObjectId="b37798a2c262482d8aed83743d5bb50f" ObjectName="Form_Type" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="ECSMandate_FormType" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="26" ObjectId="a99b0178784344ebb9f72a37e0032456" ObjectName="Invoice-document" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="913640807f4d44289f1c8fa83e360d18" ActionName="Check" QClass="com.webdriverfw.Wrappers.WebCheckbox" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="17" stepSeq="27" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;count&quot;" ParamSeq="1" Parameterized="0" Data="count">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="2" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="28" ObjectId="b37798a2c262482d8aed83743d5bb50f" ObjectName="Form_Type" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Invoice_FormType" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="29" ObjectId="7125cc318f084cf6b1e03428d5dc12eb" ObjectName="Cancelled cheque-document" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="56ad612eacd949e3b383f5fcf756c3c3" ActionName="StoreExistence" QClass="com.webdriverfw.Wrappers.WebCheckbox" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;CancelledchequeExistance&quot;" ParamSeq="1" Parameterized="0" Data="CancelledchequeExistance">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="30" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{CancelledchequeExistance}&quot;==&quot;true&quot;&amp;&amp;&quot;{NewCustomerCreationRequired_Yes/No}&quot;==&quot;Yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="31" ObjectId="7125cc318f084cf6b1e03428d5dc12eb" ObjectName="Cancelled cheque-document" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="913640807f4d44289f1c8fa83e360d18" ActionName="Check" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="33" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="28" stepSeq="32" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="33" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;count&quot;" ParamSeq="1" Parameterized="0" Data="count">
+    </Param>
+    <Param Name="&quot;4&quot;" ParamSeq="2" Parameterized="0" Data="4">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="33" ObjectId="b37798a2c262482d8aed83743d5bb50f" ObjectName="Form_Type" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ParentID="33" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Cancelled cheque_FormType" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="34" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="33" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="64" stepSeq="35" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;CreditCardExistance&quot;" ParamSeq="1" Parameterized="0" Data="CreditCardExistance">
+    </Param>
+    <Param Name="CreditCardDocsUpload-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="48" stepSeq="36" ObjectId="a3f722dd225b46e5aa5e7b1565759fbe" ObjectName="Credit Card Form-Document" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="56ad612eacd949e3b383f5fcf756c3c3" ActionName="StoreExistence" QClass="com.webdriverfw.Wrappers.WebCheckbox" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;CreditCardExistance&quot;" ParamSeq="1" Parameterized="0" Data="CreditCardExistance">
+    </Param>
+  </Step>
+  <Step StepId="43" stepSeq="37" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{CreditCardExistance}&quot;==&quot;yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="47" stepSeq="38" ObjectId="a3f722dd225b46e5aa5e7b1565759fbe" ObjectName="Credit Card Form-Document" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="913640807f4d44289f1c8fa83e360d18" ActionName="Check" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="43" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="41" stepSeq="39" ObjectId="0cce5ee9b7a24eff869e84022a2787a0" ObjectName="Credit card Form Type" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ParentID="43" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Credit Card Form Type" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="44" stepSeq="40" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="43" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="56" stepSeq="41" ObjectId="a29a89abbffe48f58f3e6a2d56f59a14" ObjectName="LTS / Cross Sell-document" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="56ad612eacd949e3b383f5fcf756c3c3" ActionName="StoreExistence" QClass="com.webdriverfw.Wrappers.WebCheckbox" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;LTSExistance&quot;" ParamSeq="1" Parameterized="0" Data="LTSExistance">
+    </Param>
+  </Step>
+  <Step StepId="54" stepSeq="42" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{LTSExistance}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="38" stepSeq="43" ObjectId="a29a89abbffe48f58f3e6a2d56f59a14" ObjectName="LTS / Cross Sell-document" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="913640807f4d44289f1c8fa83e360d18" ActionName="Check" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="54" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="39" stepSeq="44" ObjectId="eac79da1dba645b38f904200189630c0" ObjectName="LTS form type" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ParentID="54" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="LTS/Cross_Sell_FormType" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="55" stepSeq="45" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="54" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="23" stepSeq="46" ObjectId="4ac91b7356b2493caff709aa83c2ae0a" ObjectName="SaveButton_Select Dealer" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="24" stepSeq="47" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+</Task>

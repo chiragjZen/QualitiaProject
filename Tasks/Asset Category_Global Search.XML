@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Asset Category_Global Search" Desc="Asset Category_Global Search" TaskID="18dfd46ba6a1433191f5ba5bc6f2819c" Path="Asset Category_Global Search.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="81247dbb7d094d94bc03d470f649e964" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;AssetName&quot;" ParamSeq="1" Parameterized="0" Data="AssetName">
+    </Param>
+    <Param Name="AssetName to be searched" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;OemAssetCategoryActive&quot;" ParamSeq="1" Parameterized="0" Data="OemAssetCategoryActive">
+    </Param>
+    <Param Name="OEMAssetName to be searched" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="4" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{AssetName}&quot;" ParamSeq="1" Parameterized="0" Data="{AssetName}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="5" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{OemAssetCategoryActive}&quot;" ParamSeq="1" Parameterized="0" Data="{OemAssetCategoryActive}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="6" ObjectId="2879e45d273f4ce1889f9ad074e4a644" ObjectName="Asset to be searched" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="7" ObjectId="61226a151aa84c9a9636c73a12f80a34" ObjectName="OEM AssetCategory to be searched" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="8" ObjectId="2879e45d273f4ce1889f9ad074e4a644" ObjectName="Asset to be searched" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="12" stepSeq="9" ObjectId="61226a151aa84c9a9636c73a12f80a34" ObjectName="OEM AssetCategory to be searched" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="3" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+</Task>

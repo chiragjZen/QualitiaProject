@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="OEM Asset Category Feature Values-CreateEdit" Desc="OEM Asset Category Feature Values-CreateEdit" TaskID="1f1c809f8e2242ee94869b920685c751" Path="OEM Asset Category Feature Values-CreateEdit.XML">
+  <Step StepId="6" stepSeq="1" ObjectId="bb66c87bd8a64ad38290287fc2c81adb" ObjectName="Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="3" ObjectId="b780fd9787694e90b1509c2891b545b3" ObjectName="Information Heading-Feature Value Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="2" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;OEM Asset Category Feature&quot;" ParamSeq="1" Parameterized="0" Data="OEM Asset Category Feature">
+    </Param>
+    <Param Name="OEM Asset Category Feature" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;labelName&quot;" ParamSeq="1" Parameterized="0" Data="labelName">
+    </Param>
+    <Param Name="&quot;Feature Value&quot;" ParamSeq="2" Parameterized="0" Data="Feature Value">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;labelValue&quot;" ParamSeq="1" Parameterized="0" Data="labelValue">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="2" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="7" ObjectId="1116b1a6761a4a45872dfed098fb7a40" ObjectName="Feature Value-2" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="8" ObjectId="1116b1a6761a4a45872dfed098fb7a40" ObjectName="Feature Value-2" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Backspace&quot;" ParamSeq="1" Parameterized="0" Data="Backspace">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="9" ObjectId="4499d23560534d68a3854ad5b12661df" ObjectName="LookUpValue Populated" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="27172492b94211e7a426c85b76dc4d92" ActionName="ClickJS" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="3" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Feature Value&quot;" ParamSeq="1" Parameterized="0" Data="Feature Value">
+    </Param>
+    <Param Name="Feature Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Applicable Value Name&quot;" ParamSeq="1" Parameterized="0" Data="Applicable Value Name">
+    </Param>
+    <Param Name="Applicable Value Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Is Active&quot;" ParamSeq="1" Parameterized="0" Data="Is Active">
+    </Param>
+    <Param Name="Is Active" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Created-Feature Value&quot;" ParamSeq="1" Parameterized="0" Data="Created-Feature Value">
+    </Param>
+    <Param Name="Created-Feature Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="15" ObjectId="bb66c87bd8a64ad38290287fc2c81adb" ObjectName="Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="17" stepSeq="16" ObjectId="1779f49ca8114f4b9ebd9dc99407fda2" ObjectName="Success Message" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

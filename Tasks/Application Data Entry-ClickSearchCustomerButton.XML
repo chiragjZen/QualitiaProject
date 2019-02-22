@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Application Data Entry-ClickSearchCustomerButton" Desc="Application Data Entry-ClickSearchCustomerButton" TaskID="6051c369c668436c88f317ffb95c036c" Path="Application Data Entry-ClickSearchCustomerButton.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="2736260420104c2485b0a3ae6f68160b" ObjectName="Search Customer_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;30&quot;" ParamSeq="1" Parameterized="0" Data="30">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="2736260420104c2485b0a3ae6f68160b" ObjectName="Search Customer_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

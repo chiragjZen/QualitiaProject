@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger- Log Discrepancy" Desc="FD Challenger- Log Discrepancy" TaskID="59d12b943e3c45cbbf1ca3d91eeca666" Path="FD Challenger- Log Discrepancy.XML">
+  <Step StepId="4" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;LogDiscrepancy-Add-Yes/No&quot;" ParamSeq="1" Parameterized="0" Data="LogDiscrepancy-Add-Yes/No">
+    </Param>
+    <Param Name="LogDiscrepancy-Add-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{LogDiscrepancy-Add-Yes/No}&quot;" ParamSeq="1" Parameterized="0" Data="{LogDiscrepancy-Add-Yes/No}">
+    </Param>
+    <Param Name="&quot;LogDiscrepancy-Add-Yes/No&quot;" ParamSeq="2" Parameterized="0" Data="LogDiscrepancy-Add-Yes/No">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="3" ObjectId="536b36e587334d8e976621d19dd28f5d" ObjectName="Add New" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{LogDiscrepancy-Add-Yes/No}&quot;==&quot;yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="5" ObjectId="536b36e587334d8e976621d19dd28f5d" ObjectName="Add New" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="10" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="17" stepSeq="6" ObjectId="ce286be83346475990e80e69df11480e" ObjectName="Save Button-FD" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="10" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="10" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="10" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Discrepancy Type&quot;" ParamSeq="1" Parameterized="0" Data="Discrepancy Type">
+    </Param>
+    <Param Name="Discrepancy Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="10" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Status&quot;" ParamSeq="1" Parameterized="0" Data="Status">
+    </Param>
+    <Param Name="Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="10" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Originator Remark&quot;" ParamSeq="1" Parameterized="0" Data="Originator Remark">
+    </Param>
+    <Param Name="Originator Remark" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="10" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Resolver Remark&quot;" ParamSeq="1" Parameterized="0" Data="Resolver Remark">
+    </Param>
+    <Param Name="Resolver Remark" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="12" ObjectId="ce286be83346475990e80e69df11480e" ObjectName="Save Button-FD" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="10" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="24" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="10" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="10" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="7" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;File Acceptance Status&quot;" ParamSeq="1" Parameterized="0" Data="File Acceptance Status">
+    </Param>
+    <Param Name="File Acceptance Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{File Acceptance Status}&quot;==&quot;Hold&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="17" ObjectId="5b0e247c2ed24cfe8555ae036bfbe33f" ObjectName="Submit Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="29" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="36" stepSeq="18" ObjectId="5b0e247c2ed24cfe8555ae036bfbe33f" ObjectName="Submit Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="29" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="37" stepSeq="19" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="20" ObjectId="" ObjectTypeId="" ActionId="dd3f2301a40f422cbcac90bb678fa6d9" ActionName="AcceptDialogAndStoreMessage" QClass="com.webdriverfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;AlertMessage&quot;" ParamSeq="1" Parameterized="0" Data="AlertMessage">
+    </Param>
+  </Step>
+  <Step StepId="32" stepSeq="21" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{AlertMessage}&quot;" ParamSeq="1" Parameterized="0" Data="{AlertMessage}">
+    </Param>
+    <Param Name="&quot;Are you sure to submit application to Sales?&quot;" ParamSeq="2" Parameterized="0" Data="Are you sure to submit application to Sales?">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="22" ObjectId="3d6f4e3022954ccd9722de993f825a50" ObjectName="Close this window" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="29" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="34" stepSeq="23" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="38" stepSeq="24" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{File Acceptance Status}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="41" stepSeq="25" ObjectId="5b0e247c2ed24cfe8555ae036bfbe33f" ObjectName="Submit Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="38" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="40" stepSeq="26" ObjectId="5b0e247c2ed24cfe8555ae036bfbe33f" ObjectName="Submit Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="38" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="39" stepSeq="27" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="38" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="28" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Complete Application Data Entry" Desc="Complete Application Data Entry" TaskID="659fe81b68d042cc9a819d089e018ee0" Path="Complete Application Data Entry.XML">
+  <Step StepId="18" stepSeq="1" ObjectId="438f6e35a3244f29aaf741f15086abe4" ObjectName="Show more actions" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="2" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Username}&quot;==&quot;sca03@bfl.com&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="3" ObjectId="d5009c9fe89d434db5b5a1be00d8dda2" ObjectName="C KYC" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="32" stepSeq="4" ObjectId="d5009c9fe89d434db5b5a1be00d8dda2" ObjectName="C KYC" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;XpathCount&quot;" ParamSeq="1" Parameterized="0" Data="XpathCount">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="5" ObjectId="d5009c9fe89d434db5b5a1be00d8dda2" ObjectName="C KYC" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="5" stepSeq="6" ObjectId="c10e49538fb2487884d9149e94399ea5" ObjectName="Complete Application Data Entry" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="20" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="7" ObjectId="c10e49538fb2487884d9149e94399ea5" ObjectName="Complete Application Data Entry" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="20" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;XpathCount&quot;" ParamSeq="1" Parameterized="0" Data="XpathCount">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="8" ObjectId="c10e49538fb2487884d9149e94399ea5" ObjectName="Complete Application Data Entry" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="20" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="22" stepSeq="9" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="20" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="26" stepSeq="10" ObjectId="438f6e35a3244f29aaf741f15086abe4" ObjectName="Show more actions" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="22" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="30" stepSeq="11" ObjectId="d5009c9fe89d434db5b5a1be00d8dda2" ObjectName="C KYC" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="22" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="12" ObjectId="d5009c9fe89d434db5b5a1be00d8dda2" ObjectName="C KYC" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="22" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;XpathCount&quot;" ParamSeq="1" Parameterized="0" Data="XpathCount">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="13" ObjectId="d5009c9fe89d434db5b5a1be00d8dda2" ObjectName="C KYC" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="22" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="25" stepSeq="14" ObjectId="c10e49538fb2487884d9149e94399ea5" ObjectName="Complete Application Data Entry" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="22" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="15" ObjectId="c10e49538fb2487884d9149e94399ea5" ObjectName="Complete Application Data Entry" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="22" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;XpathCount&quot;" ParamSeq="1" Parameterized="0" Data="XpathCount">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="16" ObjectId="c10e49538fb2487884d9149e94399ea5" ObjectName="Complete Application Data Entry" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="22" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="21" stepSeq="17" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="20" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="3" stepSeq="18" ObjectId="bb66c87bd8a64ad38290287fc2c81adb" ObjectName="Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="19" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Vehicle Type&quot;" ParamSeq="1" Parameterized="0" Data="Vehicle Type">
+    </Param>
+    <Param Name="Vehicle Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="20" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Vehicle Registration Number&quot;" ParamSeq="1" Parameterized="0" Data="Vehicle Registration Number">
+    </Param>
+    <Param Name="Vehicle Registration Number" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="21" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Father's Name&quot;" ParamSeq="1" Parameterized="0" Data="Father's Name">
+    </Param>
+    <Param Name="Father's Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="22" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Mother's Name&quot;" ParamSeq="1" Parameterized="0" Data="Mother's Name">
+    </Param>
+    <Param Name="Mother's Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="23" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Office Address Line 1&quot;" ParamSeq="1" Parameterized="0" Data="Office Address Line 1">
+    </Param>
+    <Param Name="Office Address Line 1" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="24" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Office Address Line 2&quot;" ParamSeq="1" Parameterized="0" Data="Office Address Line 2">
+    </Param>
+    <Param Name="Office Address Line 2" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="25" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Office Address Line 3&quot;" ParamSeq="1" Parameterized="0" Data="Office Address Line 3">
+    </Param>
+    <Param Name="Office Address Line 3" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="26" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Office Area/Locality&quot;" ParamSeq="1" Parameterized="0" Data="Office Area/Locality">
+    </Param>
+    <Param Name="Office Area/Locality" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="27" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Office Pincode&quot;" ParamSeq="1" Parameterized="0" Data="Office Pincode">
+    </Param>
+    <Param Name="Office Pincode" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="28" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Preferred Mailing Address&quot;" ParamSeq="1" Parameterized="0" Data="Preferred Mailing Address">
+    </Param>
+    <Param Name="Preferred Mailing Address" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="29" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Office Phone No.&quot;" ParamSeq="1" Parameterized="0" Data="Office Phone No.">
+    </Param>
+    <Param Name="Office Phone No." ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="30" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Alternate No.&quot;" ParamSeq="1" Parameterized="0" Data="Alternate No.">
+    </Param>
+    <Param Name="Alternate No." ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="31" ObjectName="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectTypeId="">
+    <Param Name="&quot;Name on Card&quot;" ParamSeq="1" Parameterized="0" Data="Name on Card">
+    </Param>
+    <Param Name="Name on Card" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="32" ObjectId="bb66c87bd8a64ad38290287fc2c81adb" ObjectName="Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

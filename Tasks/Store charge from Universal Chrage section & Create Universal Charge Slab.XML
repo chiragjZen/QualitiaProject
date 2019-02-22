@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Store charge from Universal Chrage section &amp; Create Universal Charge Slab" Desc="Store charge from Universal Chrage section &amp; Create Universal Charge Slab" TaskID="0ab37ce722d64784a05df441e05a3421" Path="Store charge from Universal Chrage section &amp; Create Universal Charge Slab.XML">
+  <Step StepId="16" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="32" stepSeq="2" ObjectId="eb93dfb744f542789966fcd65ebb7ebe" ObjectName="Related Lists" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="33" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="4" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="6" ObjectId="fb9af459cd0f4c1b8c409a895edd55c4" ObjectName="User_Logout_Img" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="31" stepSeq="7" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;TAB&quot;" ParamSeq="1" Parameterized="0" Data="TAB">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="8" ObjectId="ecb1c624a54749cba7698b40e3164c4b" ObjectName="View All-Scheme" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="9" ObjectId="ecb1c624a54749cba7698b40e3164c4b" ObjectName="View All-Scheme" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="15" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="11" ObjectId="cd782f39369b4bb78bb06e8e7cb3287a" ObjectName="Charge Created-Count -Universal Charge" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;CreatedChargeCount&quot;" ParamSeq="1" Parameterized="0" Data="CreatedChargeCount">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="12" ObjectId="1f7805e861a14a6ea702c578e0c72bf1" ObjectName="Created Universal Charge Name" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="13" ObjectId="1f7805e861a14a6ea702c578e0c72bf1" ObjectName="Created Universal Charge Name" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ChargeName-Universal&quot;" ParamSeq="1" Parameterized="0" Data="ChargeName-Universal">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="14" ObjectId="6ce8f268cd0f42a8962d347bf38ba8ae" ObjectName="scheme code-Universal Charge page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="8" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="16" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="17" ObjectId="c540ec5feffa42528888e1818b947303" ObjectName="New Btn-Universal Charge Slab" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="18" ObjectId="c540ec5feffa42528888e1818b947303" ObjectName="New Btn-Universal Charge Slab" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="28" stepSeq="19" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="20" ObjectId="4be4ebbcc39241d686ebabc1fe862524" ObjectName="Minimum Amount-Universal Charge Slab" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Minimum Amount" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="27" stepSeq="21" ObjectId="12e40bc507c04fb0bdede785a41ac7c3" ObjectName="Maximum Amount-Universal Slab" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Maximum Amount" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="22" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Slab Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Slab Charge Amount">
+    </Param>
+    <Param Name="Slab Charge Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="23" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Slab Charge Rate&quot;" ParamSeq="1" Parameterized="0" Data="Slab Charge Rate">
+    </Param>
+    <Param Name="Slab Charge Rate" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="24" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Higher or Lower&quot;" ParamSeq="1" Parameterized="0" Data="Higher or Lower">
+    </Param>
+    <Param Name="Higher or Lower" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="25" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge&quot;" ParamSeq="1" Parameterized="0" Data="Charge">
+    </Param>
+    <Param Name="&quot;{ChargeName-Universal}&quot;" ParamSeq="2" Parameterized="0" Data="{ChargeName-Universal}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="26" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Is Active&quot;" ParamSeq="1" Parameterized="0" Data="Is Active">
+    </Param>
+    <Param Name="Is Active" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="27" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="30" stepSeq="28" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+</Task>

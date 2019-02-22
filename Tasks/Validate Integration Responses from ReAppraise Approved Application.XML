@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Validate Integration Responses from ReAppraise Approved Application" Desc="Validate Integration Responses from ReAppraise Approved Application" TaskID="657ee0d2429145088af288d943f1a423" Path="Validate Integration Responses from ReAppraise Approved Application.XML">
+  <Step StepId="6" stepSeq="1" ObjectId="b7173b099e0d493588ae30699187603b" ObjectName="CIBIL AppScore Response-INTEGRATION RESPONSE NAME" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="2" ObjectId="23285ea1126d4e59a63312aa2a8786dc" ObjectName="DeDupe Response-INTEGRATION RESPONSE NAME" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="3" ObjectId="467d396f76b449f5ad6a427961996fde" ObjectName="CIBIL AppScore Response-Reappraisal" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="4" ObjectId="e3d83495ba3946989ef32c390af1397d" ObjectName="DeDupe Response-Reappraisal" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

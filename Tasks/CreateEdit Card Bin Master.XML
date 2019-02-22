@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Card Bin-CreateEdit" Desc="Create/Edit Card Bin Master" TaskID="1178308382b54170b287bd64772862ac" Path="CreateEdit Card Bin Master.XML">
+  <Step StepId="9" stepSeq="1" ObjectId="9f9fdd0242c54119949cb26f14bebd10" ObjectName="Save_Btn" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="976d3ef33eb64113ae787936a7edac89" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="2" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="3" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="6a8fd35c4ae14c8094c4b3a963b3da58" ActionName="StoreCurrentDateInFormat" QClass="com.webdriverfw.Wrappers.General" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;yyyyss&quot;" ParamSeq="1" Parameterized="0" Data="yyyyss">
+    </Param>
+    <Param Name="&quot;BinNumber&quot;" ParamSeq="2" Parameterized="0" Data="BinNumber">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Name&quot;" ParamSeq="1" Parameterized="0" Data="Name">
+    </Param>
+    <Param Name="Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="5" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Bank Name&quot;" ParamSeq="1" Parameterized="0" Data="Bank Name">
+    </Param>
+    <Param Name="Bank Name*" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="6" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Card Type&quot;" ParamSeq="1" Parameterized="0" Data="Card Type">
+    </Param>
+    <Param Name="Card Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="7" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Bin Number&quot;" ParamSeq="1" Parameterized="0" Data="Bin Number">
+    </Param>
+    <Param Name="Bin Number" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="8" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;IsActive&quot;" ParamSeq="1" Parameterized="0" Data="IsActive">
+    </Param>
+    <Param Name="IsActive" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="9" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Is Negative BIN&quot;" ParamSeq="1" Parameterized="0" Data="Is Negative BIN">
+    </Param>
+    <Param Name="Is Negative BIN" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="10" ObjectId="9f9fdd0242c54119949cb26f14bebd10" ObjectName="Save_Btn" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="10" stepSeq="11" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+</Task>

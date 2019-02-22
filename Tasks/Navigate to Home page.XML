@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Navigate to Home page" Desc="Navigate to Home page" TaskID="b015fe6080b64027af160cb21b23da96" Path="Navigate to Home page.XML">
+  <Step StepId="4" stepSeq="1" ObjectId="d52574d5e50147218bcf8dc4f04429a3" ObjectName="Home" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="5" stepSeq="2" ObjectId="5c6fcfafee944ec6b8c473235fb750ca" ObjectName="click on Search Customer" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

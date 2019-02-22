@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EnvironmentVariables>
+  <variable Name="waitTime" Datatype="String">
+    <Value>35</Value>
+  </variable>
+  <variable Name="ProjectPath" Datatype="String">
+    <Value>D:\Bajaj\POS_Reinvent_projectdb\ExternalFiles</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive05" Datatype="String">
+    <Value>OEM Asset Category-19022317</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive04" Datatype="String">
+    <Value>OEM Asset Category-19022148</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive03" Datatype="String">
+    <Value>OEM Asset Category-19022007</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive" Datatype="String">
+    <Value>OEM Asset Category-22090028</Value>
+  </variable>
+  <variable Name="OEM Name" Datatype="String">
+    <Value>SONY QA123</Value>
+  </variable>
+  <variable Name="Group Dealer-Name" Datatype="String">
+    <Value>Reliance Digital</Value>
+  </variable>
+  <variable Name="GenFeatureValue_01" Datatype="String">
+    <Value>1</Value>
+  </variable>
+  <variable Name="GenFeatureName_01" Datatype="String">
+    <Value>FeatureNm119020804</Value>
+  </variable>
+  <variable Name="Dealer-Account Name" Datatype="String">
+    <Value>Reliance Digital -1</Value>
+  </variable>
+  <variable Name="Dealer State1" Datatype="String">
+    <Value>MADHYA PRADESH</Value>
+  </variable>
+  <variable Name="Dealer Branch1" Datatype="String">
+    <Value>Indore</Value>
+  </variable>
+  <variable Name="AutomationModel06" Datatype="String">
+    <Value>Sansui19025112 - OEM Asset Category-19021709</Value>
+  </variable>
+  <variable Name="AutomationModel05" Datatype="String">
+    <Value>Sansui19024900 - OEM Asset Category-19022317</Value>
+  </variable>
+  <variable Name="AutomationModel04" Datatype="String">
+    <Value>Sansui19024648 - OEM Asset Category-19022148</Value>
+  </variable>
+  <variable Name="AutomationModel03" Datatype="String">
+    <Value>Sansui19024433 - OEM Asset Category-19022007</Value>
+  </variable>
+  <variable Name="AutomationModel02" Datatype="String">
+    <Value>Sansui19024220 - OEM Asset Category-19021838</Value>
+  </variable>
+  <variable Name="AutomationModel01" Datatype="String">
+    <Value>Sansui19024006 - OEM Asset Category-19021709</Value>
+  </variable>
+  <variable Name="AssetCategory05" Datatype="String">
+    <Value>AssCat19021539</Value>
+  </variable>
+  <variable Name="AssetCategory04" Datatype="String">
+    <Value>AssCat19021428</Value>
+  </variable>
+  <variable Name="AssetCategory03" Datatype="String">
+    <Value>AssCat19021428</Value>
+  </variable>
+  <variable Name="AssetCategory02" Datatype="String">
+    <Value>AssCat19021208</Value>
+  </variable>
+  <variable Name="AssetCategory" Datatype="String">
+    <Value>AssCat19021057</Value>
+  </variable>
+  <variable Name="City" Datatype="String">
+    <Value>INDORE</Value>
+  </variable>
+  <variable Name="Region1" Datatype="String">
+    <Value>WEST</Value>
+  </variable>
+  <variable Name="Region2" Datatype="String">
+    <Value>WEST</Value>
+  </variable>
+  <variable Name="Region3" Datatype="String">
+    <Value>NORTH</Value>
+  </variable>
+</EnvironmentVariables>

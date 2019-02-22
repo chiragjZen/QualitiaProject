@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Modify record" Desc="Modify record" TaskID="fbee776f926d417f9bfe0758eafe8c1b" Path="Modify record.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="a85550240a944e97aa42847473fd6604" ObjectName="RecordLink_Scheme&amp;DealerMapping" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="3" stepSeq="2" ObjectId="cea21aba7c6b4c2382daef57b2fc3955" ObjectName="Edit_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\SFDCGlobalTask.xls&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\SFDCGlobalTask.xls">
+    </Param>
+    <Param Name="&quot;Scheme Dealer2&quot;" ParamSeq="2" Parameterized="0" Data="Scheme Dealer2">
+    </Param>
+    <Param Name="&quot;SchemeDealerMapping&quot;" ParamSeq="3" Parameterized="0" Data="SchemeDealerMapping">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="4" ObjectId="6cc9dc5eee70417ea74c223abd42b2cd" ObjectName="Save_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

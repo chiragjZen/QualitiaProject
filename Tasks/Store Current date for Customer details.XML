@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Store Current date for Customer details" Desc="Store Current date for Customer details" TaskID="b8463022cc9e414da829da3895607117" Path="Store Current date for Customer details.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="6a8fd35c4ae14c8094c4b3a963b3da58" ActionName="StoreCurrentDateInFormat" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ddhhmmss&quot;" ParamSeq="1" Parameterized="0" Data="ddhhmmss">
+    </Param>
+    <Param Name="&quot;CurrentDate&quot;" ParamSeq="2" Parameterized="0" Data="CurrentDate">
+    </Param>
+  </Step>
+</Task>

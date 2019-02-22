@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="AssetSelection-Click On Select Scheme Button-Add Asset Page" Desc="AssetSelection-Click On Select Scheme Button-Add Asset Page" TaskID="0181756a0d2f4bd28f1279432c1309f1" Path="AssetSelection-Click On Select Scheme Button-Add Asset Page.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="80db65353c6a4070bb4f9cae647b2c0c" ObjectName="AssetSelection-SelectButton-AssetAdditionPage" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="Expected Existence" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="80db65353c6a4070bb4f9cae647b2c0c" ObjectName="AssetSelection-SelectButton-AssetAdditionPage" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+</Task>

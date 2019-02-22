@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="AssetSelection-OEMAssetCategoryTenureValues" Desc="AssetSelection-OEMAssetCategoryTenureValues" TaskID="7810fc12d1af4a66a4396c948e170036" Path="AssetSelection-OEMAssetCategoryTenureValues.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;OEMAssetCatMinTenure&quot;" ParamSeq="1" Parameterized="0" Data="OEMAssetCatMinTenure">
+    </Param>
+    <Param Name="OEMAssetCatMinTenure" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;OEMAssetCatMaxTenure&quot;" ParamSeq="1" Parameterized="0" Data="OEMAssetCatMaxTenure">
+    </Param>
+    <Param Name="OEMAssetCatMaxTenure" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

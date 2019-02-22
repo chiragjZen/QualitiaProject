@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Application Data Entry-Top MessageValidation" Desc="Application Data Entry-Top MessageValidation" TaskID="c3d6f1765378489bb7d48391f83f4b43" Path="Application Data Entry-Top MessageValidation.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Error&quot;" ParamSeq="1" Parameterized="0" Data="Error">
+    </Param>
+    <Param Name="Error" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="d75994e12dcc4b33ac3d08caa5ebbc00" ObjectName="Top level message" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

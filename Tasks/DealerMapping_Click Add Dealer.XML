@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="DealerMapping_Click Add Dealer" Desc="DealerMapping_Click Add Dealer" TaskID="0129678cfc6e44269c359c1c3609bb72" Path="DealerMapping_Click Add Dealer.XML">
+  <Step StepId="9" stepSeq="1" ObjectId="96e10f8e1681491480bb5fe824a7105f" ObjectName="Dealer Mapping" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="318d973091bc4fc7a84c5971ed685cc2" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;//label[text()=' Mapping Start Date : ']/following::input&quot;" ParamSeq="1" Parameterized="0" Data="//label[text()=' Mapping Start Date : ']/following::input">
+    </Param>
+    <Param Name="&quot;count&quot;" ParamSeq="2" Parameterized="0" Data="count">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="3" ObjectId="a4fd1ccfe9c24b9cb0be77b3d8daef6f" ObjectName="Dealer Mapping Start Date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{CurrentDate_mapping}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate_mapping}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="4" ObjectId="a4fd1ccfe9c24b9cb0be77b3d8daef6f" ObjectName="Dealer Mapping Start Date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;TAB&quot;" ParamSeq="1" Parameterized="0" Data="TAB">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="5" ObjectId="ae26552b34914f6496ec39d427118f0a" ObjectName="Add Dealer" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="7" stepSeq="6" ObjectId="ae26552b34914f6496ec39d427118f0a" ObjectName="Add Dealer" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="6" stepSeq="7" ObjectId="ac64ebddca744ba792ec0b00581be2d5" ObjectName="SuccessMessage_popUp" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

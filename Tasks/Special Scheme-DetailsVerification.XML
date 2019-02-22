@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Special Scheme-DetailsVerification" Desc="Special Scheme-DetailsVerification" TaskID="f029249d029e497c9dfe2ac10548b16d" Path="Special Scheme-DetailsVerification.XML">
+  <Step StepId="5" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="2" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Scheme Name&quot;" ParamSeq="1" Parameterized="0" Data="Scheme Name">
+    </Param>
+    <Param Name="Scheme Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Scheme Category&quot;" ParamSeq="1" Parameterized="0" Data="Scheme Category">
+    </Param>
+    <Param Name="Scheme Category" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;OEM/Dealer&quot;" ParamSeq="1" Parameterized="0" Data="OEM/Dealer">
+    </Param>
+    <Param Name="OEM/Dealer" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="54" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{CurrentDate}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate}">
+    </Param>
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="2" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;{days_startdate}&quot;" ParamSeq="3" Parameterized="0" Data="{days_startdate}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;Scheme Start Date&quot;" ParamSeq="6" Parameterized="0" Data="Scheme Start Date">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Scheme Start Date&quot;" ParamSeq="1" Parameterized="0" Data="Scheme Start Date">
+    </Param>
+    <Param Name="&quot;{Scheme Start Date}&quot;" ParamSeq="2" Parameterized="0" Data="{Scheme Start Date}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="55" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{CurrentDate}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate}">
+    </Param>
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="2" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;{days_enddate}&quot;" ParamSeq="3" Parameterized="0" Data="{days_enddate}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;Scheme End Date&quot;" ParamSeq="6" Parameterized="0" Data="Scheme End Date">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Scheme End Date&quot;" ParamSeq="1" Parameterized="0" Data="Scheme End Date">
+    </Param>
+    <Param Name="&quot;{Scheme End Date}&quot;" ParamSeq="2" Parameterized="0" Data="{Scheme End Date}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Gross Tenure&quot;" ParamSeq="1" Parameterized="0" Data="Gross Tenure">
+    </Param>
+    <Param Name="Gross Tenure" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Advanced EMI&quot;" ParamSeq="1" Parameterized="0" Data="Advanced EMI">
+    </Param>
+    <Param Name="Advanced EMI" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;MIS Charge Type&quot;" ParamSeq="1" Parameterized="0" Data="MIS Charge Type">
+    </Param>
+    <Param Name="MIS Charge Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;MIS Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="MIS Charge Value">
+    </Param>
+    <Param Name="MIS Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="76" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Is MIS Deductible&quot;" ParamSeq="1" Parameterized="0" Data="Is MIS Deductible">
+    </Param>
+    <Param Name="Is MIS Deductible" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DIS Charge Type&quot;" ParamSeq="1" Parameterized="0" Data="DIS Charge Type">
+    </Param>
+    <Param Name="DIS Charge Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DIS Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="DIS Charge Value">
+    </Param>
+    <Param Name="DIS Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="52" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Additional Charge&quot;" ParamSeq="1" Parameterized="0" Data="Additional Charge">
+    </Param>
+    <Param Name="Additional Charge" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="51" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Additional Upfront Interest Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Additional Upfront Interest Borne By">
+    </Param>
+    <Param Name="Additional Upfront Interest Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Additonal Upfront Interest Charge Type&quot;" ParamSeq="1" Parameterized="0" Data="Additonal Upfront Interest Charge Type">
+    </Param>
+    <Param Name="Additonal Upfront Interest Charge Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="19" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Additional Upfront Interest Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Additional Upfront Interest Charge Value">
+    </Param>
+    <Param Name="Additional Upfront Interest Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="20" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Minimum EMI Amount&quot;" ParamSeq="1" Parameterized="0" Data="Minimum EMI Amount">
+    </Param>
+    <Param Name="Minimum EMI Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="21" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Minimum Loan Amount&quot;" ParamSeq="1" Parameterized="0" Data="Minimum Loan Amount">
+    </Param>
+    <Param Name="Minimum Loan Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="22" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Maximum Loan Amount&quot;" ParamSeq="1" Parameterized="0" Data="Maximum Loan Amount">
+    </Param>
+    <Param Name="Maximum Loan Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="23" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Margin Money Charge Type&quot;" ParamSeq="1" Parameterized="0" Data="Margin Money Charge Type">
+    </Param>
+    <Param Name="Margin Money Charge Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="24" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Margin Money Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Margin Money Charge Value">
+    </Param>
+    <Param Name="Margin Money Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="25" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Rate of Interest&quot;" ParamSeq="1" Parameterized="0" Data="Rate of Interest">
+    </Param>
+    <Param Name="Rate of Interest" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="93" stepSeq="26" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Disbursal To&quot;" ParamSeq="1" Parameterized="0" Data="Disbursal To">
+    </Param>
+    <Param Name="Disbursal To" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="56" stepSeq="27" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Channel&quot;" ParamSeq="1" Parameterized="0" Data="Channel">
+    </Param>
+    <Param Name="Channel" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="57" stepSeq="28" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;if (&quot;{Channel}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}&quot;" ParamSeq="1" Parameterized="0" Data="if (&quot;{Channel}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}">
+    </Param>
+    <Param Name="&quot;Result&quot;" ParamSeq="2" Parameterized="0" Data="Result">
+    </Param>
+  </Step>
+  <Step StepId="60" stepSeq="29" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Result}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="62" stepSeq="30" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" ParentID="60" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;'{Channel}'.replace('@@',';')&quot;" ParamSeq="1" Parameterized="0" Data="'{Channel}'.replace('@@',';')">
+    </Param>
+    <Param Name="&quot;Channel&quot;" ParamSeq="2" Parameterized="0" Data="Channel">
+    </Param>
+  </Step>
+  <Step StepId="61" stepSeq="31" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="60" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="59" stepSeq="32" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Channel&quot;" ParamSeq="1" Parameterized="0" Data="Channel">
+    </Param>
+    <Param Name="&quot;{Channel}&quot;" ParamSeq="2" Parameterized="0" Data="{Channel}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="68" stepSeq="33" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;BFL Product&quot;" ParamSeq="1" Parameterized="0" Data="BFL Product">
+    </Param>
+    <Param Name="BFL Product" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="70" stepSeq="34" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;if (&quot;{BFL Product}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}&quot;" ParamSeq="1" Parameterized="0" Data="if (&quot;{BFL Product}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}">
+    </Param>
+    <Param Name="&quot;Result&quot;" ParamSeq="2" Parameterized="0" Data="Result">
+    </Param>
+  </Step>
+  <Step StepId="71" stepSeq="35" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Result}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="69" stepSeq="36" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" ParentID="71" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;'{BFL Product}'.replace('@@',';')&quot;" ParamSeq="1" Parameterized="0" Data="'{BFL Product}'.replace('@@',';')">
+    </Param>
+    <Param Name="&quot;BFL Product&quot;" ParamSeq="2" Parameterized="0" Data="BFL Product">
+    </Param>
+  </Step>
+  <Step StepId="72" stepSeq="37" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="71" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="12" stepSeq="38" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;BFL Product&quot;" ParamSeq="1" Parameterized="0" Data="BFL Product">
+    </Param>
+    <Param Name="&quot;{BFL Product}&quot;" ParamSeq="2" Parameterized="0" Data="{BFL Product}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="81" stepSeq="39" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Triple-000&quot;" ParamSeq="1" Parameterized="0" Data="Triple-000">
+    </Param>
+    <Param Name="Triple-000" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="80" stepSeq="40" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;High Tenure&quot;" ParamSeq="1" Parameterized="0" Data="High Tenure">
+    </Param>
+    <Param Name="High Tenure" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="79" stepSeq="41" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Low DBD&quot;" ParamSeq="1" Parameterized="0" Data="Low DBD">
+    </Param>
+    <Param Name="Low DBD" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="78" stepSeq="42" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;PAPS&quot;" ParamSeq="1" Parameterized="0" Data="PAPS">
+    </Param>
+    <Param Name="PAPS" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="77" stepSeq="43" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Flexi Tenure&quot;" ParamSeq="1" Parameterized="0" Data="Flexi Tenure">
+    </Param>
+    <Param Name="Flexi Tenure" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="85" stepSeq="44" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Ticket Size Decides Tenure&quot;" ParamSeq="1" Parameterized="0" Data="Ticket Size Decides Tenure">
+    </Param>
+    <Param Name="Ticket Size Decides Tenure" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="84" stepSeq="45" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Upgrade Scheme&quot;" ParamSeq="1" Parameterized="0" Data="Upgrade Scheme">
+    </Param>
+    <Param Name="Upgrade Scheme" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="83" stepSeq="46" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Bullet Payment&quot;" ParamSeq="1" Parameterized="0" Data="Bullet Payment">
+    </Param>
+    <Param Name="Bullet Payment" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="82" stepSeq="47" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Interest Bearing Scheme&quot;" ParamSeq="1" Parameterized="0" Data="Interest Bearing Scheme">
+    </Param>
+    <Param Name="Interest Bearing Scheme" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="48" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;EMI Waived By&quot;" ParamSeq="1" Parameterized="0" Data="EMI Waived By">
+    </Param>
+    <Param Name="EMI Waived By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="75" stepSeq="49" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Card Type&quot;" ParamSeq="1" Parameterized="0" Data="Card Type">
+    </Param>
+    <Param Name="Card Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="74" stepSeq="50" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Number of EMIs waived&quot;" ParamSeq="1" Parameterized="0" Data="Number of EMIs waived">
+    </Param>
+    <Param Name="Number of EMIs waived" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="73" stepSeq="51" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Number of EMI Holiday&quot;" ParamSeq="1" Parameterized="0" Data="Number of EMI Holiday">
+    </Param>
+    <Param Name="Number of EMI Holiday" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="27" stepSeq="52" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Fixed EMI Amount&quot;" ParamSeq="1" Parameterized="0" Data="Fixed EMI Amount">
+    </Param>
+    <Param Name="Fixed EMI Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="53" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Credit Card Bank Name&quot;" ParamSeq="1" Parameterized="0" Data="Credit Card Bank Name">
+    </Param>
+    <Param Name="Credit Card Bank Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="47" stepSeq="54" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Co-Brand Dealer&quot;" ParamSeq="1" Parameterized="0" Data="Co-Brand Dealer">
+    </Param>
+    <Param Name="Co-Brand Dealer" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="46" stepSeq="55" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Gender&quot;" ParamSeq="1" Parameterized="0" Data="Gender">
+    </Param>
+    <Param Name="Gender" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="45" stepSeq="56" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Credit Card Card Type&quot;" ParamSeq="1" Parameterized="0" Data="Credit Card Card Type">
+    </Param>
+    <Param Name="Credit Card Card Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="44" stepSeq="57" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;From Age&quot;" ParamSeq="1" Parameterized="0" Data="From Age">
+    </Param>
+    <Param Name="From Age" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="43" stepSeq="58" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;To Age&quot;" ParamSeq="1" Parameterized="0" Data="To Age">
+    </Param>
+    <Param Name="To Age" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="42" stepSeq="59" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Promo Code&quot;" ParamSeq="1" Parameterized="0" Data="Promo Code">
+    </Param>
+    <Param Name="Promo Code" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="41" stepSeq="60" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Happy Hour Start Time&quot;" ParamSeq="1" Parameterized="0" Data="Happy Hour Start Time">
+    </Param>
+    <Param Name="Happy Hour Start Time" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="40" stepSeq="61" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Happy Hour End Time&quot;" ParamSeq="1" Parameterized="0" Data="Happy Hour End Time">
+    </Param>
+    <Param Name="Happy Hour End Time" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="39" stepSeq="62" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Happy Hour Grace Time&quot;" ParamSeq="1" Parameterized="0" Data="Happy Hour Grace Time">
+    </Param>
+    <Param Name="Happy Hour Grace Time" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="65" stepSeq="63" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Days of the Week&quot;" ParamSeq="1" Parameterized="0" Data="Days of the Week">
+    </Param>
+    <Param Name="Days of the Week" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="64" stepSeq="64" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;if (&quot;{Days of the Week}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}&quot;" ParamSeq="1" Parameterized="0" Data="if (&quot;{Days of the Week}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}">
+    </Param>
+    <Param Name="&quot;Result&quot;" ParamSeq="2" Parameterized="0" Data="Result">
+    </Param>
+  </Step>
+  <Step StepId="66" stepSeq="65" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Result}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="63" stepSeq="66" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" ParentID="66" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;'{Days of the Week}'.replace('@@',';')&quot;" ParamSeq="1" Parameterized="0" Data="'{Days of the Week}'.replace('@@',';')">
+    </Param>
+    <Param Name="&quot;Days of the Week&quot;" ParamSeq="2" Parameterized="0" Data="Days of the Week">
+    </Param>
+  </Step>
+  <Step StepId="67" stepSeq="67" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="66" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="38" stepSeq="68" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Days of the Week&quot;" ParamSeq="1" Parameterized="0" Data="Days of the Week">
+    </Param>
+    <Param Name="&quot;{Days of the Week}&quot;" ParamSeq="2" Parameterized="0" Data="{Days of the Week}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="37" stepSeq="69" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Step Up/Down Percent&quot;" ParamSeq="1" Parameterized="0" Data="Step Up/Down Percent">
+    </Param>
+    <Param Name="Step Up/Down Percent" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="94" stepSeq="70" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Scheme Type&quot;" ParamSeq="1" Parameterized="0" Data="Scheme Type">
+    </Param>
+    <Param Name="Scheme Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="53" stepSeq="71" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Subvention&quot;" ParamSeq="1" Parameterized="0" Data="Subvention">
+    </Param>
+    <Param Name="Subvention" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="36" stepSeq="72" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Status&quot;" ParamSeq="1" Parameterized="0" Data="Status">
+    </Param>
+    <Param Name="Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="96" stepSeq="73" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Is Active&quot;" ParamSeq="1" Parameterized="0" Data="Is Active">
+    </Param>
+    <Param Name="Is Active" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="92" stepSeq="74" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Model Mapping&quot;" ParamSeq="1" Parameterized="0" Data="Model Mapping">
+    </Param>
+    <Param Name="Model Mapping" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="48" stepSeq="75" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Dealer Mapping&quot;" ParamSeq="1" Parameterized="0" Data="Dealer Mapping">
+    </Param>
+    <Param Name="Dealer Mapping" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="90" stepSeq="76" ObjectId="" ObjectTypeId="" ActionId="318d973091bc4fc7a84c5971ed685cc2" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//button[@class='slds-button slds-button--icon-bare']&quot;" ParamSeq="1" Parameterized="0" Data="//button[@class='slds-button slds-button--icon-bare']">
+    </Param>
+    <Param Name="&quot;key&quot;" ParamSeq="2" Parameterized="0" Data="key">
+    </Param>
+  </Step>
+  <Step StepId="86" stepSeq="77" ObjectId="b7e6ceb1089c46aeac681754ee93ae88" ObjectName="Edit button(pencil icon)" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="91" stepSeq="78" ObjectId="fd33e2ede08a499282812bbb954df1d3" ObjectName="Save Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="50" stepSeq="79" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Is MIS Deductible&quot;" ParamSeq="1" Parameterized="0" Data="Is MIS Deductible">
+    </Param>
+    <Param Name="&quot;{Is MIS Deductible}&quot;" ParamSeq="2" Parameterized="0" Data="{Is MIS Deductible}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="80" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Triple-000&quot;" ParamSeq="1" Parameterized="0" Data="Triple-000">
+    </Param>
+    <Param Name="&quot;{Triple-000}&quot;" ParamSeq="2" Parameterized="0" Data="{Triple-000}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="81" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;High Tenure&quot;" ParamSeq="1" Parameterized="0" Data="High Tenure">
+    </Param>
+    <Param Name="&quot;{High Tenure}&quot;" ParamSeq="2" Parameterized="0" Data="{High Tenure}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="82" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Low DBD&quot;" ParamSeq="1" Parameterized="0" Data="Low DBD">
+    </Param>
+    <Param Name="&quot;{Low DBD}&quot;" ParamSeq="2" Parameterized="0" Data="{Low DBD}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="83" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;PAPS&quot;" ParamSeq="1" Parameterized="0" Data="PAPS">
+    </Param>
+    <Param Name="&quot;{PAPS}&quot;" ParamSeq="2" Parameterized="0" Data="{PAPS}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="84" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Flexi Tenure&quot;" ParamSeq="1" Parameterized="0" Data="Flexi Tenure">
+    </Param>
+    <Param Name="&quot;{Flexi Tenure}&quot;" ParamSeq="2" Parameterized="0" Data="{Flexi Tenure}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="32" stepSeq="85" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Ticket Size Decides Tenure&quot;" ParamSeq="1" Parameterized="0" Data="Ticket Size Decides Tenure">
+    </Param>
+    <Param Name="&quot;{Ticket Size Decides Tenure}&quot;" ParamSeq="2" Parameterized="0" Data="{Ticket Size Decides Tenure}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="86" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Upgrade Scheme&quot;" ParamSeq="1" Parameterized="0" Data="Upgrade Scheme">
+    </Param>
+    <Param Name="&quot;{Upgrade Scheme}&quot;" ParamSeq="2" Parameterized="0" Data="{Upgrade Scheme}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="87" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Bullet Payment&quot;" ParamSeq="1" Parameterized="0" Data="Bullet Payment">
+    </Param>
+    <Param Name="&quot;{Bullet Payment}&quot;" ParamSeq="2" Parameterized="0" Data="{Bullet Payment}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="88" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Interest Bearing Scheme&quot;" ParamSeq="1" Parameterized="0" Data="Interest Bearing Scheme">
+    </Param>
+    <Param Name="&quot;{Interest Bearing Scheme}&quot;" ParamSeq="2" Parameterized="0" Data="{Interest Bearing Scheme}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="95" stepSeq="89" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Is Active&quot;" ParamSeq="1" Parameterized="0" Data="Is Active">
+    </Param>
+    <Param Name="&quot;{Is Active}&quot;" ParamSeq="2" Parameterized="0" Data="{Is Active}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+</Task>

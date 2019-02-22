@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Click Save Button" Desc="Click Save Button" TaskID="1d2061f42a3e44c8ae34f3e5481faa8e" Path="Click Save Button.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="bb66c87bd8a64ad38290287fc2c81adb" ObjectName="Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;4&quot;" ParamSeq="1" Parameterized="0" Data="4">
+    </Param>
+  </Step>
+</Task>

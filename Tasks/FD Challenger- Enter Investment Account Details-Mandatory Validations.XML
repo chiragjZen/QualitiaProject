@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger- Scheme Details-Mandatory Validations" Desc="FD Challenger- Scheme Details-Mandatory Validations" TaskID="92d838667cce46c0969f472d33d0b82c" Path="FD Challenger- Enter Investment Account Details-Mandatory Validations.XML">
+  <Step StepId="8" stepSeq="1" ObjectId="43ed754f49d3465da1dd5b511968dc6f" ObjectName="Investment A/C Details" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="2" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Deposit Option&quot;" ParamSeq="1" Parameterized="0" Data="Deposit Option">
+    </Param>
+    <Param Name="Deposit Option" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Interest Payout Frequency&quot;" ParamSeq="1" Parameterized="0" Data="Interest Payout Frequency">
+    </Param>
+    <Param Name="Interest Payout Frequency" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Scheme&quot;" ParamSeq="1" Parameterized="0" Data="Scheme">
+    </Param>
+    <Param Name="Scheme" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;FD Amount&quot;" ParamSeq="1" Parameterized="0" Data="FD Amount">
+    </Param>
+    <Param Name="FD Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Tenor in months (0-84)&quot;" ParamSeq="1" Parameterized="0" Data="Tenor in months (0-84)">
+    </Param>
+    <Param Name="Tenor in months (0-84)" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Tenor in days (0-365)&quot;" ParamSeq="1" Parameterized="0" Data="Tenor in days (0-365)">
+    </Param>
+    <Param Name="Tenor in days (0-365)" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Interest&quot;" ParamSeq="1" Parameterized="0" Data="Interest">
+    </Param>
+    <Param Name="Interest" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+</Task>

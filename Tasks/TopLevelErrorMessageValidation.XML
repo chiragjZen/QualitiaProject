@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="TopLevelErrorMessageValidation" Desc="TopLevelErrorMessageValidation" TaskID="529b7676f169498386f99cc3572f9eeb" Path="TopLevelErrorMessageValidation.XML">
+  <Step StepId="5" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ExpectedErrorMessage&quot;" ParamSeq="1" Parameterized="0" Data="ExpectedErrorMessage">
+    </Param>
+    <Param Name="ErrorMessageToBeValidated" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="9d7d4c7743b54951b5f8f67a2467849b" ObjectName="Top Error Validation" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="3" ObjectId="9d7d4c7743b54951b5f8f67a2467849b" ObjectName="Top Error Validation" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ActualErrorMessage&quot;" ParamSeq="1" Parameterized="0" Data="ActualErrorMessage">
+    </Param>
+    <Param Name="&quot;Text&quot;" ParamSeq="2" Parameterized="0" Data="Text">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ActualErrorMessage}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualErrorMessage}">
+    </Param>
+    <Param Name="&quot;{ExpectedErrorMessage}&quot;" ParamSeq="2" Parameterized="0" Data="{ExpectedErrorMessage}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+</Task>

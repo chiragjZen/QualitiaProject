@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="QC_Flag Set" Desc="QC_Flag Set" TaskID="9bd88bceb6c1445997e1717e88137adb" Path="QC_Flag Set.XML">
+  <Step StepId="7" stepSeq="1" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;QCRequired&quot;" ParamSeq="1" Parameterized="0" Data="QCRequired">
+    </Param>
+    <Param Name="QCRequired-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="2" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{QCRequired}&quot;" ParamSeq="1" Parameterized="0" Data="{QCRequired}">
+    </Param>
+    <Param Name="&quot;QCRequired&quot;" ParamSeq="2" Parameterized="0" Data="QCRequired">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="3" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;DocumentType&quot;" ParamSeq="1" Parameterized="0" Data="DocumentType">
+    </Param>
+    <Param Name="DocumentType-Physical/Image" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{DocumentType}&quot;" ParamSeq="1" Parameterized="0" Data="{DocumentType}">
+    </Param>
+    <Param Name="&quot;DocumentType&quot;" ParamSeq="2" Parameterized="0" Data="DocumentType">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;BranchQC&quot;" ParamSeq="1" Parameterized="0" Data="BranchQC">
+    </Param>
+    <Param Name="BranchQC-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="6" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{BranchQC}&quot;" ParamSeq="1" Parameterized="0" Data="{BranchQC}">
+    </Param>
+    <Param Name="&quot;BranchQC&quot;" ParamSeq="2" Parameterized="0" Data="BranchQC">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="7" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;WithoutQC-FMSrecordVerification&quot;" ParamSeq="1" Parameterized="0" Data="WithoutQC-FMSrecordVerification">
+    </Param>
+    <Param Name="WithoutQC-FMSrecordVerification-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="8" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{WithoutQC-FMSrecordVerification}&quot;" ParamSeq="1" Parameterized="0" Data="{WithoutQC-FMSrecordVerification}">
+    </Param>
+    <Param Name="&quot;WithoutQC-FMSrecordVerification&quot;" ParamSeq="2" Parameterized="0" Data="WithoutQC-FMSrecordVerification">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="9" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;EditAuthorizationOnceFMSDispatched&quot;" ParamSeq="1" Parameterized="0" Data="EditAuthorizationOnceFMSDispatched">
+    </Param>
+    <Param Name="EditAuthorizationOnceFMSDispatched-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="10" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{EditAuthorizationOnceFMSDispatched}&quot;" ParamSeq="1" Parameterized="0" Data="{EditAuthorizationOnceFMSDispatched}">
+    </Param>
+    <Param Name="&quot;EditAuthorizationOnceFMSDispatched&quot;" ParamSeq="2" Parameterized="0" Data="EditAuthorizationOnceFMSDispatched">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="11" ObjectName="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectTypeId="">
+    <Param Name="&quot;SameFileBracodeValidation&quot;" ParamSeq="1" Parameterized="0" Data="SameFileBracodeValidation">
+    </Param>
+    <Param Name="SameFileBracodeValidation-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="12" ObjectName="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectTypeId="">
+    <Param Name="&quot;{SameFileBracodeValidation}&quot;" ParamSeq="1" Parameterized="0" Data="{SameFileBracodeValidation}">
+    </Param>
+    <Param Name="&quot;SameFileBracodeValidation&quot;" ParamSeq="2" Parameterized="0" Data="SameFileBracodeValidation">
+    </Param>
+  </Step>
+</Task>

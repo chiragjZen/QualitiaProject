@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="EW_Opportunity_Verify" Desc="EW_Opportunity_Verify" TaskID="5539d2438d4b457987eb7d058714b1fa" Path="EW_Opportunity_Verify.XML">
+  <Step StepId="15" stepSeq="1" ObjectId="a547b92d79d4444d9fe6cf9088100157" ObjectName="Related" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="2" ObjectId="a547b92d79d4444d9fe6cf9088100157" ObjectName="Related" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;EW_OpportunityVerifyRequired_Yes/No&quot;" ParamSeq="1" Parameterized="0" Data="EW_OpportunityVerifyRequired_Yes/No">
+    </Param>
+    <Param Name="EW_OpportunityVerifyRequired_Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;INS_OpportunityVerifyRequired_Yes/No&quot;" ParamSeq="1" Parameterized="0" Data="INS_OpportunityVerifyRequired_Yes/No">
+    </Param>
+    <Param Name="INS_OpportunityVerifyRequired_Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{EW_OpportunityVerifyRequired_Yes/No}&quot;==&quot;Yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="6" ObjectId="bdb9f1215e4c42ffb40855c466ee562f" ObjectName="EW_Child_Opportunity" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="4" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="7" ObjectId="bdb9f1215e4c42ffb40855c466ee562f" ObjectName="EW_Child_Opportunity" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="4" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="4" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="11" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{INS_OpportunityVerifyRequired_Yes/No}&quot;==&quot;Yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="10" ObjectId="fbc862e34608424389b02b4f0e6200cf" ObjectName="INS_Child_Opportunity" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="11" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="11" ObjectId="fbc862e34608424389b02b4f0e6200cf" ObjectName="INS_Child_Opportunity" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="11" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="11" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

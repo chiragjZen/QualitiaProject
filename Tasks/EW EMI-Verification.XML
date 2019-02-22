@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="EW EMI-Verification" Desc="EW EMI-Verification" TaskID="097642c2db9e4a5ca099b25d5823f713" Path="EW EMI-Verification.XML">
+  <Step StepId="18" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="2" ObjectId="082479237fa34562b125cd161068ef9d" ObjectName="Extended Warranty Premium" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="3" ObjectId="082479237fa34562b125cd161068ef9d" ObjectName="Extended Warranty Premium" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Store_EWPremium&quot;" ParamSeq="1" Parameterized="0" Data="Store_EWPremium">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="63f9baf376484cf281f0fddacbfcf7e1" ActionName="StoreStringLength" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;EW Premium&quot;" ParamSeq="1" Parameterized="0" Data="EW Premium">
+    </Param>
+    <Param Name="&quot;{Store_EWPremium}&quot;" ParamSeq="2" Parameterized="0" Data="{Store_EWPremium}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="3" Parameterized="0" Data="0">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="b8edac9ab1ce462e81d5d5f0828283da" ActionName="StoreSubString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;EW Premium_withoutRs&quot;" ParamSeq="1" Parameterized="0" Data="EW Premium_withoutRs">
+    </Param>
+    <Param Name="&quot;{Store_EWPremium}&quot;" ParamSeq="2" Parameterized="0" Data="{Store_EWPremium}">
+    </Param>
+    <Param Name="&quot;3&quot;" ParamSeq="3" Parameterized="0" Data="3">
+    </Param>
+    <Param Name="&quot;{EW Premium}&quot;" ParamSeq="4" Parameterized="0" Data="{EW Premium}">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;'{EW Premium_withoutRs}'.replace(',','')&quot;" ParamSeq="1" Parameterized="0" Data="'{EW Premium_withoutRs}'.replace(',','')">
+    </Param>
+    <Param Name="&quot;EWPremium_withoutComma&quot;" ParamSeq="2" Parameterized="0" Data="EWPremium_withoutComma">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="7" ObjectId="7ffa2142b83e486bb9f13a25d4079964" ObjectName="Extended Warranty Tenure" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;EW Tenure&quot;" ParamSeq="1" Parameterized="0" Data="EW Tenure">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="8" ObjectId="ab3562a4adb34a82af04f408c95d1253" ObjectName="Extended Warranty EMI" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;EW EMI&quot;" ParamSeq="1" Parameterized="0" Data="EW EMI">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{EWPremium_withoutComma}/{EW Tenure}&quot;" ParamSeq="1" Parameterized="0" Data="{EWPremium_withoutComma}/{EW Tenure}">
+    </Param>
+    <Param Name="&quot;Calculated EW EMI&quot;" ParamSeq="2" Parameterized="0" Data="Calculated EW EMI">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Calculated EW EMI_integerValue&quot;" ParamSeq="1" Parameterized="0" Data="Calculated EW EMI_integerValue">
+    </Param>
+    <Param Name="&quot;{Calculated EW EMI}&quot;" ParamSeq="2" Parameterized="0" Data="{Calculated EW EMI}">
+    </Param>
+    <Param Name="&quot;[.]&quot;" ParamSeq="3" Parameterized="0" Data="[.]">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Calculated EW EMI_integerValue}&quot;" ParamSeq="1" Parameterized="0" Data="{Calculated EW EMI_integerValue}">
+    </Param>
+    <Param Name="&quot;Calculated EW EMI_withComma&quot;" ParamSeq="2" Parameterized="0" Data="Calculated EW EMI_withComma">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Calculated EW EMI_afterDecimal&quot;" ParamSeq="1" Parameterized="0" Data="Calculated EW EMI_afterDecimal">
+    </Param>
+    <Param Name="&quot;{Calculated EW EMI}&quot;" ParamSeq="2" Parameterized="0" Data="{Calculated EW EMI}">
+    </Param>
+    <Param Name="&quot;[.]&quot;" ParamSeq="3" Parameterized="0" Data="[.]">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="4" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Calculated EW EMI_withoutRs&quot;" ParamSeq="1" Parameterized="0" Data="Calculated EW EMI_withoutRs">
+    </Param>
+    <Param Name="&quot;{Calculated EW EMI_withComma}.{Calculated EW EMI_afterDecimal}&quot;" ParamSeq="2" Parameterized="0" Data="{Calculated EW EMI_withComma}.{Calculated EW EMI_afterDecimal}">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="63f9baf376484cf281f0fddacbfcf7e1" ActionName="StoreStringLength" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Calculated EW EMI_length&quot;" ParamSeq="1" Parameterized="0" Data="Calculated EW EMI_length">
+    </Param>
+    <Param Name="&quot;{Calculated EW EMI_afterDecimal}&quot;" ParamSeq="2" Parameterized="0" Data="{Calculated EW EMI_afterDecimal}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="3" Parameterized="0" Data="0">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Calculated EW EMI_length}&quot;==&quot;2&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="12" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{EW EMI}&quot;" ParamSeq="1" Parameterized="0" Data="{EW EMI}">
+    </Param>
+    <Param Name="&quot;Rs.{Calculated EW EMI_withoutRs}&quot;" ParamSeq="2" Parameterized="0" Data="Rs.{Calculated EW EMI_withoutRs}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="3" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="12" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Calculated EW EMI_length}&quot;==&quot;1&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="15" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{EW EMI}&quot;" ParamSeq="1" Parameterized="0" Data="{EW EMI}">
+    </Param>
+    <Param Name="&quot;Rs.{Calculated EW EMI_withoutRs}0&quot;" ParamSeq="2" Parameterized="0" Data="Rs.{Calculated EW EMI_withoutRs}0">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="3" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="19" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="12" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

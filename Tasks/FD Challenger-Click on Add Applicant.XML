@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger-Click on Add Applicant" Desc="FD Challenger-Click on Add Applicant" TaskID="836e2264fc174695ad8cefbb355c15af" Path="FD Challenger-Click on Add Applicant.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="586c58e97b314130901b4c8fb1f628ae" ObjectName="Add Applicant-FD" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="976d3ef33eb64113ae787936a7edac89" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="586c58e97b314130901b4c8fb1f628ae" ObjectName="Add Applicant-FD" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

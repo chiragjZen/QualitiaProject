@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger-Click on Next Button" Desc="FD Challenger-Click on Next Button" TaskID="c68f0964c1d0478298ba8279b862aa1f" Path="FD Challenger-Click on Next Button.XML">
+  <Step StepId="5" stepSeq="1" ObjectId="e1a6a3ff90674d219371a09a5823f89d" ObjectName="Next Button-FD" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="976d3ef33eb64113ae787936a7edac89" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="2" ObjectId="e1a6a3ff90674d219371a09a5823f89d" ObjectName="Next Button-FD" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

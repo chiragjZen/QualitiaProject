@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Click on Create Opportunity button" Desc="Click on Create Opportunity button" TaskID="1e0aecad6491400fb1a5b3c63cc8ded5" Path="Click on Create Opportunity button.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="50a1d23a16124206abc7527d5ba4e95a" ObjectName="Click on New Opportunity" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;20&quot;" ParamSeq="1" Parameterized="0" Data="20">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="50a1d23a16124206abc7527d5ba4e95a" ObjectName="Click on New Opportunity" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="2" stepSeq="3" ObjectId="4f8d58da650d40ae864366472e9d927f" ObjectName="Cancel_button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;10&quot;" ParamSeq="1" Parameterized="0" Data="10">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Application Data Entry-ClickNextButton" Desc="Application Data Entry-ClickNextButton" TaskID="55ac5f1ea240420e8d1a87e3f1d2906f" Path="Application Data Entry-ClickNextButton.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="8b91320348054ef69bffad2d654474ac" ObjectName="Add Asset label" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="a8b645d46ccd49d681b7da80fe0ad14f" ObjectName="Add Asset_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="29b42c62114143e4b5abd59ace4924b2" ActionName="MouseOver" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="1" stepSeq="3" ObjectId="a8b645d46ccd49d681b7da80fe0ad14f" ObjectName="Add Asset_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

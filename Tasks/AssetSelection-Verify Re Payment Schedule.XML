@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="AssetSelection-Verify Re Payment Schedule" Desc="AssetSelection-Verify Re Payment Schedule" TaskID="bc6333aa68554b82b6db51b171e8ec47" Path="AssetSelection-Verify Re Payment Schedule.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="d38977a65d224bafa106c68560e97ed3" ObjectName="Repayment Schedule Heading" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Tenure Calculated}-{Advanced EMI}&quot;" ParamSeq="1" Parameterized="0" Data="{Tenure Calculated}-{Advanced EMI}">
+    </Param>
+    <Param Name="&quot;EMI To Month&quot;" ParamSeq="2" Parameterized="0" Data="EMI To Month">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="3" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="5" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="7" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="9" ObjectId="534dab2f215c41248a7748d706a985f3" ObjectName="View All Button-Repayment Schedules" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="11" stepSeq="10" ObjectId="74e2853f90e54e17a50a684ab5bd9719" ObjectName="Repayment Schedule Number-Repayment Schedule Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="11" ObjectId="74e2853f90e54e17a50a684ab5bd9719" ObjectName="Repayment Schedule Number-Repayment Schedule Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;Repayment Schedule Number&quot;" ParamSeq="1" Parameterized="0" Data="Repayment Schedule Number">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="12" ObjectId="1ea9be249cec4423a54beb822ae2ed5f" ObjectName="EMI Amount-Repayment Schedule Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;EMI Amount&quot;" ParamSeq="1" Parameterized="0" Data="EMI Amount">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="13" ObjectId="19a59fae91f940fea5e66c523434dfdc" ObjectName="EMI From Month-Repayment Schedule Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;EMI From Month&quot;" ParamSeq="1" Parameterized="0" Data="EMI From Month">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="14" ObjectId="ee77211cd0f74eee93ad413ff3ec267f" ObjectName="EMI To Month-Repayment Schedule Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;EMI To Month&quot;" ParamSeq="1" Parameterized="0" Data="EMI To Month">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;{Repayment Schedule Number}&quot;" ParamSeq="1" Parameterized="0" Data="{Repayment Schedule Number}">
+    </Param>
+    <Param Name="Repayment Schedule Number" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{EMI Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{EMI Amount}">
+    </Param>
+    <Param Name="Per EMI Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{EMI From Month}&quot;" ParamSeq="1" Parameterized="0" Data="{EMI From Month}">
+    </Param>
+    <Param Name="EMI From Month" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{EMI To Month}&quot;" ParamSeq="1" Parameterized="0" Data="{EMI To Month}">
+    </Param>
+    <Param Name="EMI To Month" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+</Task>

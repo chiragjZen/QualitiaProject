@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger-Initiate FDFlow" Desc="FD Challenger-Initiate FDFlow" TaskID="0ef8ea47bb7e4f1f91731c98ceb97051" Path="FD Challenger-Initiate FDFlow.XML">
+  <Step StepId="4" stepSeq="1" ObjectId="adae85a35b0c4c4a88aab016b2e8bee9" ObjectName="FDChallenger_Initiate FD Flow" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="976d3ef33eb64113ae787936a7edac89" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="adae85a35b0c4c4a88aab016b2e8bee9" ObjectName="FDChallenger_Initiate FD Flow" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Refresh Page" Desc="Refresh Page" TaskID="9188b244addd4ab6b5ba9460f4933395" Path="Refresh Page.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="e0e32138e8f24f01baca0ed0454a6f71" ActionName="RefreshPage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;10&quot;" ParamSeq="1" Parameterized="0" Data="10">
+    </Param>
+  </Step>
+</Task>

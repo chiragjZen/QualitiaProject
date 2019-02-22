@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Output-NFCC" Desc="Output-NFCC" TaskID="d22019d82ed746c19fc2c06807bece8b" Path="Output-NFCC.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Output Mobile Number&quot;" ParamSeq="1" Parameterized="0" Data="Output Mobile Number">
+    </Param>
+    <Param Name="Output Mobile Number" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Output OMC Line&quot;" ParamSeq="1" Parameterized="0" Data="Output OMC Line">
+    </Param>
+    <Param Name="Output OMC Line" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Output NFCCLine&quot;" ParamSeq="1" Parameterized="0" Data="Output NFCCLine">
+    </Param>
+    <Param Name="Output NFCCLine" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

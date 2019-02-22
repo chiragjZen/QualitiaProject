@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Verify Opportunity" Desc="Verify Opportunity" TaskID="8a5c46b99d534d99bf622bdabea04e58" Path="Verify Opportunity.XML">
+  <Step StepId="10" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ExpectedOpportunityExistence}&quot;==&quot;yes&quot;||&quot;{ExpectedOpportunityExistence}&quot;==&quot;Yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="2" ObjectId="1908883f75ea45e591e8c3c74f1cdc8c" ObjectName="Verify Opportunity Existence" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="10" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="10" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="13" stepSeq="4" ObjectId="1908883f75ea45e591e8c3c74f1cdc8c" ObjectName="Verify Opportunity Existence" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="12" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="10" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

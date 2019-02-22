@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="DO_PostDO-FunctionalityToBeValidated" Desc="DO_PostDO-FunctionalityToBeValidated" TaskID="15103014673b44b4a84808c6209b4611" Path="DO_PostDO-FunctionalityToBeValidated.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DODelete_ErrorMessageValidationStage&quot;" ParamSeq="1" Parameterized="0" Data="DODelete_ErrorMessageValidationStage">
+    </Param>
+    <Param Name="DODelete_ErrorMessageValidationStage-$skip$/BeforeCompleteNewStage/AfterCompleteNewStage/BeforeCompleteDOPreparationStage/AfterCompleteDOPreparationStage/BeforeCompletePostDOStage/AfterCompletePostDOStage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DODelete_ErrorMessage&quot;" ParamSeq="1" Parameterized="0" Data="DODelete_ErrorMessage">
+    </Param>
+    <Param Name="DODelete_ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessageValidationAt-NewStage&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessageValidationAt-NewStage">
+    </Param>
+    <Param Name="EditLevel/MarkStageAsCompleteLevel/$skip$-NewStage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ErrorMessageValidationAt-NewStage}&quot;" ParamSeq="1" Parameterized="0" Data="{ErrorMessageValidationAt-NewStage}">
+    </Param>
+    <Param Name="&quot;ErrorMessageValidationAt-NewStage&quot;" ParamSeq="2" Parameterized="0" Data="ErrorMessageValidationAt-NewStage">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessageValidationAt-DO-Preparation&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessageValidationAt-DO-Preparation">
+    </Param>
+    <Param Name="EditLevel/MarkStageAsCompleteLevel/$skip$-DO_Preparation" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessageToBeValidated&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessageToBeValidated">
+    </Param>
+    <Param Name="ErrorMessageToBeValidated_DO/New Stage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ErrorMessageValidationAt-DO-Preparation}&quot;" ParamSeq="1" Parameterized="0" Data="{ErrorMessageValidationAt-DO-Preparation}">
+    </Param>
+    <Param Name="&quot;ErrorMessageValidationAt-DO-Preparation&quot;" ParamSeq="2" Parameterized="0" Data="ErrorMessageValidationAt-DO-Preparation">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessageToBeValidatedLine2&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessageToBeValidatedLine2">
+    </Param>
+    <Param Name="ErrorMessageToBeValidatedLine2_DO/New Stage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessageToBeValidatedLine3&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessageToBeValidatedLine3">
+    </Param>
+    <Param Name="ErrorMessageToBeValidatedLine4_DO/New Stage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessageValidationAt-DealerAuthorization&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessageValidationAt-DealerAuthorization">
+    </Param>
+    <Param Name="ErrorMessageValidationAt-DealerAuthorization-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessageValidationAt-Post DO&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessageValidationAt-Post DO">
+    </Param>
+    <Param Name="EditLevel/MarkStageAsCompleteLevel/$skip$-Post_DO" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessageToBeValidated_Post DO&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessageToBeValidated_Post DO">
+    </Param>
+    <Param Name="ErrorMessageToBeValidated_Post DO" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ErrorMessageValidationAt-Post DO}&quot;" ParamSeq="1" Parameterized="0" Data="{ErrorMessageValidationAt-Post DO}">
+    </Param>
+    <Param Name="&quot;ErrorMessageValidationAt-Post DO&quot;" ParamSeq="2" Parameterized="0" Data="ErrorMessageValidationAt-Post DO">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DODelete_ErrorMessageValidationAtMarkStage&quot;" ParamSeq="1" Parameterized="0" Data="DODelete_ErrorMessageValidationAtMarkStage">
+    </Param>
+    <Param Name="DODelete_ErrorMessageValidationAtMarkStage-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{DODelete_ErrorMessageValidationAtMarkStage}&quot;" ParamSeq="1" Parameterized="0" Data="{DODelete_ErrorMessageValidationAtMarkStage}">
+    </Param>
+    <Param Name="&quot;DODelete_ErrorMessageValidationAtMarkStage&quot;" ParamSeq="2" Parameterized="0" Data="DODelete_ErrorMessageValidationAtMarkStage">
+    </Param>
+  </Step>
+</Task>

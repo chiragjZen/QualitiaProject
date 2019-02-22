@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="SchemeMaster_Store Master Scheme Code" Desc="SchemeMaster_Store Master Scheme Code" TaskID="3f82848a818b495fae7af95516a4e636" Path="SchemeMaster_Store Master Scheme Code.XML">
+  <Step StepId="12" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;MasterSchemeCode_application&quot;" ParamSeq="1" Parameterized="0" Data="MasterSchemeCode_application">
+    </Param>
+    <Param Name="MasterSchemeCode_application" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ExcelSheetName&quot;" ParamSeq="1" Parameterized="0" Data="ExcelSheetName">
+    </Param>
+    <Param Name="ExcelSheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="3" ObjectId="8eb0d86fd97d43c681e0e7efda3d09b8" ObjectName="Close this window'" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="5" ObjectId="cd9c26c3df3249c1861430ba9b935632" ObjectName="Scheme Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="16" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="6" ObjectId="cd9c26c3df3249c1861430ba9b935632" ObjectName="Scheme Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="16" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="7" ObjectId="cd9c26c3df3249c1861430ba9b935632" ObjectName="Scheme Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="16" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="8" ObjectId="cd9c26c3df3249c1861430ba9b935632" ObjectName="Scheme Name_Add Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="16" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="16" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="17" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="16" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="15" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="12" ObjectId="00d020e890c3485b81c70acc37d394d0" ObjectName="Capture Master Scheme Code" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="588ab5d315224ba9b16c187cb06d0aee" ActionName="StoreExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;SchemeCode_top&quot;" ParamSeq="1" Parameterized="0" Data="SchemeCode_top">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="13" ObjectId="26565667ce3345cea39e23807cbf2194" ObjectName="Master Scheme Code_Details Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="588ab5d315224ba9b16c187cb06d0aee" ActionName="StoreExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;SchemeCode_below&quot;" ParamSeq="1" Parameterized="0" Data="SchemeCode_below">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{SchemeCode_top}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="15" ObjectId="00d020e890c3485b81c70acc37d394d0" ObjectName="Capture Master Scheme Code" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="6" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="8" stepSeq="16" ObjectId="00d020e890c3485b81c70acc37d394d0" ObjectName="Capture Master Scheme Code" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="6" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;MasterSchemeCode&quot;" ParamSeq="1" Parameterized="0" Data="MasterSchemeCode">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="6" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="10" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{SchemeCode_below}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="19" ObjectId="26565667ce3345cea39e23807cbf2194" ObjectName="Master Scheme Code_Details Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="10" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="1" stepSeq="20" ObjectId="26565667ce3345cea39e23807cbf2194" ObjectName="Master Scheme Code_Details Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="10" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;MasterSchemeCode&quot;" ParamSeq="1" Parameterized="0" Data="MasterSchemeCode">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="21" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="10" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="13" stepSeq="22" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelSheetName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelSheetName}">
+    </Param>
+    <Param Name="&quot;{SchemeMaster_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{SchemeMaster_IterationNo}">
+    </Param>
+    <Param Name="&quot;MasterSchemeCode_application&quot;" ParamSeq="3" Parameterized="0" Data="MasterSchemeCode_application">
+    </Param>
+    <Param Name="&quot;{MasterSchemeCode}&quot;" ParamSeq="4" Parameterized="0" Data="{MasterSchemeCode}">
+    </Param>
+  </Step>
+</Task>

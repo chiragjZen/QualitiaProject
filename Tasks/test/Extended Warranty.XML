@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Extended Warranty" Desc="Extended Warranty" TaskID="a13974975ad143cf9ecb3e96c90ed5b6" Path="Extended Warranty.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="2" ObjectId="bda0ed64aabe40f485c3a370fe599d73" ObjectName="Extended Warranty Section" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="3" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Bypass Extended Warranty?&quot;" ParamSeq="1" Parameterized="0" Data="Bypass Extended Warranty?">
+    </Param>
+    <Param Name="Bypass Extended Warranty?" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Extended Warranty&quot;" ParamSeq="1" Parameterized="0" Data="Extended Warranty">
+    </Param>
+    <Param Name="Extended Warranty" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="5" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Bypass Extended Warranty?&quot;" ParamSeq="1" Parameterized="0" Data="Bypass Extended Warranty?">
+    </Param>
+    <Param Name="Bypass Extended Warranty?" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="6" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{EWEMIVerificationRequired_Yes/No}&quot;==&quot;Yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="7" ObjectId="082479237fa34562b125cd161068ef9d" ObjectName="Extended Warranty Premium" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="15" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;EW Premium&quot;" ParamSeq="1" Parameterized="0" Data="EW Premium">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="8" ObjectId="7ffa2142b83e486bb9f13a25d4079964" ObjectName="Extended Warranty Tenure" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="15" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;EW Tenure&quot;" ParamSeq="1" Parameterized="0" Data="EW Tenure">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="9" ObjectId="ab3562a4adb34a82af04f408c95d1253" ObjectName="Extended Warranty EMI" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="15" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;EW EMI&quot;" ParamSeq="1" Parameterized="0" Data="EW EMI">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="10" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" ParentID="15" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{EW Premium}/{EW Tenure}&quot;" ParamSeq="1" Parameterized="0" Data="{EW Premium}/{EW Tenure}">
+    </Param>
+    <Param Name="&quot;Calculated EW EMI&quot;" ParamSeq="2" Parameterized="0" Data="Calculated EW EMI">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="11" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="15" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{EW EMI}&quot;" ParamSeq="1" Parameterized="0" Data="{EW EMI}">
+    </Param>
+    <Param Name="&quot;{Calculated EW EMI}&quot;" ParamSeq="2" Parameterized="0" Data="{Calculated EW EMI}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="3" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="12" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="15" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+</Task>

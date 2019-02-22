@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Click on Save_Application Data Entry" Desc="Click on Save_Application Data Entry" TaskID="fa18f37cbcf14e0a8491c66b716b5c97" Path="Click on Save_Application Data Entry.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="fd33e2ede08a499282812bbb954df1d3" ObjectName="Save Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;6&quot;" ParamSeq="1" Parameterized="0" Data="6">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="3" ObjectId="3d6f4e3022954ccd9722de993f825a50" ObjectName="Close this window" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;//button[@title='Close this window']&quot;" ParamSeq="1" Parameterized="0" Data="//button[@title='Close this window']">
+    </Param>
+    <Param Name="&quot;CloseButtonCount&quot;" ParamSeq="2" Parameterized="0" Data="CloseButtonCount">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="5" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{CloseButtonCount}&gt;0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="6" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="5" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Window not closed due to errorr&quot;" ParamSeq="1" Parameterized="0" Data="Window not closed due to errorr">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="7" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="5" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="6" stepSeq="8" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="5" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+</Task>

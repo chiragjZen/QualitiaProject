@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Click Edit Button &amp; Modify" Desc="Click Edit Button" TaskID="b72a9a0f303d4060844250a5a0a4ab0e" Path="Click Edit Button.XML">
+  <Step StepId="5" stepSeq="1" ObjectId="cea21aba7c6b4c2382daef57b2fc3955" ObjectName="Edit_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="6bf71f769859478b83df72bf4ef31b3a" ActionName="SetFocus" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="cea21aba7c6b4c2382daef57b2fc3955" ObjectName="Edit_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\SFDCGlobalTask.xls&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\SFDCGlobalTask.xls">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="5" ObjectId="6cc9dc5eee70417ea74c223abd42b2cd" ObjectName="Save_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="8" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="318d973091bc4fc7a84c5971ed685cc2" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//span[text()='Details']&quot;" ParamSeq="1" Parameterized="0" Data="//span[text()='Details']">
+    </Param>
+    <Param Name="&quot;count&quot;" ParamSeq="2" Parameterized="0" Data="count">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="7" ObjectId="204ddc4cd9264a6da29c6eecd256efaf" ObjectName="Details" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;30&quot;" ParamSeq="1" Parameterized="0" Data="30">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="65af62d0bca14160a514eaeba9b48821" ActionName="label_Based_standard_details_verification" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\SFDCGlobalTask.xls&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\SFDCGlobalTask.xls">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

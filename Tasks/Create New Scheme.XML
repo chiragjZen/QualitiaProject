@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Create New Scheme" Desc="Create New Scheme" TaskID="07a4a5fb051b44d384a5e25423433fe9" Path="Create New Scheme.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="86f2214423324b37957a31c4264fcbb8" ObjectName="Save Button-Scheme" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="976d3ef33eb64113ae787936a7edac89" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="62ffa6f296d547c186b592b6ae98e53c" ObjectName="Scheme Name-Scheme Create Page" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="SchemeName" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;SchemeCategory&quot;" ParamSeq="1" Parameterized="0" Data="SchemeCategory">
+    </Param>
+    <Param Name="SchemeCategory" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="4" ObjectId="7a85b1ad26e543b29fafc4fe9154e509" ObjectName="SchemeCategory-Scheme Create Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="11" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Scheme Start Date&quot;" ParamSeq="1" Parameterized="0" Data="Scheme Start Date">
+    </Param>
+    <Param Name="Days To Be Added for Start Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;{CurrentDate}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate}">
+    </Param>
+    <Param Name="&quot;ddMMyyyy&quot;" ParamSeq="2" Parameterized="0" Data="ddMMyyyy">
+    </Param>
+    <Param Name="&quot;{Scheme Start Date}&quot;" ParamSeq="3" Parameterized="0" Data="{Scheme Start Date}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;Scheme Start Date&quot;" ParamSeq="6" Parameterized="0" Data="Scheme Start Date">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="7" ObjectId="493534b50f6a4eb3b8c8f7fa0429722f" ObjectName="Scheme Start Date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;Scheme Start Date&quot;" ParamSeq="1" Parameterized="0" Data="Scheme Start Date">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="8" ObjectId="7216195279434cb1859ee783b8169252" ObjectName="Today Date-Scheme Create" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="10" stepSeq="9" ObjectId="62ffa6f296d547c186b592b6ae98e53c" ObjectName="Scheme Name-Scheme Create Page" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="26d67865cc6547338a15ca0a4af600ef" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="14" stepSeq="10" ObjectId="b9dbdb8ce51f478bb9f24aad0f2e4c73" ObjectName="GrossTenure" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="GrossTenure" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Upfront Interest Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Upfront Interest Borne By">
+    </Param>
+    <Param Name="Upfront Interest Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="12" ObjectId="a6e158ddd26343bab81737d5a57933a3" ObjectName="Upfront Interest Borne By" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="27" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Upfront Interest Charge Type&quot;" ParamSeq="1" Parameterized="0" Data="Upfront Interest Charge Type">
+    </Param>
+    <Param Name="Upfront Interest Charge Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="14" ObjectId="9936fcc37478494c8abd305ed33f8504" ObjectName="Upfront Interest Charge Type" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="25" stepSeq="15" ObjectId="2a6fe5a8d29c4571aeb976f386a9233a" ObjectName="Upfront Interest Charge Value" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Upfront Interest Charge Value" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Scheme End Date&quot;" ParamSeq="1" Parameterized="0" Data="Scheme End Date">
+    </Param>
+    <Param Name="Days To Be Added for End Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{CurrentDate}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate}">
+    </Param>
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="2" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;{Scheme End Date}&quot;" ParamSeq="3" Parameterized="0" Data="{Scheme End Date}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;Scheme End Date&quot;" ParamSeq="6" Parameterized="0" Data="Scheme End Date">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="18" ObjectId="d2293c6bc0834821ae5550886ebc2dac" ObjectName="Scheme End Date-Scheme" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Scheme End Date}&quot;" ParamSeq="1" Parameterized="0" Data="{Scheme End Date}">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="19" ObjectId="7b734780987e4fe6937844e96b982b9e" ObjectName="AdvancedEMI" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Advanced EMI" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="20" ObjectId="d95e86b290c14058bb2ec2959cd54c03" ObjectName="DIS Charge Value-Scheme" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="DIS Charge Value" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="21" ObjectId="5d5c8e6518cf4adca39204c6184f99b5" ObjectName="Minimum Loan Amount" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Minimum Loan Amount" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="22" ObjectId="e7397fdef55048f1bdc310946350c222" ObjectName="Maximum Loan Amount" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Maximum Loan Amount" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

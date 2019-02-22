@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Store Created Model Name" Desc="Store Created Model Name" TaskID="7708067512a0466cbeeb3fb2b6f60fcd" Path="Store Created Model Name.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="99c20f9b2aa34f73b25497ab2c1f2344" ObjectName="Store Model Name" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="99c20f9b2aa34f73b25497ab2c1f2344" ObjectName="Store Model Name" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ModelName&quot;" ParamSeq="1" Parameterized="0" Data="ModelName">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Key-Model Name" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{ModelName}&quot;" ParamSeq="2" Parameterized="0" Data="{ModelName}">
+    </Param>
+  </Step>
+</Task>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Store Customer Details" Desc="Store Customer Details" TaskID="f3f616f5576041c19885265adfda3c74" Path="Store Customer Details.XML">
+  <Step StepId="6" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;20&quot;" ParamSeq="1" Parameterized="0" Data="20">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Address Line 1&quot;" ParamSeq="1" Parameterized="0" Data="Address Line 1">
+    </Param>
+    <Param Name="&quot;Address Line 11&quot;" ParamSeq="2" Parameterized="0" Data="Address Line 11">
+    </Param>
+    <Param Name="&quot;$StoreText$&quot;" ParamSeq="3" Parameterized="0" Data="$StoreText$">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Address Line 2&quot;" ParamSeq="1" Parameterized="0" Data="Address Line 2">
+    </Param>
+    <Param Name="&quot;Address Line 21&quot;" ParamSeq="2" Parameterized="0" Data="Address Line 21">
+    </Param>
+    <Param Name="&quot;$StoreText$&quot;" ParamSeq="3" Parameterized="0" Data="$StoreText$">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Address Line 3&quot;" ParamSeq="1" Parameterized="0" Data="Address Line 3">
+    </Param>
+    <Param Name="&quot;Address Line 31&quot;" ParamSeq="2" Parameterized="0" Data="Address Line 31">
+    </Param>
+    <Param Name="&quot;$StoreText$&quot;" ParamSeq="3" Parameterized="0" Data="$StoreText$">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Zip Code&quot;" ParamSeq="1" Parameterized="0" Data="Zip Code">
+    </Param>
+    <Param Name="&quot;Zip Code&quot;" ParamSeq="2" Parameterized="0" Data="Zip Code">
+    </Param>
+    <Param Name="&quot;$StoreText$&quot;" ParamSeq="3" Parameterized="0" Data="$StoreText$">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="6" ObjectId="2e4f44eff419444cba6be517fb436877" ObjectName="Zip Code" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Zip Code&quot;" ParamSeq="1" Parameterized="0" Data="Zip Code">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="65459967e6d249499d546c23f81413da" ActionName="ReplaceString" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Zip Code&quot;" ParamSeq="1" Parameterized="0" Data="Zip Code">
+    </Param>
+    <Param Name="&quot;{Zip Code}&quot;" ParamSeq="2" Parameterized="0" Data="{Zip Code}">
+    </Param>
+    <Param Name="&quot; &quot;" ParamSeq="3" Parameterized="0" Data=" ">
+    </Param>
+    <Param Name="&quot;@@&quot;" ParamSeq="4" Parameterized="0" Data="@@">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Zip Code&quot;" ParamSeq="1" Parameterized="0" Data="Zip Code">
+    </Param>
+    <Param Name="&quot;{Zip Code}&quot;" ParamSeq="2" Parameterized="0" Data="{Zip Code}">
+    </Param>
+    <Param Name="&quot;@@&quot;" ParamSeq="3" Parameterized="0" Data="@@">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;City&quot;" ParamSeq="1" Parameterized="0" Data="City">
+    </Param>
+    <Param Name="&quot;City1&quot;" ParamSeq="2" Parameterized="0" Data="City1">
+    </Param>
+    <Param Name="&quot;$StoreText$&quot;" ParamSeq="3" Parameterized="0" Data="$StoreText$">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;State&quot;" ParamSeq="1" Parameterized="0" Data="State">
+    </Param>
+    <Param Name="&quot;State1&quot;" ParamSeq="2" Parameterized="0" Data="State1">
+    </Param>
+    <Param Name="&quot;$StoreText$&quot;" ParamSeq="3" Parameterized="0" Data="$StoreText$">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="11" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;DeliveryAddress1&quot;" ParamSeq="1" Parameterized="0" Data="DeliveryAddress1">
+    </Param>
+    <Param Name="&quot;DeliveryAddress11&quot;" ParamSeq="2" Parameterized="0" Data="DeliveryAddress11">
+    </Param>
+    <Param Name="&quot;$StoreText$&quot;" ParamSeq="3" Parameterized="0" Data="$StoreText$">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="12" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;DeliveryAddress2&quot;" ParamSeq="1" Parameterized="0" Data="DeliveryAddress2">
+    </Param>
+    <Param Name="&quot;DeliveryAddress21&quot;" ParamSeq="2" Parameterized="0" Data="DeliveryAddress21">
+    </Param>
+    <Param Name="&quot;$StoreText$&quot;" ParamSeq="3" Parameterized="0" Data="$StoreText$">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="13" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;DeliveryAddress3&quot;" ParamSeq="1" Parameterized="0" Data="DeliveryAddress3">
+    </Param>
+    <Param Name="&quot;DeliveryAddress31&quot;" ParamSeq="2" Parameterized="0" Data="DeliveryAddress31">
+    </Param>
+    <Param Name="&quot;$StoreText$&quot;" ParamSeq="3" Parameterized="0" Data="$StoreText$">
+    </Param>
+  </Step>
+</Task>

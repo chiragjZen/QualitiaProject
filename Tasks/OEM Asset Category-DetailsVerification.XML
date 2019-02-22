@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="OEM Asset Category-DetailsVerification" Desc="OEM Asset Category-DetailsVerification" TaskID="fa59c38c050244a0b0b4c69f6f9131f0" Path="OEM Asset Category-DetailsVerification.XML">
+  <Step StepId="8" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Name&quot;" ParamSeq="1" Parameterized="0" Data="Name">
+    </Param>
+    <Param Name="{&quot;Name&quot;}" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Path" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;PAPS Feature&quot;" ParamSeq="1" Parameterized="0" Data="PAPS Feature">
+    </Param>
+    <Param Name="{&quot;PAPS Feature&quot;&quot;}" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Min Length of Serial Number&quot;" ParamSeq="1" Parameterized="0" Data="Min Length of Serial Number">
+    </Param>
+    <Param Name="{&quot;Min Length of Serial Number&quot;}" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+</Task>

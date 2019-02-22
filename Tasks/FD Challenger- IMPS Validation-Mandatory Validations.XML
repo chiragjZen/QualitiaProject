@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger- IMPS Validation-Mandatory Validations" Desc="FD Challenger- IMPS Validation-Mandatory Validations" TaskID="a4d796e6241546af92761775eab0ed45" Path="FD Challenger- IMPS Validation-Mandatory Validations.XML">
+  <Step StepId="17" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Account Validity&quot;" ParamSeq="1" Parameterized="0" Data="Account Validity">
+    </Param>
+    <Param Name="Account Validity-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

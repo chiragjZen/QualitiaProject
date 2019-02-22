@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="DealerErrorMessageValidations" Desc="DealerErrorMessageValidations" TaskID="cdc78674c23541048dc23bc48157a507" Path="DealerErrorMessageValidations.XML">
+  <Step StepId="18" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;count1&quot;" ParamSeq="1" Parameterized="0" Data="count1">
+    </Param>
+    <Param Name="&quot;NotDefined&quot;" ParamSeq="2" Parameterized="0" Data="NotDefined">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;count2&quot;" ParamSeq="1" Parameterized="0" Data="count2">
+    </Param>
+    <Param Name="&quot;NotDefined&quot;" ParamSeq="2" Parameterized="0" Data="NotDefined">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;count3&quot;" ParamSeq="1" Parameterized="0" Data="count3">
+    </Param>
+    <Param Name="&quot;NotDefined&quot;" ParamSeq="2" Parameterized="0" Data="NotDefined">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ErrorMessageValidationAt-DealerAuthorization}&quot;==&quot;Yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="5" ObjectId="9d7d4c7743b54951b5f8f67a2467849b" ObjectName="Top Error Validation" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="14" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="14" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;FieldName&quot;" ParamSeq="1" Parameterized="0" Data="FieldName">
+    </Param>
+    <Param Name="FieldName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" ParentID="14" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;(//span[text()='Review the errors on this page.']/following::li[contains(text(),&quot;{ErrorMessageToBeValidated}&quot;)])[1]&quot;" ParamSeq="1" Parameterized="0" Data="(//span[text()='Review the errors on this page.']/following::li[contains(text(),&quot;{ErrorMessageToBeValidated}&quot;)])[1]">
+    </Param>
+    <Param Name="&quot;count1&quot;" ParamSeq="2" Parameterized="0" Data="count1">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" ParentID="14" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//*[starts-with(.,'{FieldName}')]/../following-sibling::input[@type='checkbox' or @type='email' or @type='tel' or @type='text' or type='radio']/ancestor::div[1]/following-sibling::ul[1]/li[contains(text(),&quot;{ErrorMessageToBeValidated}&quot;)]&quot;" ParamSeq="1" Parameterized="0" Data="//*[starts-with(.,'{FieldName}')]/../following-sibling::input[@type='checkbox' or @type='email' or @type='tel' or @type='text' or type='radio']/ancestor::div[1]/following-sibling::ul[1]/li[contains(text(),&quot;{ErrorMessageToBeValidated}&quot;)]">
+    </Param>
+    <Param Name="&quot;count2&quot;" ParamSeq="2" Parameterized="0" Data="count2">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" ParentID="14" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//*[text()='{FieldName}']/../following-sibling::textarea/ancestor::div[1]/following-sibling::ul[1]/li[contains(text(),&quot;{ErrorMessageToBeValidated}&quot;)]&quot;" ParamSeq="1" Parameterized="0" Data="//*[text()='{FieldName}']/../following-sibling::textarea/ancestor::div[1]/following-sibling::ul[1]/li[contains(text(),&quot;{ErrorMessageToBeValidated}&quot;)]">
+    </Param>
+    <Param Name="&quot;count3&quot;" ParamSeq="2" Parameterized="0" Data="count3">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="14" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="8" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{count1}&quot;==&quot;0&quot;&amp;&amp;&quot;{count2}&quot;==&quot;0&quot;&amp;&amp;&quot;{count3}&quot;==&quot;0&quot;&amp;&quot;{ErrorMessageValidationAt-DealerAuthorization}&quot;==&quot;Yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="8" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Actual and Expected Error message doesn't match&quot;" ParamSeq="1" Parameterized="0" Data="Actual and Expected Error message doesn't match">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="8" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="16" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ErrorMessageValidationAt-DealerAuthorization}&quot;==&quot;Yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="16" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="17" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="16" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

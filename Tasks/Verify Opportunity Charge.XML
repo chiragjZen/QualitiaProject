@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Verify Opportunity Charge" Desc="Verify Opportunity Charge" TaskID="5f9a0ea354cb454bb02a617377bcf832" Path="Verify Opportunity Charge.XML">
+  <Step StepId="13" stepSeq="1" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Charge Name&quot;" ParamSeq="1" Parameterized="0" Data="Charge Name">
+    </Param>
+    <Param Name="Charge Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="2" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Charge Amount">
+    </Param>
+    <Param Name="Charge Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="3" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{OpportunityChargeExistance}&quot;==&quot;yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="4" ObjectId="a547b92d79d4444d9fe6cf9088100157" ObjectName="Related" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="5" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="5" ObjectId="a547b92d79d4444d9fe6cf9088100157" ObjectName="Related" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="5" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="32" stepSeq="6" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="5" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;4&quot;" ParamSeq="1" Parameterized="0" Data="4">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="7" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="5" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="8" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="5" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="9" ObjectId="28faee64928a4a63b0d17d65595bb730" ObjectName="Opportunity Charge Amount-Post DO Stage" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="5" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="10" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="5" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="20" stepSeq="11" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{OpportunityChargeExistance}&quot;==&quot;no&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="12" ObjectId="a547b92d79d4444d9fe6cf9088100157" ObjectName="Related" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="13" ObjectId="a547b92d79d4444d9fe6cf9088100157" ObjectName="Related" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="31" stepSeq="14" ObjectName="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="20" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectTypeId="">
+    <Param Name="&quot;4&quot;" ParamSeq="1" Parameterized="0" Data="4">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="15" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="16" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="17" ObjectId="28faee64928a4a63b0d17d65595bb730" ObjectName="Opportunity Charge Amount-Post DO Stage" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="18" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="20" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="21" stepSeq="19" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="20" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="25" stepSeq="20" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{MICRChargeValidationForChangedBank}&quot;==&quot;yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="27" stepSeq="21" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="25" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="26" stepSeq="22" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="25" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+</Task>

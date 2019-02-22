@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Select any  Document Type for Pass or Hold" Desc="Select any  Document Type for Pass or Hold" TaskID="edb08cde88f241f2920b85ba2a02a99f" Path="Select any  Document Type for Pass or Hold.XML">
+  <Step StepId="25" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Document_Pass/Hold&quot;" ParamSeq="1" Parameterized="0" Data="Document_Pass/Hold">
+    </Param>
+    <Param Name="Document_Pass/Hold" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Document_Pass/Hold}&quot;" ParamSeq="1" Parameterized="0" Data="{Document_Pass/Hold}">
+    </Param>
+    <Param Name="&quot;Document_Pass/Hold&quot;" ParamSeq="2" Parameterized="0" Data="Document_Pass/Hold">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Document_Type&quot;" ParamSeq="1" Parameterized="0" Data="Document_Type">
+    </Param>
+    <Param Name="Document_Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="4" ObjectId="2575019727e44c1e93ff58ca1a340db6" ObjectName="Document Type" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="5" ObjectId="2575019727e44c1e93ff58ca1a340db6" ObjectName="Document Type" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="7" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Document_Type}&quot;==&quot;Invoice&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="7" ObjectId="c2a31713c7f6422ba507ae564a08cf09" ObjectName="Manual Checkbox" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="f0d70168d9f0450d970e71ad544ab118" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="7" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="8" ObjectId="c2a31713c7f6422ba507ae564a08cf09" ObjectName="Manual Checkbox" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="913640807f4d44289f1c8fa83e360d18" ActionName="Check" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="7" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="22" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="7" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="7" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="11" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Document_Type}&quot;==&quot;ECS Mandate&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="12" ObjectId="e79b3f0c5d8c4f3eac1f6a3178100c36" ObjectName="Filled Checkbox" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="f0d70168d9f0450d970e71ad544ab118" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="11" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="13" ObjectId="e79b3f0c5d8c4f3eac1f6a3178100c36" ObjectName="Filled Checkbox" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="eefd0925dc4046439b93db92711f487b" ActionName="JSCustomClick" QClass="CustomClick" ParentID="11" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="23" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="11" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="11" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="17" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Document_Pass/Hold}&quot;==&quot;pass&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="17" ObjectId="3a95243f3916474fa2980a415b788e14" ObjectName="Passed button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="18" ObjectId="3a95243f3916474fa2980a415b788e14" ObjectName="Passed button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="43" stepSeq="19" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="17" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;4&quot;" ParamSeq="1" Parameterized="0" Data="4">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="20" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="17" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="26" stepSeq="21" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Document_Pass/Hold}&quot;==&quot;hold&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="42" stepSeq="22" ObjectId="9ee255b29897459e89b07ddd120774b4" ObjectName="Hold button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="26" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="23" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="38" stepSeq="24" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Type&quot;" ParamSeq="1" Parameterized="0" Data="Hold Type">
+    </Param>
+    <Param Name="Hold Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="37" stepSeq="25" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Remark&quot;" ParamSeq="1" Parameterized="0" Data="Hold Remark">
+    </Param>
+    <Param Name="Hold Remark" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="36" stepSeq="26" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;LBO Remark&quot;" ParamSeq="1" Parameterized="0" Data="LBO Remark">
+    </Param>
+    <Param Name="LBO Remark" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="27" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;FOS Remark&quot;" ParamSeq="1" Parameterized="0" Data="FOS Remark">
+    </Param>
+    <Param Name="FOS Remark" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="41" stepSeq="28" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Type 2&quot;" ParamSeq="1" Parameterized="0" Data="Hold Type 2">
+    </Param>
+    <Param Name="Hold Type 2" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="40" stepSeq="29" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Remark 2&quot;" ParamSeq="1" Parameterized="0" Data="Hold Remark 2">
+    </Param>
+    <Param Name="Hold Remark 2" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="39" stepSeq="30" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;LBO Remark 2&quot;" ParamSeq="1" Parameterized="0" Data="LBO Remark 2">
+    </Param>
+    <Param Name="LBO Remark 2" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="31" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;FOS Remark 2&quot;" ParamSeq="1" Parameterized="0" Data="FOS Remark 2">
+    </Param>
+    <Param Name="FOS Remark 2" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="32" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Type 3&quot;" ParamSeq="1" Parameterized="0" Data="Hold Type 3">
+    </Param>
+    <Param Name="Hold Type 3" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="32" stepSeq="33" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Remark 3&quot;" ParamSeq="1" Parameterized="0" Data="Hold Remark 3">
+    </Param>
+    <Param Name="Hold Remark 3" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="34" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;LBO Remark 3&quot;" ParamSeq="1" Parameterized="0" Data="LBO Remark 3">
+    </Param>
+    <Param Name="LBO Remark 3" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="35" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;FOS Remark 3&quot;" ParamSeq="1" Parameterized="0" Data="FOS Remark 3">
+    </Param>
+    <Param Name="FOS Remark 3" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="36" ObjectId="9ee255b29897459e89b07ddd120774b4" ObjectName="Hold button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="26" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="27" stepSeq="37" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger-Click on Add Address-Permanent" Desc="FD Challenger-Click on Add Address-Permanent" TaskID="3ea2c098aaec4f0b925e25318b3f6327" Path="FD Challenger-Click on Add Address.XML">
+  <Step StepId="5" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Add New Address Required&quot;" ParamSeq="1" Parameterized="0" Data="Add New Address Required">
+    </Param>
+    <Param Name="Add New Address Permanent-Required" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="2" ObjectId="9fb269b17e484e1e986efda9b6f14b7a" ObjectName="Select Address Type-FD" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Address Type" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="313b36847d964a09b6c3b1726cf036df" ObjectName="Add New Address-FD" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="976d3ef33eb64113ae787936a7edac89" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="4" ObjectId="313b36847d964a09b6c3b1726cf036df" ObjectName="Add New Address-FD" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="10" stepSeq="5" ObjectId="e60c0b50c7d54cf09a057d172526db9e" ObjectName="Negative Sign-Address Details" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="588ab5d315224ba9b16c187cb06d0aee" ActionName="StoreExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Existence&quot;" ParamSeq="1" Parameterized="0" Data="Existence">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Existence}&quot;!=&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="7" ObjectId="cb5bc3548588421f81cbb1adfb6baac4" ObjectName="Address Details" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="11" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="12" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="11" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="8" stepSeq="9" ObjectId="3ae268b9dc94468c9963e76d05f5039d" ObjectName="Next Button" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+</Task>

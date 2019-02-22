@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="ECS Mandate-Post DO" Desc="ECS Mandate-Post DO" TaskID="91775c4c956146a3982a97f93abdf450" Path="ECS Mandate-Post DO.XML">
+  <Step StepId="19" stepSeq="1" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="36" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ECS Barcode&quot;" ParamSeq="1" Parameterized="0" Data="ECS Barcode">
+    </Param>
+    <Param Name="ECS Barcode" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ECS Barcode&quot;" ParamSeq="1" Parameterized="0" Data="ECS Barcode">
+    </Param>
+    <Param Name="&quot;{ECS Barcode}&quot;" ParamSeq="2" Parameterized="0" Data="{ECS Barcode}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ECS Start Date&quot;" ParamSeq="1" Parameterized="0" Data="ECS Start Date">
+    </Param>
+    <Param Name="ECS Start Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ECS End Date&quot;" ParamSeq="1" Parameterized="0" Data="ECS End Date">
+    </Param>
+    <Param Name="Expected ECS End Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerification&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerification">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ECS Amount&quot;" ParamSeq="1" Parameterized="0" Data="ECS Amount">
+    </Param>
+    <Param Name="ECS Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;ECS Amount&quot;" ParamSeq="1" Parameterized="0" Data="ECS Amount">
+    </Param>
+    <Param Name="&quot;Stored_EMIAmount&quot;" ParamSeq="2" Parameterized="0" Data="Stored_EMIAmount">
+    </Param>
+    <Param Name="&quot;StoreText&quot;" ParamSeq="3" Parameterized="0" Data="StoreText">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;{ECS Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{ECS Amount}">
+    </Param>
+    <Param Name="&quot;{Stored_EMIAmount}&quot;" ParamSeq="2" Parameterized="0" Data="{Stored_EMIAmount}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="32" stepSeq="9" ObjectId="c17935eb28474da189496adcd2b108ba" ObjectName="ECS_Amount" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="37" stepSeq="10" ObjectId="f606afbbc0544aada2ac807cbecd9542" ObjectName="Due Day_Post_DO" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="588ab5d315224ba9b16c187cb06d0aee" ActionName="StoreExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;DueDayDefaultExistance&quot;" ParamSeq="1" Parameterized="0" Data="DueDayDefaultExistance">
+    </Param>
+  </Step>
+  <Step StepId="39" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{DueDayDefaultExistance}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="12" ObjectId="f606afbbc0544aada2ac807cbecd9542" ObjectName="Due Day_Post_DO" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="39" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="40" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="39" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="30" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Due Day&quot;" ParamSeq="1" Parameterized="0" Data="Due Day">
+    </Param>
+    <Param Name="&quot;5&quot;" ParamSeq="2" Parameterized="0" Data="5">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Due Day&quot;" ParamSeq="1" Parameterized="0" Data="Due Day">
+    </Param>
+    <Param Name="&quot;10&quot;" ParamSeq="2" Parameterized="0" Data="10">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Due Day&quot;" ParamSeq="1" Parameterized="0" Data="Due Day">
+    </Param>
+    <Param Name="&quot;15&quot;" ParamSeq="2" Parameterized="0" Data="15">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Due Day&quot;" ParamSeq="1" Parameterized="0" Data="Due Day">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="2" Parameterized="0" Data="2">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Due Day&quot;" ParamSeq="1" Parameterized="0" Data="Due Day">
+    </Param>
+    <Param Name="Due Day" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+</Task>

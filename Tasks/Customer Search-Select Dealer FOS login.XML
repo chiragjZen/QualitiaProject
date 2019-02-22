@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Customer Search-Select Dealer FOS login" Desc="Customer Search-Select Dealer FOS login" TaskID="bb599edb57944037bb7348132e2045ed" Path="Customer Search-Select Dealer FOS login.XML" IsSystemTask="0" OnError="Continue">
+  <Step StepId="1" stepSeq="1" ObjectId="d28333ae9ecc440c98962e37aedaf8ca" ObjectName="Next_btn" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Dealer&quot;" ParamSeq="1" Parameterized="0" Data="Dealer">
+    </Param>
+    <Param Name="&quot;Dealer&quot;" ParamSeq="2" Parameterized="0" Data="Dealer">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="d28333ae9ecc440c98962e37aedaf8ca" ObjectName="Next_btn" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

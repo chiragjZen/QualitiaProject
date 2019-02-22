@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Click on Scheme Code &amp; Select Scheme-Available Oppty Page" Desc="Click on Scheme Code &amp; Select Scheme-Available Oppty Page" TaskID="d20c5dcde5ac48e3b97140c20cf3c4d4" Path="Click on Scheme Code &amp; Select Scheme-Available Oppty Page.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Scheme Code&quot;" ParamSeq="1" Parameterized="0" Data="Scheme Code">
+    </Param>
+    <Param Name="Scheme To Be Selected" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Scheme-SchemeType&quot;" ParamSeq="1" Parameterized="0" Data="Scheme-SchemeType">
+    </Param>
+    <Param Name="Scheme-SchemeType" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="3" ObjectId="af83c3036cae4e5fabbb1eabba3cdd95" ObjectName="AssetSelection-Scheme Code" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="16" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Scheme-SchemeType}&quot;==&quot;Step Up&quot;||&quot;{Scheme-SchemeType}&quot;==&quot;Step Down&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="5" ObjectId="ea0eb4e4e8e6496fbeb3cf4d642d02f6" ObjectName="Edit Button-SchemeSection" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="16" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="6" ObjectId="ea0eb4e4e8e6496fbeb3cf4d642d02f6" ObjectName="Edit Button-SchemeSection" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="16" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="13" stepSeq="7" ObjectId="4032b570f7904711aafe1f02134568f0" ObjectName="AssetSelection-Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="16" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="16" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Stepped EMI Type&quot;" ParamSeq="1" Parameterized="0" Data="Stepped EMI Type">
+    </Param>
+    <Param Name="SteppedEMIType" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="9" ObjectId="579a1b58e2e543309dc24b8c3f949874" ObjectName="Stepped EMI Type Textbox-SchemeEditPage" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="16" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="11" stepSeq="10" ObjectId="f920a9904dfc43efb0055051f9d36c94" ObjectName="Stepped EMI Type Value-Scheme Edit Page" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="16" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="19" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="16" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;SteppedEMIStartMonth&quot;" ParamSeq="1" Parameterized="0" Data="SteppedEMIStartMonth">
+    </Param>
+    <Param Name="SteppedEMIStartMonth" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="16" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Stepped EMI Start Month&quot;" ParamSeq="1" Parameterized="0" Data="Stepped EMI Start Month">
+    </Param>
+    <Param Name="&quot;{SteppedEMIStartMonth}&quot;" ParamSeq="2" Parameterized="0" Data="{SteppedEMIStartMonth}">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="13" ObjectId="36ad0248ea0c46068dda562bfcb48258" ObjectName="Stepped EMI Start Month-Scheme Edit Page" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="16" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{SteppedEMIStartMonth}&quot;" ParamSeq="1" Parameterized="0" Data="{SteppedEMIStartMonth}">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="16" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Scheme-SchemeType}&quot;==&quot;Flexi Tenure&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="15" ObjectId="ea0eb4e4e8e6496fbeb3cf4d642d02f6" ObjectName="Edit Button-SchemeSection" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="21" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="27" stepSeq="16" ObjectId="ea0eb4e4e8e6496fbeb3cf4d642d02f6" ObjectName="Edit Button-SchemeSection" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="21" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="26" stepSeq="17" ObjectId="4032b570f7904711aafe1f02134568f0" ObjectName="AssetSelection-Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="21" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="21" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Scheme-ReqEMIAmount&quot;" ParamSeq="1" Parameterized="0" Data="Scheme-ReqEMIAmount">
+    </Param>
+    <Param Name="Scheme-ReqEMIAmount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="19" ObjectId="af3fa067410040c0b93c23eaadf66dff" ObjectName="Requested EMI amount" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="21" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Scheme-ReqEMIAmount}&quot;" ParamSeq="1" Parameterized="0" Data="{Scheme-ReqEMIAmount}">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="20" ObjectId="142da4b6a11b4c3c8ea91c28072158b8" ObjectName="Requested EMI Amount-Scheme Edit Page" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="21" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{Scheme-ReqEMIAmount}&quot;" ParamSeq="1" Parameterized="0" Data="{Scheme-ReqEMIAmount}">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="21" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="16" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="23" stepSeq="22" ObjectId="4032b570f7904711aafe1f02134568f0" ObjectName="AssetSelection-Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="23" ObjectId="4032b570f7904711aafe1f02134568f0" ObjectName="AssetSelection-Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="1" stepSeq="24" ObjectId="efe212a0a1d04d0bbee003ef722de13a" ObjectName="AssetSelection-SelectSchemeButton" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="976d3ef33eb64113ae787936a7edac89" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="25" ObjectId="efe212a0a1d04d0bbee003ef722de13a" ObjectName="AssetSelection-SelectSchemeButton" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="5" stepSeq="26" ObjectId="4032b570f7904711aafe1f02134568f0" ObjectName="AssetSelection-Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="27" ObjectId="4032b570f7904711aafe1f02134568f0" ObjectName="AssetSelection-Save" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="8" stepSeq="28" ObjectId="471cc6f4d6a44113a789fb944a615d7a" ObjectName="Scheme Selection Sucess- Pop Up" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

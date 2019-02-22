@@ -1,0 +1,1 @@
+java -jar D:\QualitiaSVN\POS_Reinvent_projectdb\OfflinePackage\QualitiaOffline\xml2excel.jar D:\QualitiaSVN\POS_Reinvent_projectdb\OfflinePackage\Xml\Bajaj_QualitiaOffline_DO_Post_DO D:\QualitiaSVN\POS_Reinvent_projectdb\ExternalFiles

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Output-Mobile No. and FN Name" Desc="Output-Mobile No. and FN Name" TaskID="a878056956964683a7867d08ffd4b5dd" Path="Output-Mobile No. and FN Name.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Mobile Number&quot;" ParamSeq="1" Parameterized="0" Data="Mobile Number">
+    </Param>
+    <Param Name="Output-Mobile Number" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Customer Name&quot;" ParamSeq="1" Parameterized="0" Data="Customer Name">
+    </Param>
+    <Param Name="Output-Customer Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;InstaCDGridKey&quot;" ParamSeq="1" Parameterized="0" Data="InstaCDGridKey">
+    </Param>
+    <Param Name="Output-Actual InstaCDGridKey" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;InstaDigitalGridKey&quot;" ParamSeq="1" Parameterized="0" Data="InstaDigitalGridKey">
+    </Param>
+    <Param Name="Output-Actual InstaDigitalGridKey" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ExecutionStatus&quot;" ParamSeq="1" Parameterized="0" Data="ExecutionStatus">
+    </Param>
+    <Param Name="ExecutionStatus" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ApplicationDataEntry-ErrorMessage&quot;" ParamSeq="1" Parameterized="0" Data="ApplicationDataEntry-ErrorMessage">
+    </Param>
+    <Param Name="ApplicationDataEntry-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;SandBoxError-ErrorMessage&quot;" ParamSeq="1" Parameterized="0" Data="SandBoxError-ErrorMessage">
+    </Param>
+    <Param Name="SandBoxError-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

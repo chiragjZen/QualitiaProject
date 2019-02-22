@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="CustomerSearch-Click on Confirm Button" Desc="CustomerSearch-Click on Confirm Button" TaskID="c5923dd645f0480b91f706dd71f10165" Path="CustomerSearch-Click on Confirm Button.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="28c71b50886943ab959bc9f930d1a875" ObjectName="Clcik on Confirm button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

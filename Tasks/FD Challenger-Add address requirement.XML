@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger-Add address requirement" Desc="FD Challenger-Add address requirement" TaskID="ef2f7aa0f3b34e569af7f412ca633bdf" Path="FD Challenger-Add address requirement.XML">
+  <Step StepId="8" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Add New Address -Permanent Required-Yes/No&quot;" ParamSeq="1" Parameterized="0" Data="Add New Address -Permanent Required-Yes/No">
+    </Param>
+    <Param Name="Add New Address -Permanent Required-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Add New Address -Permanent Required-Yes/No}&quot;" ParamSeq="1" Parameterized="0" Data="{Add New Address -Permanent Required-Yes/No}">
+    </Param>
+    <Param Name="&quot;Add New Address -Permanent Required-Yes/No&quot;" ParamSeq="2" Parameterized="0" Data="Add New Address -Permanent Required-Yes/No">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Add New Address -Residence Required-Yes/No&quot;" ParamSeq="1" Parameterized="0" Data="Add New Address -Residence Required-Yes/No">
+    </Param>
+    <Param Name="Add New Address -Residence Required-Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Add New Address -Residence Required-Yes/No}&quot;" ParamSeq="1" Parameterized="0" Data="{Add New Address -Residence Required-Yes/No}">
+    </Param>
+    <Param Name="&quot;Add New Address -Residence Required-Yes/No&quot;" ParamSeq="2" Parameterized="0" Data="Add New Address -Residence Required-Yes/No">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Add New Address -Permanent Required-Yes/No}&quot;==&quot;yes&quot;||&quot;{Add New Address -Residence Required-Yes/No}&quot;==&quot;yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="9" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="7" ObjectId="cb5bc3548588421f81cbb1adfb6baac4" ObjectName="Address Details" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="9" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="10" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="9" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

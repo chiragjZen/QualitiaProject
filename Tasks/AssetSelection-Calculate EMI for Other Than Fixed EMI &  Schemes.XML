@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="AssetSelection-Calculate EMI for Other Than Fixed EMI, FlexiTenure, PAPS &amp; Ticket Size Based  Schemes" Desc="AssetSelection-Calculate EMI for Other Than Fixed EMI, FlexiTenure, PAPS &amp; Ticket Size Based  Schemes" TaskID="9bbe4d6d8d394e299fa8e1c64822fc11" Path="AssetSelection-Calculate EMI for Other Than Fixed EMI &amp;  Schemes.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Gross tenure&quot;" ParamSeq="1" Parameterized="0" Data="Gross tenure">
+    </Param>
+    <Param Name="Gross tenure" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Invoice Amount}-{Requested Loan Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Invoice Amount}-{Requested Loan Amount}">
+    </Param>
+    <Param Name="&quot;Down Payment&quot;" ParamSeq="2" Parameterized="0" Data="Down Payment">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Down Payment}&quot;&lt;&quot;{Scheme Margin Money}&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="9" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Margin Money&quot;" ParamSeq="1" Parameterized="0" Data="Margin Money">
+    </Param>
+    <Param Name="&quot;{Scheme Margin Money}&quot;" ParamSeq="2" Parameterized="0" Data="{Scheme Margin Money}">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="9" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="13" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="14" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Margin Money&quot;" ParamSeq="1" Parameterized="0" Data="Margin Money">
+    </Param>
+    <Param Name="&quot;{Down Payment}&quot;" ParamSeq="2" Parameterized="0" Data="{Down Payment}">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="9" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="11" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Invoice Amount}-{Margin Money}&quot;" ParamSeq="1" Parameterized="0" Data="{Invoice Amount}-{Margin Money}">
+    </Param>
+    <Param Name="&quot;Revised Loan Amount&quot;" ParamSeq="2" Parameterized="0" Data="Revised Loan Amount">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;(({Revised Loan Amount}*({Rate of Interest}/12))*{Gross tenure})+{Revised Loan Amount})/{Gross Tenure}&quot;" ParamSeq="1" Parameterized="0" Data="(({Revised Loan Amount}*({Rate of Interest}/12))*{Gross tenure})+{Revised Loan Amount})/{Gross Tenure}">
+    </Param>
+    <Param Name="&quot;EMI for other than Fixed EMI &amp;Flexi Tenure&quot;" ParamSeq="2" Parameterized="0" Data="EMI for other than Fixed EMI &amp;Flexi Tenure">
+    </Param>
+  </Step>
+</Task>

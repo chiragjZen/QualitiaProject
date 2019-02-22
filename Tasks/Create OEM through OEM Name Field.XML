@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Create OEM through OEM Name Field" Desc="Create OEM through OEM Name Field" TaskID="74bc1b189c3a47ac8a0fbeeb0c76f058" Path="Create OEM through OEM Name Field.XML">
+  <Step StepId="4" stepSeq="1" ObjectId="0222ff7cf90b495aac538398cae43541" ObjectName="OEM Name Creation_OEM Asset Category" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="81247dbb7d094d94bc03d470f649e964" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;20&quot;" ParamSeq="1" Parameterized="0" Data="20">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="0222ff7cf90b495aac538398cae43541" ObjectName="OEM Name Creation_OEM Asset Category" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="26d67865cc6547338a15ca0a4af600ef" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="e84f01e15b604af08e4923a1cc5f0686" ObjectName="New Account_OEM Asset Category" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;40&quot;" ParamSeq="1" Parameterized="0" Data="40">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="4" ObjectId="e84f01e15b604af08e4923a1cc5f0686" ObjectName="New Account_OEM Asset Category" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

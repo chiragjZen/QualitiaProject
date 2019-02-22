@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Search for new account" Desc="Search for new account" TaskID="caa712e5c4a946e7bf5590a87e6dc417" Path="Search for new account.XML">
+  <Step StepId="4" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;labelname&quot;" ParamSeq="1" Parameterized="0" Data="labelname">
+    </Param>
+    <Param Name="{data}" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="089ede1e4da34a4b9d158b524e583ea1" ObjectName="Search_newacc" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="2" stepSeq="3" ObjectId="09d606b5214343c5b7c5fe117cebdf38" ObjectName="NEWaccount" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;30&quot;" ParamSeq="1" Parameterized="0" Data="30">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="4" ObjectId="09d606b5214343c5b7c5fe117cebdf38" ObjectName="NEWaccount" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="9" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;SchemeType&quot;" ParamSeq="1" Parameterized="0" Data="SchemeType">
+    </Param>
+    <Param Name="{data}" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="6" ObjectId="8b80c5635d624dc9a7aee18a0aead9af" ObjectName="Radio_btn" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="7" stepSeq="7" ObjectId="8b80c5635d624dc9a7aee18a0aead9af" ObjectName="Radio_btn" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="6" stepSeq="8" ObjectId="6cc9dc5eee70417ea74c223abd42b2cd" ObjectName="Save_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;30&quot;" ParamSeq="1" Parameterized="0" Data="30">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\SFDCGlobalTask.xls&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\SFDCGlobalTask.xls">
+    </Param>
+    <Param Name="&quot;MasterBankBranches&quot;" ParamSeq="2" Parameterized="0" Data="MasterBankBranches">
+    </Param>
+    <Param Name="&quot;MasterProduct&quot;" ParamSeq="3" Parameterized="0" Data="MasterProduct">
+    </Param>
+  </Step>
+</Task>

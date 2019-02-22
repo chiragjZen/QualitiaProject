@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="OEM Bundle-Amount Conversion" Desc="OEM Bundle-Amount Conversion" TaskID="81dc25f4807d4332b260d298ba1efaa0" Path="OEM Bundle-Amount Conversion.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Min Invoice Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Min Invoice Amount}">
+    </Param>
+    <Param Name="&quot;key_Converted&quot;" ParamSeq="2" Parameterized="0" Data="key_Converted">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Min Invoice Amount&quot;" ParamSeq="1" Parameterized="0" Data="Min Invoice Amount">
+    </Param>
+    <Param Name="&quot;Rs.{key_Converted}.00&quot;" ParamSeq="2" Parameterized="0" Data="Rs.{key_Converted}.00">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Selling Price}&quot;" ParamSeq="1" Parameterized="0" Data="{Selling Price}">
+    </Param>
+    <Param Name="&quot;key_Converted&quot;" ParamSeq="2" Parameterized="0" Data="key_Converted">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Selling Price&quot;" ParamSeq="1" Parameterized="0" Data="Selling Price">
+    </Param>
+    <Param Name="&quot;Rs.{key_Converted}.00&quot;" ParamSeq="2" Parameterized="0" Data="Rs.{key_Converted}.00">
+    </Param>
+  </Step>
+</Task>

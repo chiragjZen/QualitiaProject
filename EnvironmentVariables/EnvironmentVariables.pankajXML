@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EnvironmentVariables>
+  <variable Name="waitTime" Datatype="String">
+    <Value>35</Value>
+  </variable>
+  <variable Name="Region1" Datatype="String">
+    <Value>WEST</Value>
+  </variable>
+  <variable Name="ProjectPath" Datatype="String">
+    <Value>\\192.168.10.5\Delivery_Department\Bajaj</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive05" Datatype="String">
+    <Value>OEM Asset Category-05060343</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive04" Datatype="String">
+    <Value>OEM Asset Category-05060213</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive03" Datatype="String">
+    <Value>OEM Asset Category-05060046</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive1" Datatype="String">
+    <Value>OEM Asset Category-05055748</Value>
+  </variable>
+  <variable Name="OEM Name" Datatype="String">
+    <Value>SONY QA123</Value>
+  </variable>
+  <variable Name="Group Dealer-Name" Datatype="String">
+    <Value>HARINI HEALTH CARE PRIVATE LTD#AMBATTUR</Value>
+  </variable>
+  <variable Name="GenFeatureValue_01" Datatype="String">
+    <Value>1</Value>
+  </variable>
+  <variable Name="GenFeatureName_01" Datatype="String">
+    <Value>FeatureNm105054611</Value>
+  </variable>
+  <variable Name="Dealer-Account Name" Datatype="String">
+    <Value>Hyco Electronics</Value>
+  </variable>
+  <variable Name="Dealer State1" Datatype="String">
+    <Value>MADHYA PRADESH</Value>
+  </variable>
+  <variable Name="Dealer Branch1" Datatype="String">
+    <Value>Indore</Value>
+  </variable>
+  <variable Name="AutomationModel08" Datatype="String">
+    <Value>Sansui05065026 - OEM Asset Category-05060513</Value>
+  </variable>
+  <variable Name="AutomationModel05" Datatype="String">
+    <Value>Sansui05064811 - OEM Asset Category-05060343</Value>
+  </variable>
+  <variable Name="AutomationModel04" Datatype="String">
+    <Value>Sansui05064557 - OEM Asset Category-05060213</Value>
+  </variable>
+  <variable Name="AutomationModel03" Datatype="String">
+    <Value>Sansui05064341 - OEM Asset Category-05060046</Value>
+  </variable>
+  <variable Name="AutomationModel02" Datatype="String">
+    <Value>Sansui05064124 - OEM Asset Category-05055916</Value>
+  </variable>
+  <variable Name="AutomationModel01" Datatype="String">
+    <Value>Sansui05063904 - OEM Asset Category-05055748</Value>
+  </variable>
+  <variable Name="AssetCategory05" Datatype="String">
+    <Value>AssCat28084819</Value>
+  </variable>
+  <variable Name="AssetCategory04" Datatype="String">
+    <Value>AssCat28084707</Value>
+  </variable>
+  <variable Name="AssetCategory03" Datatype="String">
+    <Value>AssCat05055128</Value>
+  </variable>
+  <variable Name="AssetCategory02" Datatype="String">
+    <Value>AssCat05055016</Value>
+  </variable>
+  <variable Name="AssetCategory" Datatype="String">
+    <Value>AssCat05054905</Value>
+  </variable>
+  <variable Name="Dealer City1" Datatype="String">
+    <Value>INDORE</Value>
+  </variable>
+  <variable Name="AssetCategory06" Datatype="String">
+    <Value>AssCat28084930</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive02" Datatype="String">
+    <Value>OEM Asset Category-05055916</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive08" Datatype="String">
+    <Value>OEM Asset Category-05060513</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive10" Datatype="String">
+    <Value>OEM Asset Category-05060643</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive12" Datatype="String">
+    <Value>OEM Asset Category-05060811</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive13" Datatype="String">
+    <Value>OEM Asset Category-05060939</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_01" Datatype="String">
+    <Value>OEM Asset Category-28085211 FeatureNm128084044</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_02" Datatype="String">
+    <Value>OEM Asset Category-28085339 FeatureNm128084044</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_03" Datatype="String">
+    <Value>OEM Asset Category-28085508 FeatureNm128084044</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_04" Datatype="String">
+    <Value>OEM Asset Category-28085640 FeatureNm128084044</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_05" Datatype="String">
+    <Value>OEM Asset Category-28085814 FeatureNm128084044</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_08" Datatype="String">
+    <Value>OEM Asset Category-28085942 FeatureNm128084044</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_10" Datatype="String">
+    <Value>OEM Asset Category-28090112 FeatureNm128084044</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_12" Datatype="String">
+    <Value>OEM Asset Category-28090240 FeatureNm128084044</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureName_13" Datatype="String">
+    <Value>OEM Asset Category-28090408 FeatureNm128084044</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_01" Datatype="String">
+    <Value>OEM Asset Category-28085211 FeatureNm128084044 1</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_02" Datatype="String">
+    <Value>OEM Asset Category-28085339 FeatureNm128084044 1</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_03" Datatype="String">
+    <Value>OEM Asset Category-26092030 FeatureNm126090705 1</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_04" Datatype="String">
+    <Value>OEM Asset Category-26092159 FeatureNm126090705 1</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_05" Datatype="String">
+    <Value>OEM Asset Category-26092328 FeatureNm126090705 1</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_08" Datatype="String">
+    <Value>OEM Asset Category-26092458 FeatureNm126090705 1</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_10" Datatype="String">
+    <Value>OEM Asset Category-26092630 FeatureNm126090705 1</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_12" Datatype="String">
+    <Value>OEM Asset Category-26092759 FeatureNm126090705 1</Value>
+  </variable>
+  <variable Name="OemAssetCategoryFeatureValue_13" Datatype="String">
+    <Value>OEM Asset Category-26092928 FeatureNm126090705 1</Value>
+  </variable>
+  <variable Name="AutomationModel13" Datatype="String">
+    <Value>Sansui05065241 - OEM Asset Category-05055748</Value>
+  </variable>
+  <variable Name="AutomationModel14" Datatype="String">
+    <Value>Sansui05065457 - OEM Asset Category-05060939</Value>
+  </variable>
+  <variable Name="NormalScheme03" Datatype="String">
+    <Value>0003900</Value>
+  </variable>
+  <variable Name="NormalScheme07" Datatype="String">
+    <Value>0003463</Value>
+  </variable>
+  <variable Name="NormalScheme08" Datatype="String">
+    <Value>0003901</Value>
+  </variable>
+  <variable Name="NormalScheme16" Datatype="String">
+    <Value>0003467</Value>
+  </variable>
+  <variable Name="NormalScheme17" Datatype="String">
+    <Value>0003469</Value>
+  </variable>
+  <variable Name="NormalScheme18" Datatype="String">
+    <Value>0003472</Value>
+  </variable>
+  <variable Name="SpecialScheme01" Datatype="String">
+    <Value>0003902</Value>
+  </variable>
+  <variable Name="SpecialScheme02" Datatype="String">
+    <Value>0003903</Value>
+  </variable>
+  <variable Name="SpecialScheme03" Datatype="String">
+    <Value>0003905</Value>
+  </variable>
+  <variable Name="SpecialScheme04" Datatype="String">
+    <Value>0003907</Value>
+  </variable>
+  <variable Name="SpecialScheme05" Datatype="String">
+    <Value>0003910</Value>
+  </variable>
+  <variable Name="SpecialScheme06" Datatype="String">
+    <Value>0003913</Value>
+  </variable>
+  <variable Name="SpecialScheme07" Datatype="String">
+    <Value>0003906</Value>
+  </variable>
+  <variable Name="SpecialScheme09" Datatype="String">
+    <Value>0003908</Value>
+  </variable>
+  <variable Name="SpecialScheme13" Datatype="String">
+    <Value>0003911</Value>
+  </variable>
+  <variable Name="SpecialScheme16" Datatype="String">
+    <Value>0003912</Value>
+  </variable>
+  <variable Name="SpecialScheme19" Datatype="String">
+    <Value>0003915</Value>
+  </variable>
+  <variable Name="SpecialScheme20" Datatype="String">
+    <Value>0003736</Value>
+  </variable>
+  <variable Name="SpecialScheme27" Datatype="String">
+    <Value>0003667</Value>
+  </variable>
+  <variable Name="SpecialScheme22" Datatype="String">
+    <Value>0003666</Value>
+  </variable>
+  <variable Name="SpecialScheme17" Datatype="String">
+    <Value>0003662</Value>
+  </variable>
+  <variable Name="SpecialScheme18" Datatype="String">
+    <Value>0003663</Value>
+  </variable>
+  <variable Name="NormalScheme19" Datatype="String">
+    <Value>0003904</Value>
+  </variable>
+  <variable Name="OemAssetCategoryActive14" Datatype="String">
+    <Value>OEM Asset Category-05061111</Value>
+  </variable>
+  <variable Name="AutomationModel15" Datatype="String">
+    <Value>Sansui05065716 - OEM Asset Category-05061111</Value>
+  </variable>
+  <variable Name="SpecialScheme29" Datatype="String">
+    <Value>0004016</Value>
+  </variable>
+</EnvironmentVariables>

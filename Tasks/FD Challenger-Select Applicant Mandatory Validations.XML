@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger-Select Applicant Mandatory Validations" Desc="FD Challenger-Select Applicant Mandatory Validations" TaskID="942309bd77ee4cfca53767d9f5f6be1a" Path="FD Challenger-Select Applicant Mandatory Validations.XML">
+  <Step StepId="6" stepSeq="1" ObjectId="cc541b6e1b164578a154f0e266f7cadb" ObjectName="Select Applicant Type-Dropdown" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Select Applicant Type" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;SearchCustomer Parameter&quot;" ParamSeq="1" Parameterized="0" Data="SearchCustomer Parameter">
+    </Param>
+    <Param Name="&quot;First Name/Company Name&quot;" ParamSeq="2" Parameterized="0" Data="First Name/Company Name">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="14665818cdad476095e9299f2cd107ab" ObjectName="SearchCustomer Parameter-FD" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="First Name/Company Name" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;SearchCustomer Parameter&quot;" ParamSeq="1" Parameterized="0" Data="SearchCustomer Parameter">
+    </Param>
+    <Param Name="&quot;Last Name&quot;" ParamSeq="2" Parameterized="0" Data="Last Name">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="5" ObjectId="14665818cdad476095e9299f2cd107ab" ObjectName="SearchCustomer Parameter-FD" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="Last Name" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;SearchCustomer Parameter&quot;" ParamSeq="1" Parameterized="0" Data="SearchCustomer Parameter">
+    </Param>
+    <Param Name="&quot;Enter PAN&quot;" ParamSeq="2" Parameterized="0" Data="Enter PAN">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="7" ObjectId="14665818cdad476095e9299f2cd107ab" ObjectName="SearchCustomer Parameter-FD" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="Enter PAN" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="8" ObjectId="ee7cf6b48d3b4ce6983cf82c01f4cb72" ObjectName="Search Parameter-DOB/Date of Inc-FD" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="26d67865cc6547338a15ca0a4af600ef" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="13" stepSeq="9" ObjectId="8f6a4d2b964541d7a8d922659c1fdade" ObjectName="Search Applicant" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="14" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+</Task>

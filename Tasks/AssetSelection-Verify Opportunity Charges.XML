@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="AssetSelection-Verify Opportunity Charges" Desc="AssetSelection-Verify Opportunity Charges" TaskID="f5e8e774e3d049b3a6fe5936b9785345" Path="AssetSelection-Verify Opportunity Charges.XML">
+  <Step StepId="217" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Charge Amount">
+    </Param>
+    <Param Name="&quot;$skip$&quot;" ParamSeq="2" Parameterized="0" Data="$skip$">
+    </Param>
+  </Step>
+  <Step StepId="38" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;MIS Charge Type&quot;" ParamSeq="1" Parameterized="0" Data="MIS Charge Type">
+    </Param>
+    <Param Name="Scheme-MIS Charge Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="37" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;MIS Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="MIS Charge Value">
+    </Param>
+    <Param Name="Scheme-MIS Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="42" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;MIS Charge Name&quot;" ParamSeq="1" Parameterized="0" Data="MIS Charge Name">
+    </Param>
+    <Param Name="Expected MIS Charge Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="39" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;MIS Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="MIS Charge Borne By">
+    </Param>
+    <Param Name="Expected Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="36" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DIS Charge Type&quot;" ParamSeq="1" Parameterized="0" Data="DIS Charge Type">
+    </Param>
+    <Param Name="Scheme-DIS Charge Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DIS Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="DIS Charge Value">
+    </Param>
+    <Param Name="Scheme-DIS Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="64" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DIS Charge Name&quot;" ParamSeq="1" Parameterized="0" Data="DIS Charge Name">
+    </Param>
+    <Param Name="Expected DIS Charge Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="63" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DIS Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="DIS Charge Borne By">
+    </Param>
+    <Param Name="Expected Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Upfront Interest Charge Type&quot;" ParamSeq="1" Parameterized="0" Data="Upfront Interest Charge Type">
+    </Param>
+    <Param Name="Scheme-Upfront Interest Charge Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Upfront Interest Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Upfront Interest Charge Value">
+    </Param>
+    <Param Name="Scheme-Upfront Interest Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="145" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Upfront Interest Slab Amount&quot;" ParamSeq="1" Parameterized="0" Data="Upfront Interest Slab Amount">
+    </Param>
+    <Param Name="Upfront Interest Slab Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="67" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;UPFRONT INTEREST NAME&quot;" ParamSeq="1" Parameterized="0" Data="UPFRONT INTEREST NAME">
+    </Param>
+    <Param Name="Expected Processing Fee Charge Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="106" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Upfront Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Upfront Charge Borne By">
+    </Param>
+    <Param Name="Expected Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="32" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Additional Upfront Interest Charge Type&quot;" ParamSeq="1" Parameterized="0" Data="Additional Upfront Interest Charge Type">
+    </Param>
+    <Param Name="Scheme-Additional Upfront Interest Charge Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Additional Upfront Interest Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Additional Upfront Interest Charge Value">
+    </Param>
+    <Param Name="Scheme-Additional Upfront Interest Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="66" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ADDITIONAL UPFRONT INTEREST NAME&quot;" ParamSeq="1" Parameterized="0" Data="ADDITIONAL UPFRONT INTEREST NAME">
+    </Param>
+    <Param Name="Expected Processing Fee Charge Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="43" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;IS DEDUCTIBLE&quot;" ParamSeq="1" Parameterized="0" Data="IS DEDUCTIBLE">
+    </Param>
+    <Param Name="Expected IS DEDUCTIBLE" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="62" stepSeq="19" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;IS DEDUCTIBLE&quot;" ParamSeq="1" Parameterized="0" Data="IS DEDUCTIBLE">
+    </Param>
+    <Param Name="Expected IS DEDUCTIBLE" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="107" stepSeq="20" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Additional Upfront Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Additional Upfront Charge Borne By">
+    </Param>
+    <Param Name="Expected Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="153" stepSeq="21" ObjectId="a547b92d79d4444d9fe6cf9088100157" ObjectName="Related" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="89" stepSeq="22" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="91" stepSeq="23" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="90" stepSeq="24" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="92" stepSeq="25" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="65" stepSeq="26" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;IS DEDUCTIBLE&quot;" ParamSeq="1" Parameterized="0" Data="IS DEDUCTIBLE">
+    </Param>
+    <Param Name="Expected IS DEDUCTIBLE" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="147" stepSeq="27" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Charge Value">
+    </Param>
+    <Param Name="&quot;{Upfront Interest Charge Value}&quot;" ParamSeq="2" Parameterized="0" Data="{Upfront Interest Charge Value}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="28" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Upfront Interest Charge Type}&quot;==&quot;Amount&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="46" stepSeq="29" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="8" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Charge Amount">
+    </Param>
+    <Param Name="&quot;{Upfront Interest Charge Value}&quot;" ParamSeq="2" Parameterized="0" Data="{Upfront Interest Charge Value}">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="30" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="8" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Upfront Interest Charge Type}&quot;==&quot;Rate&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="48" stepSeq="31" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" ParentID="25" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Revised Loan Amount}*{Upfront Interest Charge Value}/100&quot;" ParamSeq="1" Parameterized="0" Data="{Revised Loan Amount}*{Upfront Interest Charge Value}/100">
+    </Param>
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="2" Parameterized="0" Data="Charge Amount">
+    </Param>
+  </Step>
+  <Step StepId="144" stepSeq="32" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="8" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Upfront Interest Charge Type}&quot;==&quot;Slab&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="146" stepSeq="33" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="144" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Charge Amount">
+    </Param>
+    <Param Name="&quot;{Upfront Interest Slab Amount}&quot;" ParamSeq="2" Parameterized="0" Data="{Upfront Interest Slab Amount}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="34" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="8" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="215" stepSeq="35" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Upfront Interest Charge Type}&quot;!=&quot;&quot;&amp;&amp;&quot;{Upfront Interest Charge Type}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="214" stepSeq="36" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="215" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Upfront Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Upfront Charge Amount">
+    </Param>
+    <Param Name="&quot;{Charge Amount}&quot;" ParamSeq="2" Parameterized="0" Data="{Charge Amount}">
+    </Param>
+  </Step>
+  <Step StepId="216" stepSeq="37" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="215" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="7" stepSeq="38" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;{Charge Amount}+{Additional Upfront Interest Charge Value}&quot;" ParamSeq="1" Parameterized="0" Data="{Charge Amount}+{Additional Upfront Interest Charge Value}">
+    </Param>
+    <Param Name="&quot;Calculated PF&quot;" ParamSeq="2" Parameterized="0" Data="Calculated PF">
+    </Param>
+  </Step>
+  <Step StepId="79" stepSeq="39" ObjectId="5e2c75f0e60e4158b62633e7cad61537" ObjectName="Opportunity Charges" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="93" stepSeq="40" ObjectId="52ea9cd0dd3b4b02b99d257f09dd1a08" ObjectName="View All button-Opportunity Charges" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="80" stepSeq="41" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Name&quot;" ParamSeq="1" Parameterized="0" Data="Charge Name">
+    </Param>
+    <Param Name="&quot;{UPFRONT INTEREST NAME}&quot;" ParamSeq="2" Parameterized="0" Data="{UPFRONT INTEREST NAME}">
+    </Param>
+  </Step>
+  <Step StepId="126" stepSeq="42" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Charge Borne By">
+    </Param>
+    <Param Name="&quot;{Upfront Charge Borne By}&quot;" ParamSeq="2" Parameterized="0" Data="{Upfront Charge Borne By}">
+    </Param>
+  </Step>
+  <Step StepId="149" stepSeq="43" ObjectId="acfd859c16a2417c947956d4b10b0868" ObjectName="Opportunity Charges-Heading" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="94" stepSeq="44" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="83" stepSeq="45" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Value}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="148" stepSeq="46" ObjectId="55863e62b7084c30a69e97f565c40e06" ObjectName="Opportunity Charges-Charge Value" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="83" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-Upfront Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="84" stepSeq="47" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="83" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="193" stepSeq="48" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="195" stepSeq="49" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="193" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-Upfront Charge Value&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-Upfront Charge Value">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="194" stepSeq="50" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="193" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="109" stepSeq="51" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Amount}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="131" stepSeq="52" ObjectId="4215cc3411104929877dbafd73fd92aa" ObjectName="Opportunity Charges-Charge Amount" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="109" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-Upfront Charge Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="110" stepSeq="53" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="109" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="191" stepSeq="54" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="196" stepSeq="55" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="191" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-Upfront Charge Amount&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-Upfront Charge Amount">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="192" stepSeq="56" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="191" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="111" stepSeq="57" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Borne By}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="132" stepSeq="58" ObjectId="48f876f905bb4d298272f284bfbffa3d" ObjectName="Opportunity Charges-Charge Borne By" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="111" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-Upfront Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="112" stepSeq="59" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="111" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="189" stepSeq="60" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="197" stepSeq="61" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="189" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-Upfront Charge Borne By&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-Upfront Charge Borne By">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="190" stepSeq="62" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="189" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="71" stepSeq="63" ObjectId="e93638b155ad416b9cd16062565602ca" ObjectName="Opportunity Charges-Is Deductible" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="103" stepSeq="64" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Name&quot;" ParamSeq="1" Parameterized="0" Data="Charge Name">
+    </Param>
+    <Param Name="&quot;{ADDITIONAL UPFRONT INTEREST NAME}&quot;" ParamSeq="2" Parameterized="0" Data="{ADDITIONAL UPFRONT INTEREST NAME}">
+    </Param>
+  </Step>
+  <Step StepId="127" stepSeq="65" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Charge Borne By">
+    </Param>
+    <Param Name="&quot;{Additional Upfront Charge Borne By}&quot;" ParamSeq="2" Parameterized="0" Data="{Additional Upfront Charge Borne By}">
+    </Param>
+  </Step>
+  <Step StepId="104" stepSeq="66" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Value}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="108" stepSeq="67" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="104" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Charge Amount">
+    </Param>
+    <Param Name="&quot;{Additional Upfront Interest Charge Value}&quot;" ParamSeq="2" Parameterized="0" Data="{Additional Upfront Interest Charge Value}">
+    </Param>
+  </Step>
+  <Step StepId="150" stepSeq="68" ObjectId="55863e62b7084c30a69e97f565c40e06" ObjectName="Opportunity Charges-Charge Value" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="104" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-Additional Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="105" stepSeq="69" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="104" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="187" stepSeq="70" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="198" stepSeq="71" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="187" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-Additional Charge Value&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-Additional Charge Value">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="188" stepSeq="72" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="187" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="113" stepSeq="73" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Amount}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="134" stepSeq="74" ObjectId="4215cc3411104929877dbafd73fd92aa" ObjectName="Opportunity Charges-Charge Amount" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="113" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-Additional Charge Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="114" stepSeq="75" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="113" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="185" stepSeq="76" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="199" stepSeq="77" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="185" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-Additional Charge Amount&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-Additional Charge Amount">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="186" stepSeq="78" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="185" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="115" stepSeq="79" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Borne By}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="135" stepSeq="80" ObjectId="48f876f905bb4d298272f284bfbffa3d" ObjectName="Opportunity Charges-Charge Borne By" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="115" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-Additional Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="116" stepSeq="81" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="115" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="183" stepSeq="82" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="200" stepSeq="83" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="183" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-Additional Charge Borne By&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-Additional Charge Borne By">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="184" stepSeq="84" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="183" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="98" stepSeq="85" ObjectId="e93638b155ad416b9cd16062565602ca" ObjectName="Opportunity Charges-Is Deductible" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="86" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{DIS Charge Type}&quot;==&quot;Amount&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="51" stepSeq="87" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="22" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Charge Value">
+    </Param>
+    <Param Name="&quot;{DIS Charge Value}&quot;" ParamSeq="2" Parameterized="0" Data="{DIS Charge Value}">
+    </Param>
+  </Step>
+  <Step StepId="52" stepSeq="88" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="22" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Charge Amount">
+    </Param>
+    <Param Name="&quot;{DIS Charge Value}&quot;" ParamSeq="2" Parameterized="0" Data="{DIS Charge Value}">
+    </Param>
+  </Step>
+  <Step StepId="53" stepSeq="89" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="22" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{DIS Charge Type}&quot;==&quot;Rate&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="54" stepSeq="90" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="53" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Charge Value">
+    </Param>
+    <Param Name="&quot;{DIS Charge Value}&quot;" ParamSeq="2" Parameterized="0" Data="{DIS Charge Value}">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="91" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" ParentID="22" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Revised Loan Amount}*{DIS Charge Value}/100&quot;" ParamSeq="1" Parameterized="0" Data="{Revised Loan Amount}*{DIS Charge Value}/100">
+    </Param>
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="2" Parameterized="0" Data="Charge Amount">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="92" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="22" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="210" stepSeq="93" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;test&quot;" ParamSeq="1" Parameterized="0" Data="test">
+    </Param>
+    <Param Name="&quot;{Charge Amount}&quot;" ParamSeq="2" Parameterized="0" Data="{Charge Amount}">
+    </Param>
+  </Step>
+  <Step StepId="211" stepSeq="94" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{test}*0.18&quot;" ParamSeq="1" Parameterized="0" Data="{test}*0.18">
+    </Param>
+    <Param Name="&quot;GST&quot;" ParamSeq="2" Parameterized="0" Data="GST">
+    </Param>
+  </Step>
+  <Step StepId="209" stepSeq="95" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{GST}+{test}&quot;" ParamSeq="1" Parameterized="0" Data="{GST}+{test}">
+    </Param>
+    <Param Name="&quot;Result&quot;" ParamSeq="2" Parameterized="0" Data="Result">
+    </Param>
+  </Step>
+  <Step StepId="213" stepSeq="96" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Math.round({Result})&quot;" ParamSeq="1" Parameterized="0" Data="Math.round({Result})">
+    </Param>
+    <Param Name="&quot;Result&quot;" ParamSeq="2" Parameterized="0" Data="Result">
+    </Param>
+  </Step>
+  <Step StepId="212" stepSeq="97" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Charge Amount">
+    </Param>
+    <Param Name="&quot;{Result}&quot;" ParamSeq="2" Parameterized="0" Data="{Result}">
+    </Param>
+    <Param Name="&quot;.0&quot;" ParamSeq="3" Parameterized="0" Data=".0">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="81" stepSeq="98" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Name&quot;" ParamSeq="1" Parameterized="0" Data="Charge Name">
+    </Param>
+    <Param Name="&quot;{DIS Charge Name}&quot;" ParamSeq="2" Parameterized="0" Data="{DIS Charge Name}">
+    </Param>
+  </Step>
+  <Step StepId="128" stepSeq="99" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Charge Borne By">
+    </Param>
+    <Param Name="&quot;{DIS Charge Borne By}&quot;" ParamSeq="2" Parameterized="0" Data="{DIS Charge Borne By}">
+    </Param>
+  </Step>
+  <Step StepId="85" stepSeq="100" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Value}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="151" stepSeq="101" ObjectId="55863e62b7084c30a69e97f565c40e06" ObjectName="Opportunity Charges-Charge Value" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="85" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-DIS Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="86" stepSeq="102" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="85" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="181" stepSeq="103" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="201" stepSeq="104" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="181" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-DIS Charge Value&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-DIS Charge Value">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="182" stepSeq="105" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="181" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="117" stepSeq="106" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Amount}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="138" stepSeq="107" ObjectId="4215cc3411104929877dbafd73fd92aa" ObjectName="Opportunity Charges-Charge Amount" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="117" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-DIS Charge Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="118" stepSeq="108" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="117" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="179" stepSeq="109" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="202" stepSeq="110" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="179" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-DIS Charge Amount&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-DIS Charge Amount">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="180" stepSeq="111" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="179" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="119" stepSeq="112" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Borne By}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="137" stepSeq="113" ObjectId="48f876f905bb4d298272f284bfbffa3d" ObjectName="Opportunity Charges-Charge Borne By" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="119" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-DIS Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="120" stepSeq="114" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="119" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="177" stepSeq="115" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="203" stepSeq="116" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="177" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-DIS Charge Borne By&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-DIS Charge Borne By">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="178" stepSeq="117" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="177" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="72" stepSeq="118" ObjectId="e93638b155ad416b9cd16062565602ca" ObjectName="Opportunity Charges-Is Deductible" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="55" stepSeq="119" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{MIS Charge Type}&quot;==&quot;Amount&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="58" stepSeq="120" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="55" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Charge Value">
+    </Param>
+    <Param Name="&quot;{MIS Charge Value}&quot;" ParamSeq="2" Parameterized="0" Data="{MIS Charge Value}">
+    </Param>
+  </Step>
+  <Step StepId="57" stepSeq="121" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="55" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Charge Amount">
+    </Param>
+    <Param Name="&quot;{MIS Charge Value}&quot;" ParamSeq="2" Parameterized="0" Data="{MIS Charge Value}">
+    </Param>
+  </Step>
+  <Step StepId="59" stepSeq="122" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="55" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{MIS Charge Type}&quot;==&quot;Rate&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="61" stepSeq="123" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="59" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Charge Value">
+    </Param>
+    <Param Name="&quot;{MIS Charge Value}&quot;" ParamSeq="2" Parameterized="0" Data="{MIS Charge Value}">
+    </Param>
+  </Step>
+  <Step StepId="60" stepSeq="124" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" ParentID="59" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Revised Loan Amount}*{MIS Charge Value}/100&quot;" ParamSeq="1" Parameterized="0" Data="{Revised Loan Amount}*{MIS Charge Value}/100">
+    </Param>
+    <Param Name="&quot;Charge Amount&quot;" ParamSeq="2" Parameterized="0" Data="Charge Amount">
+    </Param>
+  </Step>
+  <Step StepId="56" stepSeq="125" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="55" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="82" stepSeq="126" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Name&quot;" ParamSeq="1" Parameterized="0" Data="Charge Name">
+    </Param>
+    <Param Name="&quot;{MIS Charge Name}&quot;" ParamSeq="2" Parameterized="0" Data="{MIS Charge Name}">
+    </Param>
+  </Step>
+  <Step StepId="129" stepSeq="127" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Charge Borne By">
+    </Param>
+    <Param Name="&quot;{MIS Charge Borne By}&quot;" ParamSeq="2" Parameterized="0" Data="{MIS Charge Borne By}">
+    </Param>
+  </Step>
+  <Step StepId="87" stepSeq="128" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Value}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="152" stepSeq="129" ObjectId="55863e62b7084c30a69e97f565c40e06" ObjectName="Opportunity Charges-Charge Value" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="87" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-MIS Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="88" stepSeq="130" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="87" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="175" stepSeq="131" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="204" stepSeq="132" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="175" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-MIS Charge Value&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-MIS Charge Value">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="176" stepSeq="133" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="175" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="121" stepSeq="134" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Amount}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="76" stepSeq="135" ObjectId="4215cc3411104929877dbafd73fd92aa" ObjectName="Opportunity Charges-Charge Amount" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="121" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="Expected Existence-MIS Charge Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="122" stepSeq="136" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="121" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="172" stepSeq="137" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="174" stepSeq="138" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="172" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-MIS Charge Amount&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-MIS Charge Amount">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="173" stepSeq="139" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="172" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="123" stepSeq="140" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Charge Borne By}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="143" stepSeq="141" ObjectId="48f876f905bb4d298272f284bfbffa3d" ObjectName="Opportunity Charges-Charge Borne By" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="123" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+    <Param Name="Expected Existence-MIS Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="124" stepSeq="142" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="123" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="154" stepSeq="143" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{$$_Status}!=0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="156" stepSeq="144" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="154" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\{ExcelFileName}&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\{ExcelFileName}">
+    </Param>
+    <Param Name="&quot;{Asset_IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{Asset_IterationNo}">
+    </Param>
+    <Param Name="&quot;Execution Status-MIS Charge Borne By&quot;" ParamSeq="3" Parameterized="0" Data="Execution Status-MIS Charge Borne By">
+    </Param>
+    <Param Name="&quot;Failed&quot;" ParamSeq="4" Parameterized="0" Data="Failed">
+    </Param>
+  </Step>
+  <Step StepId="155" stepSeq="145" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="154" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="207" stepSeq="146" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-Dealer Exist or Not&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-Dealer Exist or Not">
+    </Param>
+    <Param Name="Execution Status-Dealer Exist or Not" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="205" stepSeq="147" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-Add Asset Error Message&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-Add Asset Error Message">
+    </Param>
+    <Param Name="Execution Status-Add Asset Error Message" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="164" stepSeq="148" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-Upfront Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-Upfront Charge Value">
+    </Param>
+    <Param Name="Execution Status-Upfront Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="163" stepSeq="149" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-Upfront Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-Upfront Charge Amount">
+    </Param>
+    <Param Name="Execution Status-Upfront Charge Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="162" stepSeq="150" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-Upfront Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-Upfront Charge Borne By">
+    </Param>
+    <Param Name="Execution Status-Upfront Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="161" stepSeq="151" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-Additional Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-Additional Charge Value">
+    </Param>
+    <Param Name="Execution Status-Additional Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="160" stepSeq="152" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-Additional Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-Additional Charge Amount">
+    </Param>
+    <Param Name="Execution Status-Additional Charge Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="171" stepSeq="153" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-Additional Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-Additional Charge Borne By">
+    </Param>
+    <Param Name="Execution Status-Additional Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="170" stepSeq="154" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-DIS Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-DIS Charge Value">
+    </Param>
+    <Param Name="Execution Status-DIS Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="169" stepSeq="155" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-DIS Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-DIS Charge Amount">
+    </Param>
+    <Param Name="Execution Status-DIS Charge Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="168" stepSeq="156" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-DIS Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-DIS Charge Borne By">
+    </Param>
+    <Param Name="Execution Status-DIS Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="167" stepSeq="157" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-MIS Charge Value&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-MIS Charge Value">
+    </Param>
+    <Param Name="Execution Status-MIS Charge Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="166" stepSeq="158" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-MIS Charge Amount&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-MIS Charge Amount">
+    </Param>
+    <Param Name="Execution Status-MIS Charge Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="165" stepSeq="159" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Execution Status-MIS Charge Borne By&quot;" ParamSeq="1" Parameterized="0" Data="Execution Status-MIS Charge Borne By">
+    </Param>
+    <Param Name="Execution Status-MIS Charge Borne By" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Click on Save-Application Data Entry" Desc="Click on Save-Application Data Entry" TaskID="09f1276b741c4f11b5eff14fc55469a3" Path="Click on Save-Application Data Entry.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="fd33e2ede08a499282812bbb954df1d3" ObjectName="Save Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectName="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectId="" ObjectTypeId="">
+    <Param Name="&quot;7&quot;" ParamSeq="1" Parameterized="0" Data="7">
+    </Param>
+  </Step>
+</Task>

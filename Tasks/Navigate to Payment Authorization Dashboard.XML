@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Navigate to Payment Authorization Dashboard" Desc="Navigate to Payment Authorization Dashboard" TaskID="ce8baf930e7d4a0eace30f245cbadc64" Path="Navigate to Payment Authorization Dashboard.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="2395251275fa4d418572ecee00043806" ObjectName="Payment Authorization Dashboard" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

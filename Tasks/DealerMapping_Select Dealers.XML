@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="DealerMapping_Select Dealers" Desc="DealerMapping_Select Dealers" TaskID="6c09852e1a534c068f409fe83439dda6" Path="DealerMapping_Select Dealers.XML">
+  <Step StepId="8" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Select All Dealers&quot;" ParamSeq="1" Parameterized="0" Data="Select All Dealers">
+    </Param>
+    <Param Name="Select All Dealers" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="44" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Select All Dealers}&quot;" ParamSeq="1" Parameterized="0" Data="{Select All Dealers}">
+    </Param>
+    <Param Name="&quot;Select All Dealers&quot;" ParamSeq="2" Parameterized="0" Data="Select All Dealers">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Select All Dealers}&quot;==&quot;yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="9" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;0&quot;" ParamSeq="1" Parameterized="0" Data="0">
+    </Param>
+  </Step>
+  <Step StepId="48" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="9" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Select All Dealers}&quot;==&quot;no&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="54" stepSeq="6" ObjectId="c7ebc7766f054b07a33d7b5a1c46a8f8" ObjectName="DealerMapping_Select All Checkbox" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="5a553dedab884cd9bb8f59c18f21028d" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="48" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="52" stepSeq="7" ObjectId="c7ebc7766f054b07a33d7b5a1c46a8f8" ObjectName="DealerMapping_Select All Checkbox" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="eefd0925dc4046439b93db92711f487b" ActionName="JSCustomClick" QClass="CustomClick" ParentID="48" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="10" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="9" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="4" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DealersToBeSelected&quot;" ParamSeq="1" Parameterized="0" Data="DealersToBeSelected">
+    </Param>
+    <Param Name="DealersToBeSelected" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;if (&quot;{DealersToBeSelected}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}&quot;" ParamSeq="1" Parameterized="0" Data="if (&quot;{DealersToBeSelected}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}">
+    </Param>
+    <Param Name="&quot;Result_selection&quot;" ParamSeq="2" Parameterized="0" Data="Result_selection">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Result_selection}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Dealer1&quot;" ParamSeq="1" Parameterized="0" Data="Dealer1">
+    </Param>
+    <Param Name="&quot;{DealersToBeSelected}&quot;" ParamSeq="2" Parameterized="0" Data="{DealersToBeSelected}">
+    </Param>
+    <Param Name="&quot;@@&quot;" ParamSeq="3" Parameterized="0" Data="@@">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;SelectDealer&quot;" ParamSeq="1" Parameterized="0" Data="SelectDealer">
+    </Param>
+    <Param Name="&quot;{Dealer1}&quot;" ParamSeq="2" Parameterized="0" Data="{Dealer1}">
+    </Param>
+  </Step>
+  <Step StepId="43" stepSeq="14" ObjectId="2b366121cb2b46feb4838603a50e5938" ObjectName="checkbox to select Dealer" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="5a553dedab884cd9bb8f59c18f21028d" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="26" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="3" stepSeq="15" ObjectId="2b366121cb2b46feb4838603a50e5938" ObjectName="checkbox to select Dealer" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="eefd0925dc4046439b93db92711f487b" ActionName="JSCustomClick" QClass="CustomClick" ParentID="26" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="32" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Dealer2&quot;" ParamSeq="1" Parameterized="0" Data="Dealer2">
+    </Param>
+    <Param Name="&quot;{DealersToBeSelected}&quot;" ParamSeq="2" Parameterized="0" Data="{DealersToBeSelected}">
+    </Param>
+    <Param Name="&quot;@@&quot;" ParamSeq="3" Parameterized="0" Data="@@">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="4" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;SelectDealer&quot;" ParamSeq="1" Parameterized="0" Data="SelectDealer">
+    </Param>
+    <Param Name="&quot;{Dealer2}&quot;" ParamSeq="2" Parameterized="0" Data="{Dealer2}">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="18" ObjectId="2b366121cb2b46feb4838603a50e5938" ObjectName="checkbox to select Dealer" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="5a553dedab884cd9bb8f59c18f21028d" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="26" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="33" stepSeq="19" ObjectId="2b366121cb2b46feb4838603a50e5938" ObjectName="checkbox to select Dealer" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="eefd0925dc4046439b93db92711f487b" ActionName="JSCustomClick" QClass="CustomClick" ParentID="26" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="42" stepSeq="20" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{DealersToBeSelected}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="40" stepSeq="21" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="42" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;SelectDealer&quot;" ParamSeq="1" Parameterized="0" Data="SelectDealer">
+    </Param>
+    <Param Name="&quot;{DealersToBeSelected}&quot;" ParamSeq="2" Parameterized="0" Data="{DealersToBeSelected}">
+    </Param>
+  </Step>
+  <Step StepId="49" stepSeq="22" ObjectId="2b366121cb2b46feb4838603a50e5938" ObjectName="checkbox to select Dealer" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="5a553dedab884cd9bb8f59c18f21028d" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="42" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="39" stepSeq="23" ObjectId="2b366121cb2b46feb4838603a50e5938" ObjectName="checkbox to select Dealer" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="eefd0925dc4046439b93db92711f487b" ActionName="JSCustomClick" QClass="CustomClick" ParentID="42" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="27" stepSeq="24" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="26" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="7" stepSeq="25" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;DealersToBeVerified&quot;" ParamSeq="1" Parameterized="0" Data="DealersToBeVerified">
+    </Param>
+    <Param Name="DealersToBeVerified" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="26" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;if (&quot;{DealersToBeVerified}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}&quot;" ParamSeq="1" Parameterized="0" Data="if (&quot;{DealersToBeVerified}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}">
+    </Param>
+    <Param Name="&quot;Result_verification&quot;" ParamSeq="2" Parameterized="0" Data="Result_verification">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="27" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;(&quot;{Result_verification}&quot;==&quot;true&quot;)&amp;&amp;(&quot;{DealersToBeVerified}&quot;!=&quot;$skip$&quot;)&quot;">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="28" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" ParentID="13" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Dealer1&quot;" ParamSeq="1" Parameterized="0" Data="Dealer1">
+    </Param>
+    <Param Name="&quot;{DealersToBeVerified}&quot;" ParamSeq="2" Parameterized="0" Data="{DealersToBeVerified}">
+    </Param>
+    <Param Name="&quot;@@&quot;" ParamSeq="3" Parameterized="0" Data="@@">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="29" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="13" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;VerifyDealer&quot;" ParamSeq="1" Parameterized="0" Data="VerifyDealer">
+    </Param>
+    <Param Name="&quot;{Dealer1}&quot;" ParamSeq="2" Parameterized="0" Data="{Dealer1}">
+    </Param>
+  </Step>
+  <Step StepId="50" stepSeq="30" ObjectId="362807bac9e5468888da24d14268e096" ObjectName="DealerNameToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="13" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="17" stepSeq="31" ObjectId="362807bac9e5468888da24d14268e096" ObjectName="DealerNameToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="13" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="32" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" ParentID="13" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Dealer2&quot;" ParamSeq="1" Parameterized="0" Data="Dealer2">
+    </Param>
+    <Param Name="&quot;{DealersToBeVerified}&quot;" ParamSeq="2" Parameterized="0" Data="{DealersToBeVerified}">
+    </Param>
+    <Param Name="&quot;@@&quot;" ParamSeq="3" Parameterized="0" Data="@@">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="4" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="33" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="13" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;VerifyDealer&quot;" ParamSeq="1" Parameterized="0" Data="VerifyDealer">
+    </Param>
+    <Param Name="&quot;{Dealer2}&quot;" ParamSeq="2" Parameterized="0" Data="{Dealer2}">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="34" ObjectId="362807bac9e5468888da24d14268e096" ObjectName="DealerNameToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="13" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="47" stepSeq="35" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="13" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{DealersToBeVerified}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="36" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="47" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;VerifyDealer&quot;" ParamSeq="1" Parameterized="0" Data="VerifyDealer">
+    </Param>
+    <Param Name="&quot;{DealersToBeVerified}&quot;" ParamSeq="2" Parameterized="0" Data="{DealersToBeVerified}">
+    </Param>
+  </Step>
+  <Step StepId="51" stepSeq="37" ObjectId="362807bac9e5468888da24d14268e096" ObjectName="DealerNameToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="47" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="11" stepSeq="38" ObjectId="362807bac9e5468888da24d14268e096" ObjectName="DealerNameToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="47" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="39" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="13" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

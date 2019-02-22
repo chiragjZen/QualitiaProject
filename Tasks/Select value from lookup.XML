@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Select value from lookup" Desc="Select value from lookup" TaskID="2d45ea3af05b498ab318d2014d33fc66" Path="Select value from lookup.XML">
+  <Step StepId="4" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="Label Name" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="2" ObjectId="897cd4fcf9794615933f9cb059ef4b1a" ObjectName="Lookup icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="9" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="2a04f8af2c3a4c4c8977fc7a341487ef" ActionName="StoreWindowHandle" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ChildWindow&quot;" ParamSeq="1" Parameterized="0" Data="ChildWindow">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ChildWindow}&quot;" ParamSeq="1" Parameterized="0" Data="{ChildWindow}">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="6" ObjectId="29f27bce6b964f269464e5883fec93bc" ObjectName="searchFrame" ObjectTypeId="9053a0db9a424da4a4b62c2b040491ad" ActionId="6e9361296b75406080e5065286d8ec90" ActionName="SelectFrame" QClass="com.webdriverfw.Wrappers.Frame" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="10" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;OEM/Dealer&quot;" ParamSeq="1" Parameterized="0" Data="OEM/Dealer">
+    </Param>
+    <Param Name="OEM/Dealer" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="9" ObjectId="a895c1ab338a498f8df71f24441f89da" ObjectName="OEM/Dealer TextBox" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{OEM/Dealer}&quot;" ParamSeq="1" Parameterized="0" Data="{OEM/Dealer}">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="10" ObjectId="9e894f78573d4d4bba8faf645dd5d999" ObjectName="Go button-Scheme" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="21" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ChildWindow}&quot;" ParamSeq="1" Parameterized="0" Data="{ChildWindow}">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="13" ObjectId="d217940caf0d44b0907942c9c082fb71" ObjectName="resultsFrame" ObjectTypeId="9053a0db9a424da4a4b62c2b040491ad" ActionId="6e9361296b75406080e5065286d8ec90" ActionName="SelectFrame" QClass="com.webdriverfw.Wrappers.Frame" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="18" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="&quot;{OEM/Dealer}&quot;" ParamSeq="2" Parameterized="0" Data="{OEM/Dealer}">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="15" ObjectId="e95063b8a8cf4048bc2f7511b7b5a365" ObjectName="Lookup value-Classic" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="14" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ParentPage}&quot;" ParamSeq="1" Parameterized="0" Data="{ParentPage}">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="17" ObjectId="86f2214423324b37957a31c4264fcbb8" ObjectName="Save Button-Scheme" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="976d3ef33eb64113ae787936a7edac89" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="18" ObjectId="86f2214423324b37957a31c4264fcbb8" ObjectName="Save Button-Scheme" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="17" stepSeq="19" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+</Task>

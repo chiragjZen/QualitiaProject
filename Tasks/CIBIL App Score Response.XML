@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="CIBIL App Score Response" Desc="CIBIL App Score Response" TaskID="b2d273ad6f124712ba07216836b39e03" Path="CIBIL App Score Response.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="b7173b099e0d493588ae30699187603b" ObjectName="CIBIL AppScore Response-INTEGRATION RESPONSE NAME" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="2" ObjectId="b7173b099e0d493588ae30699187603b" ObjectName="CIBIL AppScore Response-INTEGRATION RESPONSE NAME" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d86c5f0c3fc446a691c0ad2008440ac6" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;PGDN&quot;" ParamSeq="1" Parameterized="0" Data="PGDN">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="b7173b099e0d493588ae30699187603b" ObjectName="CIBIL AppScore Response-INTEGRATION RESPONSE NAME" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

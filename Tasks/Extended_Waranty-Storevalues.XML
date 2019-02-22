@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Extended_Waranty-Storevalues" Desc="Extended_Waranty-Storevalues" TaskID="c64f2d8ff79a4dd49d979c82acfd6f16" Path="Extended_Waranty-Storevalues.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Extended Warranty&quot;" ParamSeq="1" Parameterized="0" Data="Extended Warranty">
+    </Param>
+    <Param Name="Extended Warranty" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Bypass Extended Warranty?&quot;" ParamSeq="1" Parameterized="0" Data="Bypass Extended Warranty?">
+    </Param>
+    <Param Name="Bypass Extended Warranty?" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;EWEMIVerificationRequired_Yes/No&quot;" ParamSeq="1" Parameterized="0" Data="EWEMIVerificationRequired_Yes/No">
+    </Param>
+    <Param Name="EWEMIVerificationRequired_Yes/No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

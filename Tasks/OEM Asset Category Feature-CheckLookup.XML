@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="OEM Asset Category Feature-CheckLookup" Desc="OEM Asset Category Feature-CheckLookup" TaskID="403a2ff4a7b7473d9e6bb947a47ef98e" Path="OEM Asset Category Feature-CheckLookup.XML">
+  <Step StepId="4" stepSeq="1" ObjectId="b8d8b273046a4e42bdebaafcc8abbeea" ObjectName="Feature_textbox" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Feature1}&quot;" ParamSeq="1" Parameterized="0" Data="{Feature1}">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="2" ObjectId="8a371074f7aa456ea30918e9f250dee8" ObjectName="Record through lookup" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;30&quot;" ParamSeq="1" Parameterized="0" Data="30">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+</Task>

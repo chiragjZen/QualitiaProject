@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Select_Scheme" Desc="Select_Scheme" TaskID="1e7a24c6c27d42c49a36d47af8e8b0c0" Path="Select_Scheme.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="80db65353c6a4070bb4f9cae647b2c0c" ObjectName="AssetSelection-SelectButton-AssetAdditionPage" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="2" ObjectId="80db65353c6a4070bb4f9cae647b2c0c" ObjectName="AssetSelection-SelectButton-AssetAdditionPage" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

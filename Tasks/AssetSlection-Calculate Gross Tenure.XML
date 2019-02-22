@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="AssetSlection-Calculate Gross Tenure" Desc="AssetSlection-Calculate Gross Tenure" TaskID="a6d64470f62b4f7c9bd8e89b7615b50d" Path="AssetSlection-Calculate Gross Tenure.XML">
+  <Step StepId="27" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Per EMI Amount}&quot;==&quot;$skip$&quot;||&quot;{Per EMI Amount}&quot;==&quot;&quot;||{Per EMI Amount}&gt;{Revised Loan Amount}&quot;">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="27" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Incorrect Per EMI amount given&quot;" ParamSeq="1" Parameterized="0" Data="Incorrect Per EMI amount given">
+    </Param>
+    <Param Name="&quot;FailedReason&quot;" ParamSeq="2" Parameterized="0" Data="FailedReason">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="27" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="28" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="27" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="15" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Revised Loan Amount}/{Per EMI Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Revised Loan Amount}/{Per EMI Amount}">
+    </Param>
+    <Param Name="&quot;Tenure Calculated&quot;" ParamSeq="2" Parameterized="0" Data="Tenure Calculated">
+    </Param>
+  </Step>
+</Task>

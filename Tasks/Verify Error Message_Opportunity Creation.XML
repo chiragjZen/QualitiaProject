@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Verify Error Message_Opportunity Creation" Desc="Verify Error Message_Opportunity Creation" TaskID="1cdb1f5bc86f43ed888d2d17b0f2c9a0" Path="Verify Error Message_Opportunity Creation.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Requested Loan Amount&quot;" ParamSeq="1" Parameterized="0" Data="Requested Loan Amount">
+    </Param>
+    <Param Name="Requested Loan Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+</Task>

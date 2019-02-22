@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="ModelMapping_SelectFilterValues&amp;AddModel" Desc="ModelMapping_SelectFilterValues&amp;AddModel" TaskID="ef4cdd29857747d494cadd43fdf654fe" Path="ModelMapping_SelectFilterValues&amp;AddModel.XML">
+  <Step StepId="23" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="6a8fd35c4ae14c8094c4b3a963b3da58" ActionName="StoreCurrentDateInFormat" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;dd MMM, yyyy&quot;" ParamSeq="1" Parameterized="0" Data="dd MMM, yyyy">
+    </Param>
+    <Param Name="&quot;CurrentDate_mapping&quot;" ParamSeq="2" Parameterized="0" Data="CurrentDate_mapping">
+    </Param>
+  </Step>
+  <Step StepId="57" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ModelMapping_ViewBy&quot;" ParamSeq="1" Parameterized="0" Data="ModelMapping_ViewBy">
+    </Param>
+    <Param Name="Asset Category/Model" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="65" stepSeq="3" ObjectId="63c7a222d14f4759ad1ece97687b4c7b" ObjectName="View By_ModelMapping" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="63005942eb224be780a41299a769d86c" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="64" stepSeq="4" ObjectId="63c7a222d14f4759ad1ece97687b4c7b" ObjectName="View By_ModelMapping" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ModelMapping_ViewBy}&quot;" ParamSeq="1" Parameterized="0" Data="{ModelMapping_ViewBy}">
+    </Param>
+  </Step>
+  <Step StepId="58" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ModelMapping_ViewBy}&quot;==&quot;Asset Category&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="60" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="58" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;index&quot;" ParamSeq="1" Parameterized="0" Data="index">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="2" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="81" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="58" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;oem_index&quot;" ParamSeq="1" Parameterized="0" Data="oem_index">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="2" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="108" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="58" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;datePicker_index&quot;" ParamSeq="1" Parameterized="0" Data="datePicker_index">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="2" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="61" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="58" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ModelMapping_ViewBy}&quot;==&quot;Model&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="62" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="61" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;index&quot;" ParamSeq="1" Parameterized="0" Data="index">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="2" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="82" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="61" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;oem_index&quot;" ParamSeq="1" Parameterized="0" Data="oem_index">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="2" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="109" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="61" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;datePicker_index&quot;" ParamSeq="1" Parameterized="0" Data="datePicker_index">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="2" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="59" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="58" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="16" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;OEM&quot;" ParamSeq="1" Parameterized="0" Data="OEM">
+    </Param>
+    <Param Name="OEM" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;AssetCategory&quot;" ParamSeq="1" Parameterized="0" Data="AssetCategory">
+    </Param>
+    <Param Name="AssetCategory" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Feature1&quot;" ParamSeq="1" Parameterized="0" Data="Feature1">
+    </Param>
+    <Param Name="Select Feature1" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Feature1 Value&quot;" ParamSeq="1" Parameterized="0" Data="Feature1 Value">
+    </Param>
+    <Param Name="Select Feature1 Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Feature2&quot;" ParamSeq="1" Parameterized="0" Data="Feature2">
+    </Param>
+    <Param Name="Select Feature2" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="19" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Feature2 Value&quot;" ParamSeq="1" Parameterized="0" Data="Feature2 Value">
+    </Param>
+    <Param Name="Select Feature2 Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="20" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Feature3&quot;" ParamSeq="1" Parameterized="0" Data="Feature3">
+    </Param>
+    <Param Name="Select Feature3" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="21" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Feature3 Value&quot;" ParamSeq="1" Parameterized="0" Data="Feature3 Value">
+    </Param>
+    <Param Name="Select Feature3 Value" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="43" stepSeq="22" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{OEM}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="23" ObjectId="4889a6a4535842d4b94a9acb95e03de2" ObjectName="ModelMapping_OEM" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="e455f47bfff64863bcfcced09070d6c8" ActionName="SelectItemAndWait" QClass="com.webdriverfw.Wrappers.WebList" ParentID="43" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{OEM}&quot;" ParamSeq="1" Parameterized="0" Data="{OEM}">
+    </Param>
+  </Step>
+  <Step StepId="44" stepSeq="24" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="43" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="17" stepSeq="25" ObjectId="7ccdd016a6af424082f17b878d2adcce" ObjectName="ModelMapping_Asset Category" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="0085fe1231b4431491b98a989b8a7c37" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="40" stepSeq="26" ObjectId="7ccdd016a6af424082f17b878d2adcce" ObjectName="ModelMapping_Asset Category" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{AssetCategory}&quot;" ParamSeq="1" Parameterized="0" Data="{AssetCategory}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="27" ObjectId="898d01c2956044868c3c116da24d7c55" ObjectName="Spinner_icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="73" stepSeq="28" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ModelMapping_ViewBy}&quot;==&quot;Asset Category&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="80" stepSeq="29" ObjectId="915fcbd9b5ab48a4bf820fce2b9b9c71" ObjectName="Model Mapping Start Date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c76677bb6c2b40f6bf832fe5072d9d09" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="73" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="78" stepSeq="30" ObjectId="915fcbd9b5ab48a4bf820fce2b9b9c71" ObjectName="Model Mapping Start Date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="73" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{CurrentDate_mapping}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate_mapping}">
+    </Param>
+  </Step>
+  <Step StepId="77" stepSeq="31" ObjectId="915fcbd9b5ab48a4bf820fce2b9b9c71" ObjectName="Model Mapping Start Date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" ParentID="73" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;TAB&quot;" ParamSeq="1" Parameterized="0" Data="TAB">
+    </Param>
+  </Step>
+  <Step StepId="113" stepSeq="32" ObjectId="d773780026ca46e5ad5d27a488b045d8" ObjectName="Mapping_Date Picker icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="73" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="112" stepSeq="33" ObjectId="beea268871ce41e98b239094875bb5f8" ObjectName="Date_Today" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="73" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="111" stepSeq="34" ObjectId="beea268871ce41e98b239094875bb5f8" ObjectName="Date_Today" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="73" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="110" stepSeq="35" ObjectId="898d01c2956044868c3c116da24d7c55" ObjectName="Spinner_icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="73" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="114" stepSeq="36" ObjectId="b07d43ce00a4483a852015278128699a" ObjectName="ModelMapping_Add Asset Category" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="6bf71f769859478b83df72bf4ef31b3a" ActionName="SetFocus" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="73" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="76" stepSeq="37" ObjectId="b07d43ce00a4483a852015278128699a" ObjectName="ModelMapping_Add Asset Category" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="73" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="79" stepSeq="38" ObjectId="ac64ebddca744ba792ec0b00581be2d5" ObjectName="SuccessMessage_popUp" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="73" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="75" stepSeq="39" ObjectId="" ObjectTypeId="" ActionId="ecbc321536af4606b909c2df3fdee76b" ActionName="ExitTask" QClass="com.webdriverfw.Wrappers.General" ParentID="73" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="74" stepSeq="40" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="73" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="27" stepSeq="41" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Feature1}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="41" stepSeq="42" ObjectId="f259d1237486487892ef60f191f8813c" ObjectName="ModelMapping_Select Feature 1" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ParentID="27" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Feature1}&quot;" ParamSeq="1" Parameterized="0" Data="{Feature1}">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="43" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="27" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="4" stepSeq="44" ObjectId="898d01c2956044868c3c116da24d7c55" ObjectName="Spinner_icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="45" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Feature1 Value}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="46" ObjectId="3aa908ba28544e8b95c55cdcf75b40d3" ObjectName="Feature 1 Value" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ParentID="30" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Feature1 Value}&quot;" ParamSeq="1" Parameterized="0" Data="{Feature1 Value}">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="47" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="30" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="32" stepSeq="48" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Feature2}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="49" ObjectId="7fcebe9753cf4fb6be062771ad836eaf" ObjectName="ModelMapping_Select Feature 2" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ParentID="32" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Feature2}&quot;" ParamSeq="1" Parameterized="0" Data="{Feature2}">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="50" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="32" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="7" stepSeq="51" ObjectId="898d01c2956044868c3c116da24d7c55" ObjectName="Spinner_icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="52" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Feature2 Value}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="53" ObjectId="4adb9338af954b8f95b42b178772b6cc" ObjectName="Feature 2 Value" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ParentID="34" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Feature2 Value}&quot;" ParamSeq="1" Parameterized="0" Data="{Feature2 Value}">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="54" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="34" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="38" stepSeq="55" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Feature3}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="56" ObjectId="b05e5c836d174f5dad78af3163aa34fd" ObjectName="ModelMapping_Select Feature 3" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ParentID="38" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Feature3}&quot;" ParamSeq="1" Parameterized="0" Data="{Feature3}">
+    </Param>
+  </Step>
+  <Step StepId="39" stepSeq="57" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="38" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="36" stepSeq="58" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Feature3 Value}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="59" ObjectId="ef645dd4d443470faeb686ab1f8e3f81" ObjectName="Feature 3 Value" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" ParentID="36" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Feature3 Value}&quot;" ParamSeq="1" Parameterized="0" Data="{Feature3 Value}">
+    </Param>
+  </Step>
+  <Step StepId="37" stepSeq="60" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="36" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="46" stepSeq="61" ObjectId="915fcbd9b5ab48a4bf820fce2b9b9c71" ObjectName="Model Mapping Start Date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="81247dbb7d094d94bc03d470f649e964" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="62" ObjectId="915fcbd9b5ab48a4bf820fce2b9b9c71" ObjectName="Model Mapping Start Date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{CurrentDate_mapping}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate_mapping}">
+    </Param>
+  </Step>
+  <Step StepId="105" stepSeq="63" ObjectId="d773780026ca46e5ad5d27a488b045d8" ObjectName="Mapping_Date Picker icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="106" stepSeq="64" ObjectId="beea268871ce41e98b239094875bb5f8" ObjectName="Date_Today" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="104" stepSeq="65" ObjectId="beea268871ce41e98b239094875bb5f8" ObjectName="Date_Today" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="107" stepSeq="66" ObjectId="898d01c2956044868c3c116da24d7c55" ObjectName="Spinner_icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="67" ObjectId="915fcbd9b5ab48a4bf820fce2b9b9c71" ObjectName="Model Mapping Start Date" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;TAB&quot;" ParamSeq="1" Parameterized="0" Data="TAB">
+    </Param>
+  </Step>
+  <Step StepId="101" stepSeq="68" ObjectId="a9ff6818ba8747318333473ccdb0acc8" ObjectName="ModelMapping_Show Models" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;count&quot;" ParamSeq="1" Parameterized="0" Data="count">
+    </Param>
+  </Step>
+  <Step StepId="90" stepSeq="69" ObjectId="a9ff6818ba8747318333473ccdb0acc8" ObjectName="ModelMapping_Show Models" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="103" stepSeq="70" ObjectId="a9ff6818ba8747318333473ccdb0acc8" ObjectName="ModelMapping_Show Models" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="6bf71f769859478b83df72bf4ef31b3a" ActionName="SetFocus" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="89" stepSeq="71" ObjectId="a9ff6818ba8747318333473ccdb0acc8" ObjectName="ModelMapping_Show Models" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="14" stepSeq="72" ObjectId="898d01c2956044868c3c116da24d7c55" ObjectName="Spinner_icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="2" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="118" stepSeq="73" ObjectId="d773780026ca46e5ad5d27a488b045d8" ObjectName="Mapping_Date Picker icon" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d86c5f0c3fc446a691c0ad2008440ac6" ActionName="specialKeys" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;Down&quot;" ParamSeq="1" Parameterized="0" Data="Down">
+    </Param>
+  </Step>
+  <Step StepId="85" stepSeq="74" ObjectId="1cdae7e97de1486ba675ee2e6e227dc8" ObjectName="ModelMapping_Select All checkbox" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="56ad612eacd949e3b383f5fcf756c3c3" ActionName="StoreExistence" QClass="com.webdriverfw.Wrappers.WebCheckbox" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;MappingRecords&quot;" ParamSeq="1" Parameterized="0" Data="MappingRecords">
+    </Param>
+  </Step>
+  <Step StepId="86" stepSeq="75" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{MappingRecords}&quot;!=&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="84" stepSeq="76" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="86" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="87" stepSeq="77" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="86" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="124" stepSeq="78" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Select All Models&quot;" ParamSeq="1" Parameterized="0" Data="Select All Models">
+    </Param>
+    <Param Name="Select All Models" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="130" stepSeq="79" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Select All Models}&quot;" ParamSeq="1" Parameterized="0" Data="{Select All Models}">
+    </Param>
+    <Param Name="&quot;Select All Models&quot;" ParamSeq="2" Parameterized="0" Data="Select All Models">
+    </Param>
+  </Step>
+  <Step StepId="131" stepSeq="80" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Select All Models}&quot;==&quot;yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="133" stepSeq="81" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="131" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;0&quot;" ParamSeq="1" Parameterized="0" Data="0">
+    </Param>
+  </Step>
+  <Step StepId="134" stepSeq="82" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="131" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Select All Models}&quot;==&quot;no&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="136" stepSeq="83" ObjectId="1cdae7e97de1486ba675ee2e6e227dc8" ObjectName="ModelMapping_Select All checkbox" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="5a553dedab884cd9bb8f59c18f21028d" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="134" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="135" stepSeq="84" ObjectId="1cdae7e97de1486ba675ee2e6e227dc8" ObjectName="ModelMapping_Select All checkbox" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="eefd0925dc4046439b93db92711f487b" ActionName="JSCustomClick" QClass="CustomClick" ParentID="134" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="132" stepSeq="85" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="131" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="129" stepSeq="86" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ModelsToBeSelected&quot;" ParamSeq="1" Parameterized="0" Data="ModelsToBeSelected">
+    </Param>
+    <Param Name="ModelsToBeSelected" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="128" stepSeq="87" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;if (&quot;{ModelsToBeSelected}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}&quot;" ParamSeq="1" Parameterized="0" Data="if (&quot;{ModelsToBeSelected}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}">
+    </Param>
+    <Param Name="&quot;Result_selection&quot;" ParamSeq="2" Parameterized="0" Data="Result_selection">
+    </Param>
+  </Step>
+  <Step StepId="140" stepSeq="88" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Result_selection}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="139" stepSeq="89" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" ParentID="140" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Model1&quot;" ParamSeq="1" Parameterized="0" Data="Model1">
+    </Param>
+    <Param Name="&quot;{ModelsToBeSelected}&quot;" ParamSeq="2" Parameterized="0" Data="{ModelsToBeSelected}">
+    </Param>
+    <Param Name="&quot;@@&quot;" ParamSeq="3" Parameterized="0" Data="@@">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="143" stepSeq="90" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="140" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;SelectModel&quot;" ParamSeq="1" Parameterized="0" Data="SelectModel">
+    </Param>
+    <Param Name="&quot;{Model1}&quot;" ParamSeq="2" Parameterized="0" Data="{Model1}">
+    </Param>
+  </Step>
+  <Step StepId="142" stepSeq="91" ObjectId="e35c178647984984a5bdee758138a9f2" ObjectName="checkbox to select Model" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="5a553dedab884cd9bb8f59c18f21028d" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="140" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="148" stepSeq="92" ObjectId="e35c178647984984a5bdee758138a9f2" ObjectName="checkbox to select Model" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="0d5587b9b1fa458f914b8a5b833e388f" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="140" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="147" stepSeq="93" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" ParentID="140" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Model2&quot;" ParamSeq="1" Parameterized="0" Data="Model2">
+    </Param>
+    <Param Name="&quot;{ModelsToBeSelected}&quot;" ParamSeq="2" Parameterized="0" Data="{ModelsToBeSelected}">
+    </Param>
+    <Param Name="&quot;@@&quot;" ParamSeq="3" Parameterized="0" Data="@@">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="4" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="146" stepSeq="94" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="140" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;SelectModel&quot;" ParamSeq="1" Parameterized="0" Data="SelectModel">
+    </Param>
+    <Param Name="&quot;{Model2}&quot;" ParamSeq="2" Parameterized="0" Data="{Model2}">
+    </Param>
+  </Step>
+  <Step StepId="145" stepSeq="95" ObjectId="e35c178647984984a5bdee758138a9f2" ObjectName="checkbox to select Model" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="5a553dedab884cd9bb8f59c18f21028d" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="140" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="144" stepSeq="96" ObjectId="e35c178647984984a5bdee758138a9f2" ObjectName="checkbox to select Model" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="0d5587b9b1fa458f914b8a5b833e388f" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="140" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="149" stepSeq="97" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="140" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ModelsToBeSelected}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="152" stepSeq="98" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="149" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;SelectModel&quot;" ParamSeq="1" Parameterized="0" Data="SelectModel">
+    </Param>
+    <Param Name="&quot;{ModelsToBeSelected}&quot;" ParamSeq="2" Parameterized="0" Data="{ModelsToBeSelected}">
+    </Param>
+  </Step>
+  <Step StepId="151" stepSeq="99" ObjectId="e35c178647984984a5bdee758138a9f2" ObjectName="checkbox to select Model" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="5a553dedab884cd9bb8f59c18f21028d" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="149" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="150" stepSeq="100" ObjectId="e35c178647984984a5bdee758138a9f2" ObjectName="checkbox to select Model" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="0d5587b9b1fa458f914b8a5b833e388f" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebCheckbox" ParentID="149" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="141" stepSeq="101" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="140" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="138" stepSeq="102" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ModelsToBeVerified&quot;" ParamSeq="1" Parameterized="0" Data="ModelsToBeVerified">
+    </Param>
+    <Param Name="ModelsToBeVerified" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="155" stepSeq="103" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;if (&quot;{ModelsToBeVerified}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}&quot;" ParamSeq="1" Parameterized="0" Data="if (&quot;{ModelsToBeVerified}&quot;.contains(&quot;@@&quot;))~{Result='true'~}else~{Result='false'~}">
+    </Param>
+    <Param Name="&quot;Result_verification&quot;" ParamSeq="2" Parameterized="0" Data="Result_verification">
+    </Param>
+  </Step>
+  <Step StepId="156" stepSeq="104" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Result_verification}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="154" stepSeq="105" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" ParentID="156" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Model1&quot;" ParamSeq="1" Parameterized="0" Data="Model1">
+    </Param>
+    <Param Name="&quot;{ModelsToBeVerified}&quot;" ParamSeq="2" Parameterized="0" Data="{ModelsToBeVerified}">
+    </Param>
+    <Param Name="&quot;@@&quot;" ParamSeq="3" Parameterized="0" Data="@@">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="4" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="153" stepSeq="106" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="156" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;VerifyModel&quot;" ParamSeq="1" Parameterized="0" Data="VerifyModel">
+    </Param>
+    <Param Name="&quot;{Model1}&quot;" ParamSeq="2" Parameterized="0" Data="{Model1}">
+    </Param>
+  </Step>
+  <Step StepId="160" stepSeq="107" ObjectId="d098bf1921c741c396ba86dcc4db3105" ObjectName="ModelsToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="156" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="159" stepSeq="108" ObjectId="d098bf1921c741c396ba86dcc4db3105" ObjectName="ModelsToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="156" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="158" stepSeq="109" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" ParentID="156" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Model2&quot;" ParamSeq="1" Parameterized="0" Data="Model2">
+    </Param>
+    <Param Name="&quot;{ModelsToBeVerified}&quot;" ParamSeq="2" Parameterized="0" Data="{ModelsToBeVerified}">
+    </Param>
+    <Param Name="&quot;@@&quot;" ParamSeq="3" Parameterized="0" Data="@@">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="4" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="163" stepSeq="110" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="156" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;VerifyModel&quot;" ParamSeq="1" Parameterized="0" Data="VerifyModel">
+    </Param>
+    <Param Name="&quot;{Model2}&quot;" ParamSeq="2" Parameterized="0" Data="{Model2}">
+    </Param>
+  </Step>
+  <Step StepId="166" stepSeq="111" ObjectId="d098bf1921c741c396ba86dcc4db3105" ObjectName="ModelsToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="156" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="162" stepSeq="112" ObjectId="d098bf1921c741c396ba86dcc4db3105" ObjectName="ModelsToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="156" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="164" stepSeq="113" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="156" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{ModelsToBeVerified}&quot;!=&quot;$skip$&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="161" stepSeq="114" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="164" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;VerifyModel&quot;" ParamSeq="1" Parameterized="0" Data="VerifyModel">
+    </Param>
+    <Param Name="&quot;{ModelsToBeVerified}&quot;" ParamSeq="2" Parameterized="0" Data="{ModelsToBeVerified}">
+    </Param>
+  </Step>
+  <Step StepId="165" stepSeq="115" ObjectId="d098bf1921c741c396ba86dcc4db3105" ObjectName="ModelsToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="164" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="137" stepSeq="116" ObjectId="d098bf1921c741c396ba86dcc4db3105" ObjectName="ModelsToBeVerified" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="164" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="157" stepSeq="117" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="156" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="170" stepSeq="118" ObjectId="" ObjectTypeId="" ActionId="318d973091bc4fc7a84c5971ed685cc2" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//button[text()='Add Model']&quot;" ParamSeq="1" Parameterized="0" Data="//button[text()='Add Model']">
+    </Param>
+    <Param Name="&quot;count&quot;" ParamSeq="2" Parameterized="0" Data="count">
+    </Param>
+  </Step>
+  <Step StepId="169" stepSeq="119" ObjectId="d3a6bdcd813f45f19984f4e2f04cdf7b" ObjectName="ModelMapping_Add Model" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="6bf71f769859478b83df72bf4ef31b3a" ActionName="SetFocus" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="168" stepSeq="120" ObjectId="d3a6bdcd813f45f19984f4e2f04cdf7b" ObjectName="ModelMapping_Add Model" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="167" stepSeq="121" ObjectId="ac64ebddca744ba792ec0b00581be2d5" ObjectName="SuccessMessage_popUp" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

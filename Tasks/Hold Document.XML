@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Hold Document" Desc="Hold Document" TaskID="dfa5b955aa104586a9e6137328c79523" Path="Hold Document.XML">
+  <Step StepId="19" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Document_Pass/Hold}&quot;==&quot;hold&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Type&quot;" ParamSeq="1" Parameterized="0" Data="Hold Type">
+    </Param>
+    <Param Name="Hold Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Remark&quot;" ParamSeq="1" Parameterized="0" Data="Hold Remark">
+    </Param>
+    <Param Name="Hold Remark" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;LBO Remark&quot;" ParamSeq="1" Parameterized="0" Data="LBO Remark">
+    </Param>
+    <Param Name="LBO Remark" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;FOS Remark&quot;" ParamSeq="1" Parameterized="0" Data="FOS Remark">
+    </Param>
+    <Param Name="FOS Remark" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Type 2&quot;" ParamSeq="1" Parameterized="0" Data="Hold Type 2">
+    </Param>
+    <Param Name="Hold Type 2" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Remark 2&quot;" ParamSeq="1" Parameterized="0" Data="Hold Remark 2">
+    </Param>
+    <Param Name="Hold Remark 2" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;LBO Remark 2&quot;" ParamSeq="1" Parameterized="0" Data="LBO Remark 2">
+    </Param>
+    <Param Name="LBO Remark 2" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;FOS Remark 2&quot;" ParamSeq="1" Parameterized="0" Data="FOS Remark 2">
+    </Param>
+    <Param Name="FOS Remark 2" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Type 3&quot;" ParamSeq="1" Parameterized="0" Data="Hold Type 3">
+    </Param>
+    <Param Name="Hold Type 3" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Hold Remark 3&quot;" ParamSeq="1" Parameterized="0" Data="Hold Remark 3">
+    </Param>
+    <Param Name="Hold Remark 3" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;LBO Remark 3&quot;" ParamSeq="1" Parameterized="0" Data="LBO Remark 3">
+    </Param>
+    <Param Name="LBO Remark 3" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;FOS Remark 3&quot;" ParamSeq="1" Parameterized="0" Data="FOS Remark 3">
+    </Param>
+    <Param Name="FOS Remark 3" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="15" ObjectId="9ee255b29897459e89b07ddd120774b4" ObjectName="Hold button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="16" ObjectId="9ee255b29897459e89b07ddd120774b4" ObjectName="Hold button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="20" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="19" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

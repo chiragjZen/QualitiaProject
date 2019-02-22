@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Update Environment variables" Desc="Update Environment variables" TaskID="3b340ce8a2b54bd680aa5937ad6e75b9" Path="Update Environment variables.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="c9896a4c2a7542ea8bcc4399b245ef9a" ActionName="UpdateEnvironmentVariable" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\EnvironmentVariables\EnvironmentVariables.XML&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\EnvironmentVariables\EnvironmentVariables.XML">
+    </Param>
+    <Param Name="key" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="value" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

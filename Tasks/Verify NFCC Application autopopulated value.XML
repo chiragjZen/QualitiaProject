@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Verify NFCC Application autopopulated value" Desc="Verify NFCC Application autopopulated value" TaskID="40569791a5114a9991885b827d8133ba" Path="Verify NFCC Application autopopulated value.XML">
+  <Step StepId="13" stepSeq="1" ObjectId="e448c66e3e3845068edbab49d74c7aaf" ObjectName="Store OMC Line" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;OMCLine&quot;" ParamSeq="1" Parameterized="0" Data="OMCLine">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="2" ObjectId="b657a780c3eb4b52bf49e785d59a732b" ObjectName="Store NFCC Line" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;NFCCLine&quot;" ParamSeq="1" Parameterized="0" Data="NFCCLine">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Is OMC/NFCC Application&quot;" ParamSeq="1" Parameterized="0" Data="Is OMC/NFCC Application">
+    </Param>
+    <Param Name="Expected Is OMC/NFCC Application" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerifacations&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerifacations">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Invoice Amount&quot;" ParamSeq="1" Parameterized="0" Data="Invoice Amount">
+    </Param>
+    <Param Name="ExpectedInvoice Amount" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerifacations&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerifacations">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Asset Category&quot;" ParamSeq="1" Parameterized="0" Data="Asset Category">
+    </Param>
+    <Param Name="Expected Asset Category" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerifacations&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerifacations">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;NFCC Thick/Thin&quot;" ParamSeq="1" Parameterized="0" Data="NFCC Thick/Thin">
+    </Param>
+    <Param Name="Expected NFCC Thick/Thin" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerifacations&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerifacations">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;OMC Approval Status&quot;" ParamSeq="1" Parameterized="0" Data="OMC Approval Status">
+    </Param>
+    <Param Name="Expected OMC Approval Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerifacations&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerifacations">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;NFCC Approval Status&quot;" ParamSeq="1" Parameterized="0" Data="NFCC Approval Status">
+    </Param>
+    <Param Name="Expected NFCC Approval Status" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerifacations&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerifacations">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;OMC Line&quot;" ParamSeq="1" Parameterized="0" Data="OMC Line">
+    </Param>
+    <Param Name="Expected OMC Line" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerifacations&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerifacations">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;NFCC 120 Location&quot;" ParamSeq="1" Parameterized="0" Data="NFCC 120 Location">
+    </Param>
+    <Param Name="Expected NFCC 120 Location" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerifacations&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerifacations">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="11" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;NFCC Line&quot;" ParamSeq="1" Parameterized="0" Data="NFCC Line">
+    </Param>
+    <Param Name="Expected NFCC Line" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;DetailsVerifacations&quot;" ParamSeq="3" Parameterized="0" Data="DetailsVerifacations">
+    </Param>
+  </Step>
+</Task>

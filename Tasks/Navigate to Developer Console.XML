@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Navigate to Developer Console" Desc="Navigate to Developer Console" TaskID="6e4a54d8c5474d2eb690b96f263e19b2" Path="Navigate to Developer Console.XML">
+  <Step StepId="50" stepSeq="1" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="533eae44403341388a01aced8353ff9c" ActionName="ExecuteFile" QClass="com.webdriverfw.Wrappers.General" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\Salesforce.exe&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\Salesforce.exe">
+    </Param>
+  </Step>
+  <Step StepId="27" stepSeq="2" ObjectId="e9c1fbc8f0cb4593af6e802ee73e9958" ObjectName="Global search" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="75013c5e59114a159450831d23c670f3" ActionName="specialKeys" QClass="CustomClick" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;a1&quot;" ParamSeq="1" Parameterized="0" Data="a1">
+    </Param>
+  </Step>
+  <Step StepId="19" stepSeq="3" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;60&quot;" ParamSeq="1" Parameterized="0" Data="60">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="4" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="37" stepSeq="5" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="36" stepSeq="6" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="7" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="8" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="28" stepSeq="9" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="10" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="31" stepSeq="11" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="12" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="13" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="39" stepSeq="14" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="38" stepSeq="15" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="26" stepSeq="16" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="40" stepSeq="17" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{DOWN~}&quot;" ParamSeq="1" Parameterized="0" Data="~{DOWN~}">
+    </Param>
+  </Step>
+  <Step StepId="32" stepSeq="18" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{DOWN~}&quot;" ParamSeq="1" Parameterized="0" Data="~{DOWN~}">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="19" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{DOWN~}&quot;" ParamSeq="1" Parameterized="0" Data="~{DOWN~}">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="20" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;~{DOWN~}&quot;" ParamSeq="1" Parameterized="0" Data="~{DOWN~}">
+    </Param>
+  </Step>
+  <Step StepId="22" stepSeq="21" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{ENTER~}&quot;" ParamSeq="1" Parameterized="0" Data="~{ENTER~}">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="22" ObjectId="4c322955f3bf486bb9d4b2a6baad577b" ObjectName="Developer Console" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;Count&quot;" ParamSeq="1" Parameterized="0" Data="Count">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="23" ObjectId="4c322955f3bf486bb9d4b2a6baad577b" ObjectName="Developer Console" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="14" stepSeq="24" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;8&quot;" ParamSeq="1" Parameterized="0" Data="8">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="25" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="6d3264d449584887918c0ce1d6702ce5" ActionName="CustomStoreWindowHandle" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;DeveloperWindow&quot;" ParamSeq="1" Parameterized="0" Data="DeveloperWindow">
+    </Param>
+    <Param Name="&quot;1&quot;" ParamSeq="2" Parameterized="0" Data="1">
+    </Param>
+    <Param Name="&quot;6&quot;" ParamSeq="3" Parameterized="0" Data="6">
+    </Param>
+  </Step>
+  <Step StepId="41" stepSeq="26" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{DeveloperWindow}&quot;" ParamSeq="1" Parameterized="0" Data="{DeveloperWindow}">
+    </Param>
+  </Step>
+  <Step StepId="51" stepSeq="27" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="533eae44403341388a01aced8353ff9c" ActionName="ExecuteFile" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\DeveloperConsole.exe&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\DeveloperConsole.exe">
+    </Param>
+  </Step>
+  <Step StepId="47" stepSeq="28" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="d2510f73a1214511bcfe723732cdc09e" ActionName="MaximizeBrowser" QClass="com.webdriverfw.Wrappers.General" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="16" stepSeq="29" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~^e&quot;" ParamSeq="1" Parameterized="0" Data="~^e">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="30" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="31" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;CustomerID&quot;" ParamSeq="1" Parameterized="0" Data="CustomerID">
+    </Param>
+    <Param Name="&quot;List&lt;Dedupe__e&gt; events = new List&lt;Dedupe__e&gt;();&#xD;&#xA;events.add(new Dedupe__e(&#xD;&#xA;API_Request_Reference_Number__c='12345',&#xD;&#xA;API_Request_Datetime__c=Datetime.now(), &#xD;&#xA;Negative_Application_Area__c= false,&#xD;&#xA;Is_Bypassed__c= false, &#xD;&#xA;Customer_Record_Id__c=  '{CustomerID}'&#xD;&#xA;));&#xD;&#xA;EventBus.publish(events);&quot;" ParamSeq="2" Parameterized="0" Data="List&lt;Dedupe__e&gt; events = new List&lt;Dedupe__e&gt;();&#xD;&#xA;events.add(new Dedupe__e(&#xD;&#xA;API_Request_Reference_Number__c='12345',&#xD;&#xA;API_Request_Datetime__c=Datetime.now(), &#xD;&#xA;Negative_Application_Area__c= false,&#xD;&#xA;Is_Bypassed__c= false, &#xD;&#xA;Customer_Record_Id__c=  '{CustomerID}'&#xD;&#xA;));&#xD;&#xA;EventBus.publish(events);">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="32" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="872e79abbb404adba919a354b5b163a9" ActionName="StoreDataToClipboard" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{CustomerID}&quot;" ParamSeq="1" Parameterized="0" Data="{CustomerID}">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="33" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~^a&quot;" ParamSeq="1" Parameterized="0" Data="~^a">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="34" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="35" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~^v&quot;" ParamSeq="1" Parameterized="0" Data="~^v">
+    </Param>
+  </Step>
+  <Step StepId="42" stepSeq="36" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="46" stepSeq="37" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="533eae44403341388a01aced8353ff9c" ActionName="ExecuteFile" QClass="com.webdriverfw.Wrappers.General" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\SelectParentWindow.exe&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\SelectParentWindow.exe">
+    </Param>
+  </Step>
+  <Step StepId="43" stepSeq="38" ObjectId="8cab5fca6f5b4d53a0a19b0be98b20d8" ObjectName="Execute Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Count&quot;" ParamSeq="1" Parameterized="0" Data="Count">
+    </Param>
+  </Step>
+  <Step StepId="44" stepSeq="39" ObjectId="8cab5fca6f5b4d53a0a19b0be98b20d8" ObjectName="Execute Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="6bf71f769859478b83df72bf4ef31b3a" ActionName="SetFocus" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="45" stepSeq="40" ObjectId="8cab5fca6f5b4d53a0a19b0be98b20d8" ObjectName="Execute Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="29b42c62114143e4b5abd59ace4924b2" ActionName="MouseOver" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="10" stepSeq="41" ObjectId="8cab5fca6f5b4d53a0a19b0be98b20d8" ObjectName="Execute Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="15" stepSeq="42" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;7&quot;" ParamSeq="1" Parameterized="0" Data="7">
+    </Param>
+  </Step>
+  <Step StepId="49" stepSeq="43" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="353108419ea7466c92fddb5e19d3a65a" ActionName="quitdriver_reinstantiate" QClass="CustomGeneralActions" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

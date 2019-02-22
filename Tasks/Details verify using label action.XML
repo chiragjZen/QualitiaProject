@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Details verify using label action" Desc="Details verify using label action" TaskID="718723ee59204799907019fe9b19833d" Path="Details verify using label action.XML" IsSystemTask="0" OnError="Continue">
+  <Step StepId="4" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="65af62d0bca14160a514eaeba9b48821" ActionName="label_Based_standard_details_verification" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\SFDCGlobalTask.xls&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\SFDCGlobalTask.xls">
+    </Param>
+    <Param Name="SheetName" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="DataSetName" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

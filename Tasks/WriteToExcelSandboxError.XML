@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="WriteToExcelSandboxError" Desc="WriteToExcelSandboxError" TaskID="63a3f29fff5b41bfb944e328eda78cb2" Path="WriteToExcelSandboxError.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{existence}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="da854e2c24c84b6e8ad0e9173c571a60" ActionName="WriteToExcel" QClass="CustomGeneralActions" ParentID="3" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\InstaCard\Insta Card.xlsx&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\InstaCard\Insta Card.xlsx">
+    </Param>
+    <Param Name="&quot;{IterationNo}&quot;" ParamSeq="2" Parameterized="0" Data="{IterationNo}">
+    </Param>
+    <Param Name="&quot;SandBoxError-ErrorMessage&quot;" ParamSeq="3" Parameterized="0" Data="SandBoxError-ErrorMessage">
+    </Param>
+    <Param Name="&quot;{ErrorMessage}&quot;" ParamSeq="4" Parameterized="0" Data="{ErrorMessage}">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" ParentID="3" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ErrorMessage}&quot;" ParamSeq="1" Parameterized="0" Data="{ErrorMessage}">
+    </Param>
+    <Param Name="&quot;Error Message&quot;" ParamSeq="2" Parameterized="0" Data="Error Message">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="3" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="4" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="3" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

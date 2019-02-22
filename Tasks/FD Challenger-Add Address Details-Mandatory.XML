@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger-Add Address Details-Mandatory" Desc="FD Challenger-Add Address Details-Mandatory" TaskID="125b2958c33149ca9434d900dc2a8aa6" Path="FD Challenger-Add Address Details-Mandatory.XML">
+  <Step StepId="19" stepSeq="1" ObjectId="ba0b979002a74c8c96d6544d745ff134" ObjectName="Save button last-FD" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="976d3ef33eb64113ae787936a7edac89" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waittime}&quot;" ParamSeq="1" Parameterized="0" Data="{waittime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="2" ObjectId="ba0b979002a74c8c96d6544d745ff134" ObjectName="Save button last-FD" ObjectTypeId="2213d41c6e414141abafe619c5f05402" ActionId="dc01ffd84135445ea0eb52dd78220f50" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebButton" Comment="" isCommented="False" IsSkipped="true">
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Address Line 1&quot;" ParamSeq="1" Parameterized="0" Data="Address Line 1">
+    </Param>
+    <Param Name="Address Line 1-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Address Line 2&quot;" ParamSeq="1" Parameterized="0" Data="Address Line 2">
+    </Param>
+    <Param Name="Address Line 2-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Pin code&quot;" ParamSeq="1" Parameterized="0" Data="Pin code">
+    </Param>
+    <Param Name="Pin code-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Proof of Address Submitted&quot;" ParamSeq="1" Parameterized="0" Data="Proof of Address Submitted">
+    </Param>
+    <Param Name="Proof of Address Submitted-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="7" ObjectId="2bd7480b7e4e4ab88d05eb6410bfc53b" ObjectName="Proof of Address Submitted" ObjectTypeId="86fb71da0ddc40df8ef0aad6fb767bcc" ActionId="90ba41c289394965adae1c9bf09c8e3d" ActionName="SelectItems" QClass="com.webdriverfw.Wrappers.WebList" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="Proof Of Address" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

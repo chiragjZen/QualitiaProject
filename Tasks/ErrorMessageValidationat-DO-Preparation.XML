@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="ErrorMessageValidationat-DO-Preparation" Desc="ErrorMessageValidationat-DO-Preparation" TaskID="e449e09a727a4383b605678f990be862" Path="ErrorMessageValidationat-DO-Preparation.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessageValidationAt-DO-Preparation&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessageValidationAt-DO-Preparation">
+    </Param>
+    <Param Name="EditLevel/MarkStageAsCompleteLevel/$skip$" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ErrorMessageToBeValidated&quot;" ParamSeq="1" Parameterized="0" Data="ErrorMessageToBeValidated">
+    </Param>
+    <Param Name="ErrorMessageToBeValidated" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="1465d665fcbe422f85471b65f3c67806" ActionName="ToLowerCase" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{ErrorMessageValidationAt-DO-Preparation}&quot;" ParamSeq="1" Parameterized="0" Data="{ErrorMessageValidationAt-DO-Preparation}">
+    </Param>
+    <Param Name="&quot;ErrorMessageValidationAt-DO-Preparation&quot;" ParamSeq="2" Parameterized="0" Data="ErrorMessageValidationAt-DO-Preparation">
+    </Param>
+  </Step>
+</Task>

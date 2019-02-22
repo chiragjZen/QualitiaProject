@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="FD Challenger- Log Discrepancy-Mandatory Validations" Desc="FD Challenger- Log Discrepancy-Mandatory Validations" TaskID="9ef66cb816de45f78665b8a49bbfd8aa" Path="FD Challenger- Log Discrepancy-Mandatory Validations.XML">
+  <Step StepId="15" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Discrepancy Type&quot;" ParamSeq="1" Parameterized="0" Data="Discrepancy Type">
+    </Param>
+    <Param Name="Discrepancy Type-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Status&quot;" ParamSeq="1" Parameterized="0" Data="Status">
+    </Param>
+    <Param Name="Status-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Originator Remark&quot;" ParamSeq="1" Parameterized="0" Data="Originator Remark">
+    </Param>
+    <Param Name="Originator Remark-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Resolver Remark&quot;" ParamSeq="1" Parameterized="0" Data="Resolver Remark">
+    </Param>
+    <Param Name="Resolver Remark-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;File Acceptance Status&quot;" ParamSeq="1" Parameterized="0" Data="File Acceptance Status">
+    </Param>
+    <Param Name="File Acceptance Status-ErrorMessage" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;MandatoryValidations&quot;" ParamSeq="3" Parameterized="0" Data="MandatoryValidations">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

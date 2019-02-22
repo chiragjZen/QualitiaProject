@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Store CD Balance" Desc="Store CD Balance" TaskID="486e75394d2e484184901aad00e30f7d" Path="Store CD Balance.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="86ef9c84bd894d109b9f8b53653426ce" ObjectName="Object CDLimit" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;CD_Limit&quot;" ParamSeq="1" Parameterized="0" Data="CD_Limit">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="48521d2a5fc44443b7f9a31b9cff2709" ActionName="StoreSplitString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;CD_Balance_Limit&quot;" ParamSeq="1" Parameterized="0" Data="CD_Balance_Limit">
+    </Param>
+    <Param Name="&quot;{CD_Limit}&quot;" ParamSeq="2" Parameterized="0" Data="{CD_Limit}">
+    </Param>
+    <Param Name="&quot;CD Balance - &quot;" ParamSeq="3" Parameterized="0" Data="CD Balance - ">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="4" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+</Task>

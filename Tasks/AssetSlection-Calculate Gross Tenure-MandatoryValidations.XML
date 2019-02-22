@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="AssetSlection-Calculate Gross Tenure-MandatoryValidations" Desc="AssetSlection-Calculate Gross Tenure-MandatoryValidations" TaskID="b8eeb30cd5cf448b898dd9d662b894eb" Path="AssetSlection-Calculate Gross Tenure-MandatoryValidations.XML">
+  <Step StepId="29" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Per EMI Amount}&quot;==&quot;&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="34" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;1&quot;" ParamSeq="1" Parameterized="0" Data="1">
+    </Param>
+  </Step>
+  <Step StepId="32" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="-3" ActionName="ELSE IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{Per EMI Amount}&quot;!=&quot;$skip$&quot;&amp;&amp;{Per EMI Amount}&lt;={Revised Loan Amount}&quot;">
+    </Param>
+  </Step>
+  <Step StepId="33" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="91da56681fb4419bbe196854dbe132cf" ActionName="ComputeExpression" QClass="com.webdriverfw.Wrappers.General" ParentID="32" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Revised Loan Amount}/{Per EMI Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Revised Loan Amount}/{Per EMI Amount}">
+    </Param>
+    <Param Name="&quot;Tenure Calculated&quot;" ParamSeq="2" Parameterized="0" Data="Tenure Calculated">
+    </Param>
+  </Step>
+  <Step StepId="30" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="29" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

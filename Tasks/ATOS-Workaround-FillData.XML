@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="ATOS-Workaround-FillData" Desc="ATOS-Workaround-FillData" TaskID="424f633b9f93471ab4458d6a7aaa4856" Path="ATOS-Workaround-FillData.XML">
+  <Step StepId="17" stepSeq="1" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{NewCustomerCreationRequired_Yes/No}&quot;!=&quot;yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="2" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="f0439206854641ffb971b5e73771896b" ObjectName="Edit" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="4" ObjectId="f0439206854641ffb971b5e73771896b" ObjectName="Edit" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="6bf71f769859478b83df72bf4ef31b3a" ActionName="SetFocus" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="8" stepSeq="5" ObjectId="f0439206854641ffb971b5e73771896b" ObjectName="Edit" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Count&quot;" ParamSeq="1" Parameterized="0" Data="Count">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="6" ObjectId="f0439206854641ffb971b5e73771896b" ObjectName="Edit" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="6" stepSeq="7" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="8" ObjectId="f0439206854641ffb971b5e73771896b" ObjectName="Edit" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Count&quot;" ParamSeq="1" Parameterized="0" Data="Count">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="9" ObjectId="8eb0d86fd97d43c681e0e7efda3d09b8" ObjectName="Close this window'" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="588ab5d315224ba9b16c187cb06d0aee" ActionName="StoreExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="17" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;EditPage_Esxistance&quot;" ParamSeq="1" Parameterized="0" Data="EditPage_Esxistance">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="10" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="17" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="12" stepSeq="11" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{EditPage_Esxistance}&quot;==&quot;false&quot;&amp;&amp;&quot;{NewCustomerCreationRequired_Yes/No}&quot;!=&quot;yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="12" ObjectId="f0439206854641ffb971b5e73771896b" ObjectName="Edit" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b25ffd0cbe0b41dea396495fe78e4c7f" ActionName="JSCustomClick" QClass="CustomClick" ParentID="12" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="13" stepSeq="13" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="12" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+  <Step StepId="19" stepSeq="14" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{NewCustomerCreationRequired_Yes/No}&quot;!=&quot;yes&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="15" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ATOS Transaction Status&quot;" ParamSeq="1" Parameterized="0" Data="ATOS Transaction Status">
+    </Param>
+    <Param Name="&quot;Completed&quot;" ParamSeq="2" Parameterized="0" Data="Completed">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="16" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ATOS Transaction Type&quot;" ParamSeq="1" Parameterized="0" Data="ATOS Transaction Type">
+    </Param>
+    <Param Name="&quot;Authorization&quot;" ParamSeq="2" Parameterized="0" Data="Authorization">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="3" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="17" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="28fb32cb27b3437ca40a452a360f655c" ActionName="StoreChildCount" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;count&quot;" ParamSeq="1" Parameterized="0" Data="count">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="18" ObjectId="e5401cfb218a4395a1230ff44cdb7925" ObjectName="Save_Btn last" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="1" stepSeq="19" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" ParentID="19" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;3&quot;" ParamSeq="1" Parameterized="0" Data="3">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="20" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="19" isCommented="False" IsSkipped="false" ObjectId="" ObjectName="" ObjectTypeId="">
+  </Step>
+</Task>

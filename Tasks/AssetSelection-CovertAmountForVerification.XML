@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="AssetSelection-CovertAmountForVerification" Desc="AssetSelection-CovertAmountForVerification" TaskID="7ea0d517425a45c4850deb6198e0b45e" Path="AssetSelection-CovertAmountForVerification.XML">
+  <Step StepId="4" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Invoice Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Invoice Amount}">
+    </Param>
+    <Param Name="&quot;Invoice Amount&quot;" ParamSeq="2" Parameterized="0" Data="Invoice Amount">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{Requested Loan Amount}&quot;" ParamSeq="1" Parameterized="0" Data="{Requested Loan Amount}">
+    </Param>
+    <Param Name="&quot;Requested Loan Amount&quot;" ParamSeq="2" Parameterized="0" Data="Requested Loan Amount">
+    </Param>
+  </Step>
+  <Step StepId="8" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="add85d19781b4f50b3c9a0bbfe02548e" ActionName="ConvertAmount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;{Margin Money}&quot;" ParamSeq="1" Parameterized="0" Data="{Margin Money}">
+    </Param>
+    <Param Name="&quot;Margin Money&quot;" ParamSeq="2" Parameterized="0" Data="Margin Money">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Invoice Amount&quot;" ParamSeq="1" Parameterized="0" Data="Invoice Amount">
+    </Param>
+    <Param Name="&quot;{CurrencySymbol}{Invoice Amount}.00&quot;" ParamSeq="2" Parameterized="0" Data="{CurrencySymbol}{Invoice Amount}.00">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Requested Loan Amount&quot;" ParamSeq="1" Parameterized="0" Data="Requested Loan Amount">
+    </Param>
+    <Param Name="&quot;{CurrencySymbol}{Requested Loan Amount}.00&quot;" ParamSeq="2" Parameterized="0" Data="{CurrencySymbol}{Requested Loan Amount}.00">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;Margin Money&quot;" ParamSeq="1" Parameterized="0" Data="Margin Money">
+    </Param>
+    <Param Name="&quot;{CurrencySymbol}{Margin Money}.00&quot;" ParamSeq="2" Parameterized="0" Data="{CurrencySymbol}{Margin Money}.00">
+    </Param>
+  </Step>
+</Task>

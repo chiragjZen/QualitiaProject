@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Output-HelplineCase" Desc="Output-HelplineCase" TaskID="80305ca5231148f08d35514773b8b2ec" Path="Output-HelplineCase.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Output-CaseID&quot;" ParamSeq="1" Parameterized="0" Data="Output-CaseID">
+    </Param>
+    <Param Name="Output-CaseID" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Output-Request Type&quot;" ParamSeq="1" Parameterized="0" Data="Output-Request Type">
+    </Param>
+    <Param Name="Output-Request Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Output-Request Sub Type&quot;" ParamSeq="1" Parameterized="0" Data="Output-Request Sub Type">
+    </Param>
+    <Param Name="Output-Request Sub Type" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+</Task>

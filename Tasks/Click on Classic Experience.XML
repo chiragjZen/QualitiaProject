@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Click on Classic Experience" Desc="Click on Classic Experience" TaskID="529699d3588848e0ae2e7005814ec21d" Path="Click on Classic Experience.XML">
+  <Step StepId="8" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="8fca281443674fc8bcdaf7a165c52fd2" ActionName="WaitTillOneOfTheObjectLoaded" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;(//img[@title='User'])[1]&quot;" ParamSeq="1" Parameterized="0" Data="(//img[@title='User'])[1]">
+    </Param>
+    <Param Name="&quot;//a//img[@title='All Tabs']&quot;" ParamSeq="2" Parameterized="0" Data="//a//img[@title='All Tabs']">
+    </Param>
+    <Param Name="&quot;&quot;" ParamSeq="3" Parameterized="0" Data="">
+    </Param>
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="4" Parameterized="0" Data="{waitTime}">
+    </Param>
+  </Step>
+  <Step StepId="10" stepSeq="2" ObjectId="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;(//img[@title='User'])[1]&quot;" ParamSeq="1" Parameterized="0" Data="(//img[@title='User'])[1]">
+    </Param>
+    <Param Name="&quot;count1&quot;" ParamSeq="2" Parameterized="0" Data="count1">
+    </Param>
+  </Step>
+  <Step StepId="9" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="27be20ac089143cfae2e26e2c5c9546b" ActionName="CustomStoreChildCount" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;//a//img[@title='All Tabs']&quot;" ParamSeq="1" Parameterized="0" Data="//a//img[@title='All Tabs']">
+    </Param>
+    <Param Name="&quot;count2&quot;" ParamSeq="2" Parameterized="0" Data="count2">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="2a04f8af2c3a4c4c8977fc7a341487ef" ActionName="StoreWindowHandle" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;ParentPage&quot;" ParamSeq="1" Parameterized="0" Data="ParentPage">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;{count1}&gt;0&quot;">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="6" ObjectId="fb9af459cd0f4c1b8c409a895edd55c4" ObjectName="User_Logout_Img" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="5" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="12" stepSeq="7" ObjectId="fb9af459cd0f4c1b8c409a895edd55c4" ObjectName="User_Logout_Img" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="5" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="11" stepSeq="8" ObjectId="0aaec8529dde4abea4e2097974f7e8da" ObjectName="Switch to Salesforce Classic" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" ParentID="5" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="7" stepSeq="9" ObjectId="0aaec8529dde4abea4e2097974f7e8da" ObjectName="Switch to Salesforce Classic" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="5" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="6" stepSeq="10" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="5" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+</Task>

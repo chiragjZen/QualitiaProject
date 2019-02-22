@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="CPU Document passed successfully" Desc="CPU Document passed successfully" TaskID="715009df677549d793d6ca2cfbf8c0a0" Path="CPU Document passed successfully.XML">
+  <Step StepId="1" stepSeq="1" ObjectId="776654a56be64ccbbd1f63b4d33e1422" ObjectName="Ducument passed  success message" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+</Task>

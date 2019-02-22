@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="ErrorMessageValidation-TopLevel" Desc="ErrorMessageValidation-TopLevel" TaskID="370fa494e91d4e8bbcd44a20c313e754" Path="ErrorMessageValidation-TopLevel.XML">
+  <Step StepId="3" stepSeq="1" ObjectId="f9b20bb745c646598fb3a82df06ee508" ObjectName="ErrorMessageAtTop" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="f9b20bb745c646598fb3a82df06ee508" ObjectName="ErrorMessageAtTop" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="f1317b6e18fb4576b828d4f045ce0836" ActionName="StorePropertyValue" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;keyToStoreText&quot;" ParamSeq="1" Parameterized="0" Data="keyToStoreText">
+    </Param>
+    <Param Name="&quot;text&quot;" ParamSeq="2" Parameterized="0" Data="text">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="524e2beb6858427188a03984c64d70b1" ActionName="CompareString" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{KeyToStoreText}&quot;" ParamSeq="1" Parameterized="0" Data="{KeyToStoreText}">
+    </Param>
+    <Param Name="&quot;{ErrorMessageToBeValidated}&quot;" ParamSeq="2" Parameterized="0" Data="{ErrorMessageToBeValidated}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+</Task>

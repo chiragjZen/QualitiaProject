@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Create_NewDealerRankedScheme" Desc="Create_NewDealerRankedScheme" TaskID="d1e7af335dc14baa9c0aa9e6e3a48702" Path="Create_NewDealerRankedScheme.XML">
+  <Step StepId="9" stepSeq="1" ObjectId="0849e624302a4cf3abb07beaf3a98034" ObjectName="Confirm Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="98" stepSeq="2" ObjectId="0cfa80d377a344599d9a6092e7b97a12" ObjectName="Master Scheme" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="81247dbb7d094d94bc03d470f649e964" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Type&quot;" ParamSeq="1" Parameterized="0" Data="Type">
+    </Param>
+    <Param Name="&quot;FillData&quot;" ParamSeq="2" Parameterized="0" Data="FillData">
+    </Param>
+  </Step>
+  <Step StepId="45" stepSeq="4" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;Master Model&quot;" ParamSeq="2" Parameterized="0" Data="Master Model">
+    </Param>
+  </Step>
+  <Step StepId="44" stepSeq="5" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="ModelToBeSearched" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="46" stepSeq="6" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;expectedExistence_Model&quot;" ParamSeq="1" Parameterized="0" Data="expectedExistence_Model">
+    </Param>
+    <Param Name="expectedExistence_Model" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="59" stepSeq="7" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{expectedExistence_Model}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="8" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="59" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Master Model&quot;" ParamSeq="1" Parameterized="0" Data="Master Model">
+    </Param>
+    <Param Name="&quot;{Label Value}&quot;" ParamSeq="2" Parameterized="0" Data="{Label Value}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="65" stepSeq="9" ObjectId="" ObjectTypeId="" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="59" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="42" stepSeq="10" ObjectId="efd99ff4e7c9450ebf96f64a5b65338a" ObjectName="Master Model" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="65" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Label Value}&quot;" ParamSeq="1" Parameterized="0" Data="{Label Value}">
+    </Param>
+  </Step>
+  <Step StepId="43" stepSeq="11" ObjectId="f896ccd8420843af8af9637f4f4df96a" ObjectName="lookup pulldown menu" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="65" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;false&quot;" ParamSeq="1" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="60" stepSeq="12" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="59" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="55" stepSeq="13" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="49" stepSeq="14" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Name&quot;" ParamSeq="1" Parameterized="0" Data="Label Name">
+    </Param>
+    <Param Name="&quot;Master Scheme&quot;" ParamSeq="2" Parameterized="0" Data="Master Scheme">
+    </Param>
+  </Step>
+  <Step StepId="54" stepSeq="15" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Label Value&quot;" ParamSeq="1" Parameterized="0" Data="Label Value">
+    </Param>
+    <Param Name="SchemeToBeSearched" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="53" stepSeq="16" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;expectedExistence_Scheme&quot;" ParamSeq="1" Parameterized="0" Data="expectedExistence_Scheme">
+    </Param>
+    <Param Name="expectedExistence_Scheme" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="62" stepSeq="17" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;&quot;{expectedExistence_Scheme}&quot;==&quot;true&quot;&quot;">
+    </Param>
+  </Step>
+  <Step StepId="2" stepSeq="18" ObjectId="" ObjectTypeId="" ActionId="347ba1d54a3c47c49ad3fb47aa2e67a0" ActionName="label_Based_standard_input_operation" QClass="customActions.SFDC_Standard_Functions" ParentID="62" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Master Scheme&quot;" ParamSeq="1" Parameterized="0" Data="Master Scheme">
+    </Param>
+    <Param Name="&quot;{Label Value}&quot;" ParamSeq="2" Parameterized="0" Data="{Label Value}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="3" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="64" stepSeq="19" ObjectId="" ObjectTypeId="" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="62" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="50" stepSeq="20" ObjectId="0cfa80d377a344599d9a6092e7b97a12" ObjectName="Master Scheme" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" ParentID="64" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{Label Value}&quot;" ParamSeq="1" Parameterized="0" Data="{Label Value}">
+    </Param>
+  </Step>
+  <Step StepId="52" stepSeq="21" ObjectId="f896ccd8420843af8af9637f4f4df96a" ObjectName="lookup pulldown menu" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="7a0fbd7dfd164bc1a81a3d291711e1b7" ActionName="VerifyExistence" QClass="com.webdriverfw.Wrappers.WebElement" ParentID="64" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;false&quot;" ParamSeq="1" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="63" stepSeq="22" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="62" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="56" stepSeq="23" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;2&quot;" ParamSeq="1" Parameterized="0" Data="2">
+    </Param>
+  </Step>
+  <Step StepId="47" stepSeq="24" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;(&quot;{expectedExistence_Model}&quot;==&quot;false&quot;)||(&quot;{expectedExistence_Scheme}&quot;==&quot;false&quot;)&quot;">
+    </Param>
+  </Step>
+  <Step StepId="51" stepSeq="25" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="47" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="48" stepSeq="26" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="47" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="16" stepSeq="27" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;days_StartDate&quot;" ParamSeq="1" Parameterized="0" Data="days_StartDate">
+    </Param>
+    <Param Name="old_Days to be added for Start Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="97" stepSeq="28" ObjectId="" ObjectTypeId="" ActionId="6a8fd35c4ae14c8094c4b3a963b3da58" ActionName="StoreCurrentDateInFormat" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="1" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;CurrentDate&quot;" ParamSeq="2" Parameterized="0" Data="CurrentDate">
+    </Param>
+  </Step>
+  <Step StepId="89" stepSeq="29" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;days_StartDate&quot;" ParamSeq="1" Parameterized="0" Data="days_StartDate">
+    </Param>
+    <Param Name="Days to be added for Start Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="99" stepSeq="30" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;(&quot;{days_StartDate}&quot;==&quot;$skip$&quot;)||(&quot;{days_StartDate}&quot;==&quot;&quot;)&quot;">
+    </Param>
+  </Step>
+  <Step StepId="101" stepSeq="31" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="99" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="108" stepSeq="32" ObjectId="" ObjectTypeId="" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="99" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="68" stepSeq="33" ObjectId="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" ParentID="108" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="SchemeStartDate" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="2" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;{days_StartDate}&quot;" ParamSeq="3" Parameterized="0" Data="{days_StartDate}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;StartDate_Ranking&quot;" ParamSeq="6" Parameterized="0" Data="StartDate_Ranking">
+    </Param>
+  </Step>
+  <Step StepId="77" stepSeq="34" ObjectId="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" ParentID="108" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{CurrentDate}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate}">
+    </Param>
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="2" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;{days_StartDate}&quot;" ParamSeq="3" Parameterized="0" Data="{days_StartDate}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;StartDate_Ranking&quot;" ParamSeq="6" Parameterized="0" Data="StartDate_Ranking">
+    </Param>
+  </Step>
+  <Step StepId="100" stepSeq="35" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="99" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="71" stepSeq="36" ObjectId="" ObjectTypeId="" ActionId="a2ee6a6406de42f0be1eed267af007a3" ActionName="label_Based_standard_input_operation_withSectionName" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Start Date&quot;" ParamSeq="1" Parameterized="0" Data="Start Date">
+    </Param>
+    <Param Name="&quot;Date&quot;" ParamSeq="2" Parameterized="0" Data="Date">
+    </Param>
+    <Param Name="&quot;{StartDate_Ranking}&quot;" ParamSeq="3" Parameterized="0" Data="{StartDate_Ranking}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="4" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="91" stepSeq="37" ObjectId="" ObjectTypeId="" ActionId="a2ee6a6406de42f0be1eed267af007a3" ActionName="label_Based_standard_input_operation_withSectionName" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;Start Date&quot;" ParamSeq="1" Parameterized="0" Data="Start Date">
+    </Param>
+    <Param Name="&quot;Time&quot;" ParamSeq="2" Parameterized="0" Data="Time">
+    </Param>
+    <Param Name="Start Time" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="4" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="78" stepSeq="38" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="29" stepSeq="39" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="&quot;days_EndDate&quot;" ParamSeq="1" Parameterized="0" Data="days_EndDate">
+    </Param>
+    <Param Name="old_Days to be added for End Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="90" stepSeq="40" ObjectId="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;days_EndDate&quot;" ParamSeq="1" Parameterized="0" Data="days_EndDate">
+    </Param>
+    <Param Name="Days to be added for End Date" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="102" stepSeq="41" ObjectId="" ObjectTypeId="" ActionId="-1" ActionName="IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="Condition" ParamSeq="1" Parameterized="0" Data="&quot;(&quot;{days_EndDate}&quot;==&quot;$skip$&quot;)||(&quot;{days_EndDate}&quot;==&quot;&quot;)&quot;">
+    </Param>
+  </Step>
+  <Step StepId="104" stepSeq="42" ObjectId="" ObjectTypeId="" ActionId="618a589f54e3480a84ce29e73faa91d9" ActionName="ExitTCIteration" QClass="com.webdriverfw.Wrappers.General" ParentID="102" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="109" stepSeq="43" ObjectId="" ObjectTypeId="" ActionId="-4" ActionName="ELSE" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="102" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="86" stepSeq="44" ObjectId="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" ParentID="109" Comment="" isCommented="False" IsSkipped="true" ObjectName="">
+    <Param Name="SchemeEndDate" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="2" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;{days_EndDate}&quot;" ParamSeq="3" Parameterized="0" Data="{days_EndDate}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;EndDate_Ranking&quot;" ParamSeq="6" Parameterized="0" Data="EndDate_Ranking">
+    </Param>
+  </Step>
+  <Step StepId="88" stepSeq="45" ObjectId="" ObjectTypeId="" ActionId="b8d8fdfb050b4243b5eaf68d3a647066" ActionName="ChangeDateAndStore" QClass="com.webdriverfw.Wrappers.General" ParentID="102" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;{CurrentDate}&quot;" ParamSeq="1" Parameterized="0" Data="{CurrentDate}">
+    </Param>
+    <Param Name="&quot;d/M/yyyy&quot;" ParamSeq="2" Parameterized="0" Data="d/M/yyyy">
+    </Param>
+    <Param Name="&quot;{days_EndDate}&quot;" ParamSeq="3" Parameterized="0" Data="{days_EndDate}">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="4" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;0&quot;" ParamSeq="5" Parameterized="0" Data="0">
+    </Param>
+    <Param Name="&quot;EndDate_Ranking&quot;" ParamSeq="6" Parameterized="0" Data="EndDate_Ranking">
+    </Param>
+  </Step>
+  <Step StepId="103" stepSeq="46" ObjectId="" ObjectTypeId="" ActionId="-2" ActionName="END IF" QClass="com.zensoft.ztaf.selfw.Wrappers.General" ParentID="102" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+  </Step>
+  <Step StepId="83" stepSeq="47" ObjectId="" ObjectTypeId="" ActionId="a2ee6a6406de42f0be1eed267af007a3" ActionName="label_Based_standard_input_operation_withSectionName" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;End Date&quot;" ParamSeq="1" Parameterized="0" Data="End Date">
+    </Param>
+    <Param Name="&quot;Date&quot;" ParamSeq="2" Parameterized="0" Data="Date">
+    </Param>
+    <Param Name="&quot;{EndDate_Ranking}&quot;" ParamSeq="3" Parameterized="0" Data="{EndDate_Ranking}">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="4" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="92" stepSeq="48" ObjectId="" ObjectTypeId="" ActionId="a2ee6a6406de42f0be1eed267af007a3" ActionName="label_Based_standard_input_operation_withSectionName" QClass="customActions.SFDC_Standard_Functions" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;End Date&quot;" ParamSeq="1" Parameterized="0" Data="End Date">
+    </Param>
+    <Param Name="&quot;Time&quot;" ParamSeq="2" Parameterized="0" Data="Time">
+    </Param>
+    <Param Name="End Time" ParamSeq="3" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;{Type}&quot;" ParamSeq="4" Parameterized="0" Data="{Type}">
+    </Param>
+  </Step>
+  <Step StepId="96" stepSeq="49" ObjectId="3e80859955a8434c8b1ccdc3f12c54bd" ObjectName="Is Active Checkbox" ObjectTypeId="6a77f8e41e2a41c79b7a100bf41ea112" ActionId="7d8c80c763cd4dfcbfb0c459f9539f59" ActionName="IsChecked" QClass="com.webdriverfw.Wrappers.WebCheckbox" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;true&quot;" ParamSeq="1" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="95" stepSeq="50" ObjectId="0849e624302a4cf3abb07beaf3a98034" ObjectName="Confirm Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="335b48f8a7fe4d29b44ea5e4d319f394" ActionName="ClickAt" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="x" ParamSeq="1" Parameterized="1" Data="">
+    </Param>
+    <Param Name="y" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="94" stepSeq="51" ObjectId="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+</Task>

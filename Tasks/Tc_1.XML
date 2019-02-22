@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Tc_1" Desc="Tc_1" TaskID="99eb53412f894889a8e5a8dc8ad725a5" Path="Tc_1.XML">
+  <Step StepId="2" stepSeq="1" ObjectId="" ObjectTypeId="" ActionId="bb49d1ead632466aa02b76cdc17c9cce" ActionName="OpenURL" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false" ObjectName="">
+    <Param Name="&quot;https://pos--dev.cs58.my.salesforce.com/&quot;" ParamSeq="1" Parameterized="0" Data="https://pos--dev.cs58.my.salesforce.com/">
+    </Param>
+  </Step>
+  <Step StepId="1" stepSeq="2" ObjectId="5d820a477aff446298bb6ba28e0f9b89" ObjectName="Username_txtBox" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;yogesh.jamgaonkar@bajajfinserv.in.dev1&quot;" ParamSeq="1" Parameterized="0" Data="yogesh.jamgaonkar@bajajfinserv.in.dev1">
+    </Param>
+  </Step>
+  <Step StepId="4" stepSeq="3" ObjectId="bb378f8608784c0ab516572593d2905a" ObjectName="Password_txtBox" ObjectTypeId="14c9007341cf4d6ea42123b734b2d3c4" ActionId="c3eb0c034b2643c68fe2046c325283c1" ActionName="Set" QClass="com.webdriverfw.Wrappers.WebEdit" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;yj@11111&quot;" ParamSeq="1" Parameterized="0" Data="yj@11111">
+    </Param>
+  </Step>
+  <Step StepId="3" stepSeq="4" ObjectId="550e8a358baf4cbb87e5a82105e80e43" ObjectName="Log In to Sandbox_Btn" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+</Task>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Task TaskName="Print_Email DO" Desc="Print_Email DO" TaskID="555488a0701b4e228c9412d1c1288322" Path="Print_Email DO.XML">
+  <Step StepId="22" stepSeq="1" ObjectId="70ea9ecc7d8c4e26a9df740ead6a424f" ObjectName="Print / Email DO" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="21" stepSeq="2" ObjectId="70ea9ecc7d8c4e26a9df740ead6a424f" ObjectName="Print / Email DO" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="7" stepSeq="3" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="bcffb579c3aa4cf0aa4138767b39063d" ActionName="StoreVariable" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;Opportunity No&quot;" ParamSeq="1" Parameterized="0" Data="Opportunity No">
+    </Param>
+    <Param Name="Opportunity No" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+  </Step>
+  <Step StepId="6" stepSeq="4" ObjectId="29dc54846ea4409fb494e3d35b125308" ObjectName="Print_DO" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="aa6c79efc6f04e649251f0f6c0aa3275" ActionName="waitforObjectVisibility" QClass="WaitMethods" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{waitTime}&quot;" ParamSeq="1" Parameterized="0" Data="{waitTime}">
+    </Param>
+    <Param Name="&quot;true&quot;" ParamSeq="2" Parameterized="0" Data="true">
+    </Param>
+  </Step>
+  <Step StepId="5" stepSeq="5" ObjectId="29dc54846ea4409fb494e3d35b125308" ObjectName="Print_DO" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="9" stepSeq="6" ObjectId="29dc54846ea4409fb494e3d35b125308" ObjectName="Print_DO" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="b7dbc619f3134a9885712beb3f248abb" ActionName="ScrollIntoView" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="10" stepSeq="7" ObjectId="439ac608736648a5902b9525d8d0140c" ObjectName="Print DO_Button" ObjectTypeId="67e307a05ba3486e9f3bb7af3e96bc4f" ActionId="d9e92bdfdae34082b68a75f74675dda3" ActionName="Click" QClass="com.webdriverfw.Wrappers.WebElement" Comment="" isCommented="False" IsSkipped="false">
+  </Step>
+  <Step StepId="36" stepSeq="8" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="13" stepSeq="9" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="6d3264d449584887918c0ce1d6702ce5" ActionName="CustomStoreWindowHandle" QClass="CustomGeneralActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;ChildWindow&quot;" ParamSeq="1" Parameterized="0" Data="ChildWindow">
+    </Param>
+    <Param Name="&quot;2&quot;" ParamSeq="2" Parameterized="0" Data="2">
+    </Param>
+    <Param Name="&quot;20&quot;" ParamSeq="3" Parameterized="0" Data="20">
+    </Param>
+  </Step>
+  <Step StepId="11" stepSeq="10" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="fce354083efd4077986fa34073e3d7e6" ActionName="SelectPage" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ChildWindow}&quot;" ParamSeq="1" Parameterized="0" Data="{ChildWindow}">
+    </Param>
+  </Step>
+  <Step StepId="38" stepSeq="11" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="533eae44403341388a01aced8353ff9c" ActionName="ExecuteFile" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\DOPrintPage.exe&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\DOPrintPage.exe">
+    </Param>
+  </Step>
+  <Step StepId="17" stepSeq="12" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~^s&quot;" ParamSeq="1" Parameterized="0" Data="~^s">
+    </Param>
+  </Step>
+  <Step StepId="24" stepSeq="13" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;5&quot;" ParamSeq="1" Parameterized="0" Data="5">
+    </Param>
+  </Step>
+  <Step StepId="37" stepSeq="14" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="533eae44403341388a01aced8353ff9c" ActionName="ExecuteFile" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\SaveAs.exe&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\SaveAs.exe">
+    </Param>
+  </Step>
+  <Step StepId="16" stepSeq="15" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\printdo_{CurrentDate}.pdf&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\printdo_{CurrentDate}.pdf">
+    </Param>
+  </Step>
+  <Step StepId="15" stepSeq="16" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="14" stepSeq="17" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{TAB~}&quot;" ParamSeq="1" Parameterized="0" Data="~{TAB~}">
+    </Param>
+  </Step>
+  <Step StepId="20" stepSeq="18" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="82d698817fec4af783bb34090a6e38cd" ActionName="PressKeys" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;~{ENTER~}&quot;" ParamSeq="1" Parameterized="0" Data="~{ENTER~}">
+    </Param>
+  </Step>
+  <Step StepId="23" stepSeq="19" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="66bb4a26a15748da955fbf464045b669" ActionName="Sleep" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;10&quot;" ParamSeq="1" Parameterized="0" Data="10">
+    </Param>
+  </Step>
+  <Step StepId="25" stepSeq="20" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="3a4c3eab08f14ca08ab510b39d4541f1" ActionName="readPDFFile" QClass="CustomActions.GenralCustomActions" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ProjectPath}\ExternalFiles\printdo_{CurrentDate}.pdf&quot;" ParamSeq="1" Parameterized="0" Data="{ProjectPath}\ExternalFiles\printdo_{CurrentDate}.pdf">
+    </Param>
+    <Param Name="&quot;ActualAddress&quot;" ParamSeq="2" Parameterized="0" Data="ActualAddress">
+    </Param>
+  </Step>
+  <Step StepId="18" stepSeq="21" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="false">
+    <Param Name="&quot;{ActualAddress}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualAddress}">
+    </Param>
+    <Param Name="Expected PrintDO Address" ParamSeq="2" Parameterized="1" Data="">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+  <Step StepId="35" stepSeq="22" ObjectId="" ObjectName="" ObjectTypeId="" ActionId="a95078ae160a4ec1b41cff2e1a276b18" ActionName="VerifyStringContainsValue" QClass="com.webdriverfw.Wrappers.General" Comment="" isCommented="False" IsSkipped="true">
+    <Param Name="&quot;{ActualAddress}&quot;" ParamSeq="1" Parameterized="0" Data="{ActualAddress}">
+    </Param>
+    <Param Name="&quot;{Address Line 11} , {Address Line 21} , {Address Line 31} , {Zip Code} , {City1} , {State1}&quot;" ParamSeq="2" Parameterized="0" Data="{Address Line 11} , {Address Line 21} , {Address Line 31} , {Zip Code} , {City1} , {State1}">
+    </Param>
+    <Param Name="&quot;false&quot;" ParamSeq="3" Parameterized="0" Data="false">
+    </Param>
+  </Step>
+</Task>
